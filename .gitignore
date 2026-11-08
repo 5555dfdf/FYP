@@ -1,0 +1,42 @@
+# Original datasets are obtained from their cited sources.
+/IRDS/SkeletonData/
+/IRDS/__MACOSX/
+**/__MACOSX/
+**/.DS_Store
+
+# Local reference library and third-party full texts.
+*.pdf
+/IRDS/analysis/IRDS_extracted.txt
+/IRDS/analysis/paper*.png
+/literature/*/sources/*
+!/literature/*/sources/README.md
+
+# Download/search logs and local generated caches.
+*.log
+/literature/*/*_log.txt
+/literature/*/search_results.txt
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+
+# Future datasets, checkpoints and experiment caches.
+/data/
+/datasets/
+/checkpoints/
+/runs/
+/wandb/
+*.pt
+*.pth
+*.ckpt
+*.joblib
+/IRDS/experiments/shoulder_pilot_20261106/results/
+
+# Editor/OS files.
+.vscode/
+.idea/
+Thumbs.db

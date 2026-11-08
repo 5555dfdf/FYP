@@ -1,0 +1,1048 @@
+{
+  "sequences": 2589,
+  "subjects": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307
+  ],
+  "subject_counts_by_group": {
+    "control": 14,
+    "patient": 16
+  },
+  "date_ids": [
+    18
+  ],
+  "label_counts": [
+    {
+      "label": "1",
+      "count": 2047
+    },
+    {
+      "label": "2",
+      "count": 530
+    },
+    {
+      "label": "3",
+      "count": 12
+    }
+  ],
+  "gesture_label": [
+    {
+      "gesture|label": "0|1",
+      "count": 213
+    },
+    {
+      "gesture|label": "0|2",
+      "count": 45
+    },
+    {
+      "gesture|label": "1|1",
+      "count": 234
+    },
+    {
+      "gesture|label": "1|2",
+      "count": 45
+    },
+    {
+      "gesture|label": "2|1",
+      "count": 229
+    },
+    {
+      "gesture|label": "2|2",
+      "count": 146
+    },
+    {
+      "gesture|label": "2|3",
+      "count": 1
+    },
+    {
+      "gesture|label": "3|1",
+      "count": 212
+    },
+    {
+      "gesture|label": "3|2",
+      "count": 105
+    },
+    {
+      "gesture|label": "3|3",
+      "count": 1
+    },
+    {
+      "gesture|label": "4|1",
+      "count": 230
+    },
+    {
+      "gesture|label": "4|2",
+      "count": 45
+    },
+    {
+      "gesture|label": "4|3",
+      "count": 2
+    },
+    {
+      "gesture|label": "5|1",
+      "count": 219
+    },
+    {
+      "gesture|label": "5|2",
+      "count": 38
+    },
+    {
+      "gesture|label": "6|1",
+      "count": 217
+    },
+    {
+      "gesture|label": "6|2",
+      "count": 41
+    },
+    {
+      "gesture|label": "6|3",
+      "count": 2
+    },
+    {
+      "gesture|label": "7|1",
+      "count": 238
+    },
+    {
+      "gesture|label": "7|2",
+      "count": 33
+    },
+    {
+      "gesture|label": "7|3",
+      "count": 3
+    },
+    {
+      "gesture|label": "8|1",
+      "count": 255
+    },
+    {
+      "gesture|label": "8|2",
+      "count": 32
+    },
+    {
+      "gesture|label": "8|3",
+      "count": 3
+    }
+  ],
+  "group_label": [
+    {
+      "group|label": "control|1",
+      "count": 1399
+    },
+    {
+      "group|label": "control|2",
+      "count": 7
+    },
+    {
+      "group|label": "patient|1",
+      "count": 648
+    },
+    {
+      "group|label": "patient|2",
+      "count": 523
+    },
+    {
+      "group|label": "patient|3",
+      "count": 12
+    }
+  ],
+  "subject_label": [
+    {
+      "subject|label": "101|1",
+      "count": 105
+    },
+    {
+      "subject|label": "101|2",
+      "count": 2
+    },
+    {
+      "subject|label": "102|1",
+      "count": 109
+    },
+    {
+      "subject|label": "102|2",
+      "count": 1
+    },
+    {
+      "subject|label": "103|1",
+      "count": 108
+    },
+    {
+      "subject|label": "103|2",
+      "count": 1
+    },
+    {
+      "subject|label": "104|1",
+      "count": 57
+    },
+    {
+      "subject|label": "105|1",
+      "count": 113
+    },
+    {
+      "subject|label": "105|2",
+      "count": 2
+    },
+    {
+      "subject|label": "106|1",
+      "count": 107
+    },
+    {
+      "subject|label": "107|1",
+      "count": 109
+    },
+    {
+      "subject|label": "201|1",
+      "count": 19
+    },
+    {
+      "subject|label": "201|2",
+      "count": 92
+    },
+    {
+      "subject|label": "202|1",
+      "count": 91
+    },
+    {
+      "subject|label": "202|2",
+      "count": 16
+    },
+    {
+      "subject|label": "202|3",
+      "count": 4
+    },
+    {
+      "subject|label": "203|1",
+      "count": 16
+    },
+    {
+      "subject|label": "203|2",
+      "count": 34
+    },
+    {
+      "subject|label": "204|1",
+      "count": 68
+    },
+    {
+      "subject|label": "204|2",
+      "count": 107
+    },
+    {
+      "subject|label": "204|3",
+      "count": 2
+    },
+    {
+      "subject|label": "205|1",
+      "count": 19
+    },
+    {
+      "subject|label": "205|2",
+      "count": 2
+    },
+    {
+      "subject|label": "206|1",
+      "count": 73
+    },
+    {
+      "subject|label": "206|2",
+      "count": 67
+    },
+    {
+      "subject|label": "207|1",
+      "count": 5
+    },
+    {
+      "subject|label": "207|2",
+      "count": 84
+    },
+    {
+      "subject|label": "209|1",
+      "count": 39
+    },
+    {
+      "subject|label": "209|2",
+      "count": 14
+    },
+    {
+      "subject|label": "210|1",
+      "count": 25
+    },
+    {
+      "subject|label": "210|2",
+      "count": 7
+    },
+    {
+      "subject|label": "210|3",
+      "count": 2
+    },
+    {
+      "subject|label": "211|1",
+      "count": 29
+    },
+    {
+      "subject|label": "211|2",
+      "count": 19
+    },
+    {
+      "subject|label": "211|3",
+      "count": 3
+    },
+    {
+      "subject|label": "212|1",
+      "count": 31
+    },
+    {
+      "subject|label": "212|2",
+      "count": 21
+    },
+    {
+      "subject|label": "213|1",
+      "count": 39
+    },
+    {
+      "subject|label": "213|2",
+      "count": 15
+    },
+    {
+      "subject|label": "214|1",
+      "count": 46
+    },
+    {
+      "subject|label": "214|2",
+      "count": 5
+    },
+    {
+      "subject|label": "214|3",
+      "count": 1
+    },
+    {
+      "subject|label": "215|1",
+      "count": 60
+    },
+    {
+      "subject|label": "215|2",
+      "count": 13
+    },
+    {
+      "subject|label": "216|1",
+      "count": 36
+    },
+    {
+      "subject|label": "216|2",
+      "count": 18
+    },
+    {
+      "subject|label": "217|1",
+      "count": 52
+    },
+    {
+      "subject|label": "217|2",
+      "count": 9
+    },
+    {
+      "subject|label": "301|1",
+      "count": 108
+    },
+    {
+      "subject|label": "302|1",
+      "count": 109
+    },
+    {
+      "subject|label": "302|2",
+      "count": 1
+    },
+    {
+      "subject|label": "303|1",
+      "count": 107
+    },
+    {
+      "subject|label": "304|1",
+      "count": 55
+    },
+    {
+      "subject|label": "305|1",
+      "count": 96
+    },
+    {
+      "subject|label": "306|1",
+      "count": 109
+    },
+    {
+      "subject|label": "307|1",
+      "count": 107
+    }
+  ],
+  "valid_position": [
+    {
+      "position": "Stand-frame",
+      "count": 51
+    },
+    {
+      "position": "chair",
+      "count": 842
+    },
+    {
+      "position": "sit",
+      "count": 110
+    },
+    {
+      "position": "stand",
+      "count": 1215
+    },
+    {
+      "position": "wheelchair",
+      "count": 359
+    }
+  ],
+  "subject_position_label": [
+    {
+      "subject|position|label": "101|chair|1",
+      "count": 51
+    },
+    {
+      "subject|position|label": "101|stand|1",
+      "count": 54
+    },
+    {
+      "subject|position|label": "101|stand|2",
+      "count": 2
+    },
+    {
+      "subject|position|label": "102|chair|1",
+      "count": 53
+    },
+    {
+      "subject|position|label": "102|stand|1",
+      "count": 56
+    },
+    {
+      "subject|position|label": "102|stand|2",
+      "count": 1
+    },
+    {
+      "subject|position|label": "103|chair|1",
+      "count": 54
+    },
+    {
+      "subject|position|label": "103|stand|1",
+      "count": 54
+    },
+    {
+      "subject|position|label": "103|stand|2",
+      "count": 1
+    },
+    {
+      "subject|position|label": "104|stand|1",
+      "count": 57
+    },
+    {
+      "subject|position|label": "105|chair|1",
+      "count": 56
+    },
+    {
+      "subject|position|label": "105|stand|1",
+      "count": 57
+    },
+    {
+      "subject|position|label": "105|stand|2",
+      "count": 2
+    },
+    {
+      "subject|position|label": "106|chair|1",
+      "count": 54
+    },
+    {
+      "subject|position|label": "106|stand|1",
+      "count": 53
+    },
+    {
+      "subject|position|label": "107|chair|1",
+      "count": 54
+    },
+    {
+      "subject|position|label": "107|stand|1",
+      "count": 55
+    },
+    {
+      "subject|position|label": "201|wheelchair|1",
+      "count": 19
+    },
+    {
+      "subject|position|label": "201|wheelchair|2",
+      "count": 92
+    },
+    {
+      "subject|position|label": "202|stand|1",
+      "count": 91
+    },
+    {
+      "subject|position|label": "202|stand|2",
+      "count": 16
+    },
+    {
+      "subject|position|label": "203|wheelchair|1",
+      "count": 16
+    },
+    {
+      "subject|position|label": "203|wheelchair|2",
+      "count": 34
+    },
+    {
+      "subject|position|label": "204|chair|1",
+      "count": 68
+    },
+    {
+      "subject|position|label": "204|chair|2",
+      "count": 107
+    },
+    {
+      "subject|position|label": "205|stand|1",
+      "count": 19
+    },
+    {
+      "subject|position|label": "205|stand|2",
+      "count": 2
+    },
+    {
+      "subject|position|label": "206|chair|1",
+      "count": 37
+    },
+    {
+      "subject|position|label": "206|chair|2",
+      "count": 47
+    },
+    {
+      "subject|position|label": "206|stand|1",
+      "count": 36
+    },
+    {
+      "subject|position|label": "206|stand|2",
+      "count": 20
+    },
+    {
+      "subject|position|label": "207|stand|1",
+      "count": 5
+    },
+    {
+      "subject|position|label": "207|stand|2",
+      "count": 84
+    },
+    {
+      "subject|position|label": "209|wheelchair|1",
+      "count": 39
+    },
+    {
+      "subject|position|label": "209|wheelchair|2",
+      "count": 14
+    },
+    {
+      "subject|position|label": "210|wheelchair|1",
+      "count": 25
+    },
+    {
+      "subject|position|label": "210|wheelchair|2",
+      "count": 7
+    },
+    {
+      "subject|position|label": "211|stand|1",
+      "count": 29
+    },
+    {
+      "subject|position|label": "211|stand|2",
+      "count": 19
+    },
+    {
+      "subject|position|label": "212|wheelchair|1",
+      "count": 31
+    },
+    {
+      "subject|position|label": "212|wheelchair|2",
+      "count": 21
+    },
+    {
+      "subject|position|label": "213|stand|1",
+      "count": 39
+    },
+    {
+      "subject|position|label": "213|stand|2",
+      "count": 15
+    },
+    {
+      "subject|position|label": "214|Stand-frame|1",
+      "count": 46
+    },
+    {
+      "subject|position|label": "214|Stand-frame|2",
+      "count": 5
+    },
+    {
+      "subject|position|label": "215|stand|1",
+      "count": 60
+    },
+    {
+      "subject|position|label": "215|stand|2",
+      "count": 13
+    },
+    {
+      "subject|position|label": "216|stand|1",
+      "count": 36
+    },
+    {
+      "subject|position|label": "216|stand|2",
+      "count": 18
+    },
+    {
+      "subject|position|label": "217|wheelchair|1",
+      "count": 52
+    },
+    {
+      "subject|position|label": "217|wheelchair|2",
+      "count": 9
+    },
+    {
+      "subject|position|label": "301|chair|1",
+      "count": 54
+    },
+    {
+      "subject|position|label": "301|stand|1",
+      "count": 54
+    },
+    {
+      "subject|position|label": "302|chair|1",
+      "count": 55
+    },
+    {
+      "subject|position|label": "302|chair|2",
+      "count": 1
+    },
+    {
+      "subject|position|label": "302|stand|1",
+      "count": 54
+    },
+    {
+      "subject|position|label": "303|chair|1",
+      "count": 54
+    },
+    {
+      "subject|position|label": "303|stand|1",
+      "count": 53
+    },
+    {
+      "subject|position|label": "304|chair|1",
+      "count": 55
+    },
+    {
+      "subject|position|label": "305|chair|1",
+      "count": 42
+    },
+    {
+      "subject|position|label": "305|stand|1",
+      "count": 54
+    },
+    {
+      "subject|position|label": "306|sit|1",
+      "count": 55
+    },
+    {
+      "subject|position|label": "306|stand|1",
+      "count": 54
+    },
+    {
+      "subject|position|label": "307|sit|1",
+      "count": 55
+    },
+    {
+      "subject|position|label": "307|stand|1",
+      "count": 52
+    }
+  ],
+  "gesture_subject_counts": {
+    "0": {
+      "1": 24,
+      "2": 9
+    },
+    "1": {
+      "1": 27,
+      "2": 9
+    },
+    "2": {
+      "1": 25,
+      "2": 10
+    },
+    "3": {
+      "1": 25,
+      "2": 9
+    },
+    "4": {
+      "1": 23,
+      "2": 11
+    },
+    "5": {
+      "1": 26,
+      "2": 8
+    },
+    "6": {
+      "1": 24,
+      "2": 6
+    },
+    "7": {
+      "1": 24,
+      "2": 8
+    },
+    "8": {
+      "1": 25,
+      "2": 8
+    }
+  },
+  "lengths_all": {
+    "n": 2589,
+    "min": 13,
+    "max": 4736,
+    "mean": 88.18115102356123,
+    "median": 64.0,
+    "p75": 89.0,
+    "sum_frames": 228301
+  },
+  "lengths_binary": {
+    "n": 2577,
+    "min": 13,
+    "max": 1586,
+    "mean": 84.85060147458285,
+    "median": 64.0,
+    "p75": 89.0,
+    "sum_frames": 218660
+  },
+  "lengths_by_label": {
+    "1": {
+      "n": 2047,
+      "min": 16,
+      "max": 383,
+      "mean": 68.43185148998535,
+      "median": 61.0,
+      "p75": 77.0,
+      "sum_frames": 140080
+    },
+    "2": {
+      "n": 530,
+      "min": 13,
+      "max": 1586,
+      "mean": 148.26415094339623,
+      "median": 104.0,
+      "p75": 179.0,
+      "sum_frames": 78580
+    },
+    "3": {
+      "n": 12,
+      "min": 34,
+      "max": 4736,
+      "mean": 803.4166666666666,
+      "median": 263.5,
+      "p75": 423.25,
+      "sum_frames": 9641
+    }
+  },
+  "tracking_states": {
+    "Tracked": 5450804,
+    "Inferred": 256712,
+    "NotTracked": 9
+  },
+  "joint_tracking_states": {
+    "SpineBase": {
+      "Tracked": 228300,
+      "NotTracked": 1
+    },
+    "SpineMid": {
+      "Tracked": 228300,
+      "NotTracked": 1
+    },
+    "Neck": {
+      "Tracked": 228300,
+      "NotTracked": 1
+    },
+    "Head": {
+      "Tracked": 220289,
+      "Inferred": 8012
+    },
+    "ShoulderLeft": {
+      "Tracked": 224197,
+      "Inferred": 4103,
+      "NotTracked": 1
+    },
+    "ElbowLeft": {
+      "Tracked": 223483,
+      "Inferred": 4818
+    },
+    "WristLeft": {
+      "Tracked": 210845,
+      "Inferred": 17456
+    },
+    "HandLeft": {
+      "Tracked": 184623,
+      "Inferred": 43678
+    },
+    "ShoulderRight": {
+      "Tracked": 222319,
+      "Inferred": 5981,
+      "NotTracked": 1
+    },
+    "ElbowRight": {
+      "Tracked": 222382,
+      "Inferred": 5919
+    },
+    "WristRight": {
+      "Tracked": 210323,
+      "Inferred": 17978
+    },
+    "HandRight": {
+      "Tracked": 181313,
+      "Inferred": 46988
+    },
+    "HipLeft": {
+      "Tracked": 228300,
+      "NotTracked": 1
+    },
+    "KneeLeft": {
+      "Tracked": 228276,
+      "Inferred": 25
+    },
+    "AnkleLeft": {
+      "Tracked": 210332,
+      "Inferred": 17969
+    },
+    "FootLeft": {
+      "Tracked": 202862,
+      "Inferred": 25439
+    },
+    "HipRight": {
+      "Tracked": 228300,
+      "NotTracked": 1
+    },
+    "KneeRight": {
+      "Tracked": 228287,
+      "Inferred": 13,
+      "NotTracked": 1
+    },
+    "AnkleRight": {
+      "Tracked": 212626,
+      "Inferred": 15675
+    },
+    "FootRight": {
+      "Tracked": 204128,
+      "Inferred": 24173
+    },
+    "SpineShoulder": {
+      "Tracked": 228300,
+      "NotTracked": 1
+    },
+    "HandTipLeft": {
+      "Tracked": 224280,
+      "Inferred": 4021
+    },
+    "ThumbLeft": {
+      "Tracked": 223299,
+      "Inferred": 5002
+    },
+    "HandTipRight": {
+      "Tracked": 223918,
+      "Inferred": 4383
+    },
+    "ThumbRight": {
+      "Tracked": 223222,
+      "Inferred": 5079
+    }
+  },
+  "raw_xyz_mismatches": [],
+  "raw_timestamp_delta_counts": {
+    "33.0": 35288,
+    "34.0": 30407,
+    "32.0": 27765,
+    "35.0": 20406,
+    "31.0": 16711,
+    "36.0": 13170,
+    "30.0": 9630,
+    "37.0": 8322,
+    "29.0": 5797,
+    "38.0": 5200,
+    "28.0": 3796,
+    "39.0": 3667
+  },
+  "raw_frame_id_delta_counts": {
+    "1": 221900,
+    "2": 3507,
+    "3": 242,
+    "4": 35,
+    "5": 11,
+    "0": 9,
+    "6": 3,
+    "212": 1,
+    "8": 1,
+    "9": 1,
+    "30": 1,
+    "382": 1
+  },
+  "source_pair_names_equal": true,
+  "raw_repeated_version_headers": [
+    {
+      "file": "204_18_3_1_2_chair.txt",
+      "headers": 2
+    },
+    {
+      "file": "204_18_3_2_2_chair.txt",
+      "headers": 2
+    },
+    {
+      "file": "204_18_3_3_2_chair.txt",
+      "headers": 2
+    },
+    {
+      "file": "204_18_3_4_2_chair.txt",
+      "headers": 2
+    },
+    {
+      "file": "204_18_3_5_2_chair.txt",
+      "headers": 2
+    },
+    {
+      "file": "204_18_3_6_2_chair.txt",
+      "headers": 2
+    },
+    {
+      "file": "204_18_3_7_2_chair.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_10_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_11_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_12_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_13_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_14_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_15_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_16_2_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_17_2_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_1_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_2_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_3_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_4_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_5_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_6_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_7_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_8_1_stand.txt",
+      "headers": 2
+    },
+    {
+      "file": "205_18_1_9_1_stand.txt",
+      "headers": 2
+    }
+  ],
+  "sequences_with_nonpositive_timestamp_delta": 0,
+  "sequences_with_timestamp_gap_over_1000_units": 4,
+  "sequences_with_nonunit_frame_id_step": 379,
+  "duplicate_coordinate_sequences": [],
+  "failures": [],
+  "bilateral_shoulder_check": [
+    {
+      "gesture": 2,
+      "correct_control_sequences": 153,
+      "raw_left_peak_larger": 0,
+      "raw_right_peak_larger": 153,
+      "median_raw_left_peak": 17.779302103576267,
+      "median_raw_right_peak": 165.6183288076777
+    },
+    {
+      "gesture": 3,
+      "correct_control_sequences": 151,
+      "raw_left_peak_larger": 151,
+      "raw_right_peak_larger": 0,
+      "median_raw_left_peak": 165.95327599330398,
+      "median_raw_right_peak": 17.13070004468435
+    },
+    {
+      "gesture": 4,
+      "correct_control_sequences": 157,
+      "raw_left_peak_larger": 0,
+      "raw_right_peak_larger": 157,
+      "median_raw_left_peak": 18.506165904282664,
+      "median_raw_right_peak": 165.8989420204344
+    },
+    {
+      "gesture": 5,
+      "correct_control_sequences": 155,
+      "raw_left_peak_larger": 155,
+      "raw_right_peak_larger": 0,
+      "median_raw_left_peak": 165.1303450502256,
+      "median_raw_right_peak": 18.687296677183884
+    }
+  ]
+}

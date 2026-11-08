@@ -1,0 +1,740 @@
+{
+  "generated_on": "2026-11-08",
+  "research_cutoff": "2026-11-06",
+  "note": "Local evidence inventory only; hashes do not verify research conclusions. Cached contents are not distributed.",
+  "files": [
+    {
+      "path": "literature/2026-11-06/sources/compensationwebcam2025.xml",
+      "size_bytes": 124205,
+      "sha256": "878dfae67ee039c4c166fa769ad667a3606f68bc01e7cfff9f8d5ee1985c9094"
+    },
+    {
+      "path": "literature/2026-11-06/sources/compensationwebcam2025_fulltext.txt",
+      "size_bytes": 64335,
+      "sha256": "295643758eb55ab96bcd10cb7a5f0bdf2eb46bd8024a9f10c9084903307480e3"
+    },
+    {
+      "path": "literature/2026-11-06/sources/contrastive_karlov_paper_fulltext.txt",
+      "size_bytes": 74482,
+      "sha256": "139d470ababc81790d68aae8b78fbbba27e9c95c1607468a7b7dabb1efb12dc7"
+    },
+    {
+      "path": "literature/2026-11-06/sources/contrastive_karlov_paper_web.txt",
+      "size_bytes": 228160,
+      "sha256": "66a8d58ae91f89aa493a4f0b1e751254ac5464e6470306118f3a87cb27219e59"
+    },
+    {
+      "path": "literature/2026-11-06/sources/crossref_aquality.json",
+      "size_bytes": 78756,
+      "sha256": "5a461ae1b168541b2203f735f5b3141b4b7d2d06aa52aa4df26ac7b54a2fed20"
+    },
+    {
+      "path": "literature/2026-11-06/sources/crossref_ec3d.json",
+      "size_bytes": 19174,
+      "sha256": "8975aa31579415be6887ca98f18831736f79638c64c7acceb9ed86846bf58e14"
+    },
+    {
+      "path": "literature/2026-11-06/sources/crossref_finerehab.json",
+      "size_bytes": 52245,
+      "sha256": "2271c83ac997b3f0a36c8a58de6e36c4670bda473f1d7a0b1f0a1e6ddf040b00"
+    },
+    {
+      "path": "literature/2026-11-06/sources/crossref_keraal.json",
+      "size_bytes": 34166,
+      "sha256": "e5bdc23ed280dcb968cb3441a5353d1906f65d9ec96299ca7afb8b679626e801"
+    },
+    {
+      "path": "literature/2026-11-06/sources/crossref_keraal2024.json",
+      "size_bytes": 23665,
+      "sha256": "3ec86c13e6f37d33467db55ed43a60d4a93cac95f13e2505aeb1081bf938e908"
+    },
+    {
+      "path": "literature/2026-11-06/sources/crossref_keraaltransformer.json",
+      "size_bytes": 17676,
+      "sha256": "8f85ecec52f4eb8863507ca77621a1b8e5228c54e4f67646434da77c331f92f4"
+    },
+    {
+      "path": "literature/2026-11-06/sources/crossref_rehab246.json",
+      "size_bytes": 61602,
+      "sha256": "83479950a0fe9922829f17a0cb28a1b6d8cd0297703b29fa86c57f563ac8381f"
+    },
+    {
+      "path": "literature/2026-11-06/sources/crossref_review_skeleton2023.json",
+      "size_bytes": 94092,
+      "sha256": "7bf3c376c33a3f16cf166befe6544df12badde67443793250a3231cea354b38d"
+    },
+    {
+      "path": "literature/2026-11-06/sources/crossref_survey.json",
+      "size_bytes": 67867,
+      "sha256": "cbe21ff3d0c68ad188ab06b78466b750609d16bd8d890dffaeff3ec004d6e471"
+    },
+    {
+      "path": "literature/2026-11-06/sources/crossref_ucdhe2023.json",
+      "size_bytes": 58890,
+      "sha256": "fd36b20d883653dea8ac884c6ac942dfbd21cb925e89b94280d7673c945edb01"
+    },
+    {
+      "path": "literature/2026-11-06/sources/deeprehabpile_download_web.txt",
+      "size_bytes": 1259,
+      "sha256": "7f52ce5a1e206a717f1f83573ae42ca026f3489261e0a3691a823d39815418ce"
+    },
+    {
+      "path": "literature/2026-11-06/sources/deeprehabpile_paper_fulltext.txt",
+      "size_bytes": 116752,
+      "sha256": "bd5f4ff3a2f771283296651780420fa490f5217b3206838e94edb29a3d9550c9"
+    },
+    {
+      "path": "literature/2026-11-06/sources/deeprehabpile_paper_web.txt",
+      "size_bytes": 505280,
+      "sha256": "151af7ba3c3aa9ba254f1311cd3ea1c0d861d75b70b174c81bf888a5690eb57a"
+    },
+    {
+      "path": "literature/2026-11-06/sources/deeprehabpile_readme_web.txt",
+      "size_bytes": 11008,
+      "sha256": "c2bdda6fa76676a4062d76f12079ba17a90b366b5a38f5af603be023e5b224ef"
+    },
+    {
+      "path": "literature/2026-11-06/sources/doi_10.1109_FG67764.2026.11556986.json",
+      "size_bytes": 6779,
+      "sha256": "84c13c5a99d04ac9d3cf17de1e6e60960f6c73845632b890c1d3c6941da12187"
+    },
+    {
+      "path": "literature/2026-11-06/sources/doi_10.3390_data6050046.json",
+      "size_bytes": 10459,
+      "sha256": "22a79eefde8929c1ea643b03152147b5fa227d12e0694e890bbd31f3114a2eaa"
+    },
+    {
+      "path": "literature/2026-11-06/sources/egcn2022.pdf",
+      "size_bytes": 2312050,
+      "sha256": "5cff1b1c7fb7ca09575373a2ac78f8e39c46b7e72fef5ce1ebeac29bd9bb2520"
+    },
+    {
+      "path": "literature/2026-11-06/sources/egcn2022_fulltext.txt",
+      "size_bytes": 41131,
+      "sha256": "f742aa5d24ccf0a0a545891c0c4fcd108d98a90ab14f0213777c06bade8d90d3"
+    },
+    {
+      "path": "literature/2026-11-06/sources/egcn_github.json",
+      "size_bytes": 10178,
+      "sha256": "e542beaae3c0e869bd0d3c7385b0fd3225ac0e7b0dd80ebe6faf3c4e3492649d"
+    },
+    {
+      "path": "literature/2026-11-06/sources/egcn_readme_web.txt",
+      "size_bytes": 6979,
+      "sha256": "7b0af3ebc8715cbf01097a29a5669158df5dbd514fc26fe9cc13fd64f8669128"
+    },
+    {
+      "path": "literature/2026-11-06/sources/epmc_compensation_focused.json",
+      "size_bytes": 173969,
+      "sha256": "f0e3451d939a3587f1bb3f90dcd884bea0803834b72a618e0a51e70918000da0"
+    },
+    {
+      "path": "literature/2026-11-06/sources/epmc_datasets.json",
+      "size_bytes": 294793,
+      "sha256": "f33cca78627b5a6370f8d52588a9d9d769da674a9cf80c9400e01e0b00055c78"
+    },
+    {
+      "path": "literature/2026-11-06/sources/epmc_keraal_focused.json",
+      "size_bytes": 33524,
+      "sha256": "8f81bd772ec31430294310089a68081e8bfd9aca1b266d22058e256d6a97904f"
+    },
+    {
+      "path": "literature/2026-11-06/sources/epmc_mri_focused.json",
+      "size_bytes": 215419,
+      "sha256": "219fe64c6b239b928b10a013077023b2617dd9278d252d588805f6d5af4bdde8"
+    },
+    {
+      "path": "literature/2026-11-06/sources/epmc_rehab246_focused.json",
+      "size_bytes": 6737,
+      "sha256": "02ef3e6dc24b560234c590b7beabb6530ff7dea86d73e928454f84409ce86a23"
+    },
+    {
+      "path": "literature/2026-11-06/sources/epmc_rehab_datasets.json",
+      "size_bytes": 399106,
+      "sha256": "3e92e88d288b141d3d9ff5b2b098b72a02e71774b725df9ecb655c32ce8e0541"
+    },
+    {
+      "path": "literature/2026-11-06/sources/epmc_review_skeleton2023.json",
+      "size_bytes": 14427,
+      "sha256": "2d205a2425e95b3eaf5c08213d0b8d92d0e2c7e5434ffc1aceefe378c0a01909"
+    },
+    {
+      "path": "literature/2026-11-06/sources/epmc_toronto_focused.json",
+      "size_bytes": 33362,
+      "sha256": "10e15a3b59ad28dc850a956121a0dd9713d085f0e3e0bd1725e74bfcecdb7d35"
+    },
+    {
+      "path": "literature/2026-11-06/sources/finerehab2024.pdf",
+      "size_bytes": 3763722,
+      "sha256": "367c5112aceaf2a46fc167eed6a66ff2bf0059c2fa0fa92ed04de1f1dc924f03"
+    },
+    {
+      "path": "literature/2026-11-06/sources/finerehab2024_fulltext.txt",
+      "size_bytes": 41508,
+      "sha256": "af046b48235b49b76778bfa52f3d7d4c9eebeceee4ef80e3e034c9a5728388b7"
+    },
+    {
+      "path": "literature/2026-11-06/sources/finerehab_cvf_fulltext.txt",
+      "size_bytes": 2641,
+      "sha256": "c893d369465dfc79702553bb4d6deb6e255bdbcb3dc63bae003ce0e5bee969f1"
+    },
+    {
+      "path": "literature/2026-11-06/sources/finerehab_cvf_web.txt",
+      "size_bytes": 6577,
+      "sha256": "fd067d9ea82849faa3f0a4163189ae685cf7ba094ac10c0abbc6621189b94564"
+    },
+    {
+      "path": "literature/2026-11-06/sources/FineRehab_page05.png",
+      "size_bytes": 484031,
+      "sha256": "6bff1de3aabca987d9aeb05bdf432230332db634a2f6bc180ca11d4e2ba15a96"
+    },
+    {
+      "path": "literature/2026-11-06/sources/finerehab_project_fulltext.txt",
+      "size_bytes": 2476,
+      "sha256": "d52759df2ed136da2f0d184d12daebb4e8ad5d62af92c6f9cab9bdab2f8285d6"
+    },
+    {
+      "path": "literature/2026-11-06/sources/finerehab_project_web.txt",
+      "size_bytes": 8263,
+      "sha256": "c01db6bc7f9c90aad4cffdab2c892645beb38aa0c08d4beee67e7b0e285cb8eb"
+    },
+    {
+      "path": "literature/2026-11-06/sources/ftfhgcn2025.xml",
+      "size_bytes": 126137,
+      "sha256": "0fa676a62f44b5c258fe21541a0d2f07ac6d0a725b952240538288d17ee0508b"
+    },
+    {
+      "path": "literature/2026-11-06/sources/ftfhgcn2025_fulltext.txt",
+      "size_bytes": 53047,
+      "sha256": "17b1d013abdf6a550c1e94843a62972fe1461b02a7a054fcc472b33940e5bb16"
+    },
+    {
+      "path": "literature/2026-11-06/sources/github_search_contrastive.json",
+      "size_bytes": 11123,
+      "sha256": "48618d6b9dff639b6b474db70cbf7096245f0109f52f758fa4d174d51b721339"
+    },
+    {
+      "path": "literature/2026-11-06/sources/github_search_egcn.json",
+      "size_bytes": 55,
+      "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f"
+    },
+    {
+      "path": "literature/2026-11-06/sources/github_search_finerehab.json",
+      "size_bytes": 55,
+      "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f"
+    },
+    {
+      "path": "literature/2026-11-06/sources/github_search_keraal.json",
+      "size_bytes": 20868,
+      "sha256": "89edda861a0d1e6b38d73c5e0bece19b36504ed36bdaffde4f2bcb161bb6ff8e"
+    },
+    {
+      "path": "literature/2026-11-06/sources/github_search_lightpra.json",
+      "size_bytes": 21380,
+      "sha256": "0f422f64324c1c3ae10b32b0b25600f363ef8e5f03de0dfc0871a7e8006c6dce"
+    },
+    {
+      "path": "literature/2026-11-06/sources/github_search_rehab246.json",
+      "size_bytes": 24020,
+      "sha256": "f265a7521a8e3ee21e04f5512ca6a403aac3e652bdf62e77a130fff3e9626ddb"
+    },
+    {
+      "path": "literature/2026-11-06/sources/irdsleakage2026.xml",
+      "size_bytes": 127218,
+      "sha256": "40cd22b054d71321c851ec1fe8ada4079f8b0b5f782145f71457a1ea31a125da"
+    },
+    {
+      "path": "literature/2026-11-06/sources/irdsleakage2026_fulltext.txt",
+      "size_bytes": 67438,
+      "sha256": "d8dce0edf0ee84c6fa87c711ffc8a64fce406323d35020f66cdad545e6f87f3b"
+    },
+    {
+      "path": "literature/2026-11-06/sources/keraal2024.pdf",
+      "size_bytes": 2466742,
+      "sha256": "4bf996c550b36b7d0b0bc5c840088ad6db18226bd52a5d4633fe73291485e8e4"
+    },
+    {
+      "path": "literature/2026-11-06/sources/keraal2024_fulltext.txt",
+      "size_bytes": 43365,
+      "sha256": "96d60d26bc03bda583e2160fdcedba365b81aaa893fb39b57b93177fd8135207"
+    },
+    {
+      "path": "literature/2026-11-06/sources/keraal_github.json",
+      "size_bytes": 21339,
+      "sha256": "a89cd4dd479b7576bff448875752f8207c4736f79379ae3866d1e5a864f0936b"
+    },
+    {
+      "path": "literature/2026-11-06/sources/keraal_official_fulltext.txt",
+      "size_bytes": 2038,
+      "sha256": "4c45a5cf31f19c66edaea1d47b015e7224817920f93a8e70fab0597938b1d2bd"
+    },
+    {
+      "path": "literature/2026-11-06/sources/keraal_official_web.txt",
+      "size_bytes": 7216,
+      "sha256": "a6a221622873940c69c3b392ffb548001e6243abe0cd4cd0598b0d8115c71891"
+    },
+    {
+      "path": "literature/2026-11-06/sources/keraal_publications_fulltext.txt",
+      "size_bytes": 3571,
+      "sha256": "23673d0f86ff908f77877c3835419cb399501b69c6100626aecb8a08ebefa1c7"
+    },
+    {
+      "path": "literature/2026-11-06/sources/keraal_publications_web.txt",
+      "size_bytes": 16540,
+      "sha256": "7d0fe98018a20f910d8ab9bb237c1473a3c56103baf34edd5146f6f641208beb"
+    },
+    {
+      "path": "literature/2026-11-06/sources/keraal_readme_web.txt",
+      "size_bytes": 15062,
+      "sha256": "b8d5d816c4a9f19d3df9070068fe1b7452c8107e6ceba4b3f2ee5cd536fc11aa"
+    },
+    {
+      "path": "literature/2026-11-06/sources/KIMORE_local_fulltext.txt",
+      "size_bytes": 71217,
+      "sha256": "6200987c270999b28ec3091c8f4a79d5b5edea6a6b5ff36d413cc99c87f23cc5"
+    },
+    {
+      "path": "literature/2026-11-06/sources/KIMORE_page06.png",
+      "size_bytes": 649899,
+      "sha256": "de02e86873ae2524c9053f04f184bd80a2f27cb022232a6fd41ce6e4e8895ddd"
+    },
+    {
+      "path": "literature/2026-11-06/sources/lightpra_readme_web.txt",
+      "size_bytes": 235,
+      "sha256": "ba41c280217bd0f06db410d6d0016826419c7713624ff77b351e4a8236f76046"
+    },
+    {
+      "path": "literature/2026-11-06/sources/liverpool2025.xml",
+      "size_bytes": 126981,
+      "sha256": "f749e28f314fd2988ebce2a8ae7c45f09392d8c817cd9e8172dc79550bbbebfa"
+    },
+    {
+      "path": "literature/2026-11-06/sources/liverpool2025_fulltext.txt",
+      "size_bytes": 68981,
+      "sha256": "3614e844ad3b8fd8cad63e3414ce2932f667f3cfaef416cd5eb4c543fbe982a5"
+    },
+    {
+      "path": "literature/2026-11-06/sources/llmfms2025.xml",
+      "size_bytes": 158618,
+      "sha256": "1376828419682835721381142155ca7877689015795fcf5a333c4e439cd73acf"
+    },
+    {
+      "path": "literature/2026-11-06/sources/llmfms2025_fulltext.txt",
+      "size_bytes": 76245,
+      "sha256": "10d64e8e2ffeea6ca3af6959f282de8325678bcef4863834518bf2679b45bbec"
+    },
+    {
+      "path": "literature/2026-11-06/sources/lowerlimbreview2024.xml",
+      "size_bytes": 210508,
+      "sha256": "acd8479ab3216a8d230ea92eeaa474b562e0585d6ec201676c4bfdacd9601085"
+    },
+    {
+      "path": "literature/2026-11-06/sources/lowerlimbreview2024_fulltext.txt",
+      "size_bytes": 108248,
+      "sha256": "28ca9bbbe11b496e75f599d429fb873c091cfd0e98f77045f4be20c38c5dafe0"
+    },
+    {
+      "path": "literature/2026-11-06/sources/mobiphysio2026.xml",
+      "size_bytes": 79994,
+      "sha256": "26bef1c233fb1035ae381e22fada90e481d1a45f655508ea1e6cea94b053e30d"
+    },
+    {
+      "path": "literature/2026-11-06/sources/mobiphysio2026_fulltext.txt",
+      "size_bytes": 36415,
+      "sha256": "a5627f7d76298664d3b1204f4aadbe6c03d56b060f5a19e03c6c8b2dad4862aa"
+    },
+    {
+      "path": "literature/2026-11-06/sources/recon_github.json",
+      "size_bytes": 2795,
+      "sha256": "ded7bee1a5e1ca5563590e7d8bedb95b829e7c0175f6c3da223c8783336d55ce"
+    },
+    {
+      "path": "literature/2026-11-06/sources/recon_readme_web.txt",
+      "size_bytes": 1513,
+      "sha256": "789ddc30c3b2429852312fcc3de481633683015599b549cfa413a5b7e5ea71a9"
+    },
+    {
+      "path": "literature/2026-11-06/sources/rehab246_metadata.json",
+      "size_bytes": 11693,
+      "sha256": "6a637d08a952271f03eaec16c7aeb819fe7d877b9de49180cbd546dcd009b959"
+    },
+    {
+      "path": "literature/2026-11-06/sources/rehab246_readme_web.txt",
+      "size_bytes": 4035,
+      "sha256": "f539a988d46b92b62bd7497315fd9a414351dbbda86d6a53e76aa4477384b5c9"
+    },
+    {
+      "path": "literature/2026-11-06/sources/rehabpile_kimore_fulltext.txt",
+      "size_bytes": 281,
+      "sha256": "92d8ace1bca6b044c90437c3c76239a7d2224e43823f1c97cbef7d48aa05f9ff"
+    },
+    {
+      "path": "literature/2026-11-06/sources/rehabpile_kimore_web.txt",
+      "size_bytes": 1155,
+      "sha256": "716110e877cd770e14336d77898a887ae2b10ef6a60a818a900bf2256afbb8b1"
+    },
+    {
+      "path": "literature/2026-11-06/sources/review2025.xml",
+      "size_bytes": 235395,
+      "sha256": "cd2fb69861a715f62fccb14b82975e3cc77839f54499fad44b98121b85d9b2bf"
+    },
+    {
+      "path": "literature/2026-11-06/sources/review2025_fulltext.txt",
+      "size_bytes": 121980,
+      "sha256": "2a21e6390f25cb640f49392ac531a8ac063df7736731e15298a31102478649bd"
+    },
+    {
+      "path": "literature/2026-11-06/sources/rotation_repo_web.txt",
+      "size_bytes": 4088,
+      "sha256": "a681dccbb70854f7a196c3da6c0848c3a2816f76b3e1d1c5c4b264cf598f7dba"
+    },
+    {
+      "path": "literature/2026-11-06/sources/strokevideo2026.xml",
+      "size_bytes": 101651,
+      "sha256": "4117cf5fedb3718f4d404ad19a64b1a9d509f4f1f20398b0105e8ba98aab33c4"
+    },
+    {
+      "path": "literature/2026-11-06/sources/strokevideo2026_fulltext.txt",
+      "size_bytes": 46012,
+      "sha256": "6de62cdf08d72c91c9ed86e76cc2d41843b3a839a42e1d8fea9c4db3249acdaf"
+    },
+    {
+      "path": "literature/2026-11-06/sources/uiprmd2018.xml",
+      "size_bytes": 102099,
+      "sha256": "9cd0326d15f37217f186ffeb807f47ec5ee04491a59067b85b271d02f7648c60"
+    },
+    {
+      "path": "literature/2026-11-06/sources/uiprmd2018_fulltext.txt",
+      "size_bytes": 43038,
+      "sha256": "c8505c8d0333846cb860695a83e88ea78e91a22dd1a8c3628f6e411ef6b46186"
+    },
+    {
+      "path": "literature/2026-11-06/sources/vinet2020.xml",
+      "size_bytes": 191577,
+      "sha256": "45179d0c39ba8f9a94aee31469141e8ae5b8a6f57ce59bae99a7938bbd3072b0"
+    },
+    {
+      "path": "literature/2026-11-06/sources/vinet2020_fulltext.txt",
+      "size_bytes": 55082,
+      "sha256": "47e0b5b6d86c106f4b2ae9dc26668fdd04b20a71c1221b2b6eba4d6dcec82e10"
+    },
+    {
+      "path": "IRDS/IRDS.pdf",
+      "size_bytes": 1498266,
+      "sha256": "55dda8f0c5f77cd417801b149e1775a131b7216af046f626bff5f5ed23a6bb84"
+    },
+    {
+      "path": "KIMORE/KIMORE.pdf",
+      "size_bytes": 2221100,
+      "sha256": "605e80f7a3627df53548f027a08b81183616551678c7f751411f229f06dfdb48"
+    }
+  ],
+  "papers": [
+    {
+      "id": "R01",
+      "title": "A review of computational approaches for evaluation of rehabilitation exercises.",
+      "doi": "10.1016/j.compbiomed.2020.103687",
+      "url": "https://doi.org/10.1016/j.compbiomed.2020.103687",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "review2020"
+    },
+    {
+      "id": "R02",
+      "title": "Artificial Intelligence for skeleton-based physical rehabilitation action evaluation: A systematic review.",
+      "doi": "10.1016/j.compbiomed.2023.106835",
+      "url": "https://doi.org/10.1016/j.compbiomed.2023.106835",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_review_skeleton2023.json",
+      "source_stem": "epmc_review_skeleton2023"
+    },
+    {
+      "id": "R03",
+      "title": "Machine Learning-Based Computer Vision for Depth Camera-Based Physiotherapy Movement Assessment: A Systematic Review.",
+      "doi": "10.3390/s25051586",
+      "url": "https://doi.org/10.3390/s25051586",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "review2025"
+    },
+    {
+      "id": "R04",
+      "title": "Technological advances in lower-limb tele-rehabilitation: A review of literature.",
+      "doi": "10.1177/20556683241259256",
+      "url": "https://doi.org/10.1177/20556683241259256",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "lowerlimbreview2024"
+    },
+    {
+      "id": "D01",
+      "title": "IntelliRehabDS (IRDS)—A Dataset of Physical Rehabilitation Movements",
+      "doi": "10.3390/data6050046",
+      "url": "https://doi.org/10.3390/data6050046",
+      "evidence_level": "已有本地原文与全量数据审计",
+      "metadata_source": "doi_10.3390_data6050046.json",
+      "source_stem": "../../../IRDS/analysis/IRDS_assessment_zh.md"
+    },
+    {
+      "id": "D02",
+      "title": "The KIMORE Dataset: KInematic Assessment of MOvement and Clinical Scores for Remote Monitoring of Physical REhabilitation.",
+      "doi": "10.1109/TNSRE.2019.2923060",
+      "url": "https://doi.org/10.1109/TNSRE.2019.2923060",
+      "evidence_level": "本地PDF重点核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "KIMORE_local"
+    },
+    {
+      "id": "D03",
+      "title": "A Data Set of Human Body Movements for Physical Rehabilitation Exercises.",
+      "doi": "10.3390/data3010002",
+      "url": "https://doi.org/10.3390/data3010002",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "uiprmd2018"
+    },
+    {
+      "id": "D04",
+      "title": "A Medical Low-Back Pain Physical Rehabilitation Database for Human Body Movement Analysis",
+      "doi": "10.1109/ijcnn60899.2024.10650036",
+      "url": "https://doi.org/10.1109/ijcnn60899.2024.10650036",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "crossref_keraal2024.json",
+      "source_stem": "keraal2024"
+    },
+    {
+      "id": "D05",
+      "title": "FineRehab: A Multi-modality and Multi-task Dataset for Rehabilitation Analysis",
+      "doi": "10.1109/CVPRW63382.2024.00324",
+      "url": "https://doi.org/10.1109/CVPRW63382.2024.00324",
+      "evidence_level": "全文及官方项目页重点核对",
+      "metadata_source": "crossref_finerehab.json",
+      "source_stem": "finerehab2024"
+    },
+    {
+      "id": "D06",
+      "title": "A Human Motion Data Capture Study The University of Liverpool Rehabilitation Exercise Dataset.",
+      "doi": "10.1038/s41597-025-05099-1",
+      "url": "https://doi.org/10.1038/s41597-025-05099-1",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "epmc_keraal_focused.json",
+      "source_stem": "liverpool2025"
+    },
+    {
+      "id": "D07",
+      "title": "MobiPhysio: A 2D video dataset of physiotherapy exercises for AI-driven assessment and monitoring.",
+      "doi": "10.1016/j.dib.2026.112635",
+      "url": "https://doi.org/10.1016/j.dib.2026.112635",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "epmc_rehab246_focused.json",
+      "source_stem": "mobiphysio2026"
+    },
+    {
+      "id": "D08",
+      "title": "LLM-FMS: A fine-grained dataset for functional movement screen action quality assessment.",
+      "doi": "10.1371/journal.pone.0313707",
+      "url": "https://doi.org/10.1371/journal.pone.0313707",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "llmfms2025"
+    },
+    {
+      "id": "D09",
+      "title": "REHAB24-6: Physical Therapy Dataset for Analyzing Pose Estimation Methods",
+      "doi": "10.1007/978-3-031-75823-2_2",
+      "url": "https://doi.org/10.1007/978-3-031-75823-2_2",
+      "evidence_level": "原始Zenodo元数据、文件清单及书目信息核对",
+      "metadata_source": "crossref_rehab246.json",
+      "source_stem": "rehab246"
+    },
+    {
+      "id": "D10",
+      "title": "Fast and robust video-based exercise classification via body pose tracking and scalable multivariate time series classifiers",
+      "doi": "10.1007/s10618-022-00895-4",
+      "url": "https://doi.org/10.1007/s10618-022-00895-4",
+      "evidence_level": "书目信息及基准全文中的数据描述核对",
+      "metadata_source": "crossref_ucdhe2023.json",
+      "source_stem": "ucdhe2023"
+    },
+    {
+      "id": "M01",
+      "title": "A Deep Learning Framework for Assessing Physical Rehabilitation Exercises.",
+      "doi": "10.1109/TNSRE.2020.2966249",
+      "url": "https://doi.org/10.1109/TNSRE.2020.2966249",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "deepframework2020"
+    },
+    {
+      "id": "M02",
+      "title": "VI-Net-View-Invariant Quality of Human Movement Assessment.",
+      "doi": "10.3390/s20185258",
+      "url": "https://doi.org/10.3390/s20185258",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "vinet2020"
+    },
+    {
+      "id": "M03",
+      "title": "Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises.",
+      "doi": "10.1109/TNSRE.2022.3150392",
+      "url": "https://doi.org/10.1109/TNSRE.2022.3150392",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "gcn2022"
+    },
+    {
+      "id": "M04",
+      "title": "EGCN: An Ensemble-based Learning Framework for Exploring Effective Skeleton-based Rehabilitation Exercise Assessment",
+      "doi": "10.24963/ijcai.2022/511",
+      "url": "https://doi.org/10.24963/ijcai.2022/511",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "crossref_survey.json",
+      "source_stem": "egcn2022"
+    },
+    {
+      "id": "M05",
+      "title": "A Skeleton-Based Rehabilitation Exercise Assessment System With Rotation Invariance",
+      "doi": "10.1109/TNSRE.2023.3282675",
+      "url": "https://doi.org/10.1109/TNSRE.2023.3282675",
+      "evidence_level": "官方README及已有代码划分核对",
+      "metadata_source": "crossref_survey.json",
+      "source_stem": "rotation"
+    },
+    {
+      "id": "M06",
+      "title": "D-STGCNT: A Dense Spatio-Temporal Graph Conv-GRU Network based on transformer for assessment of patient physical rehabilitation.",
+      "doi": "10.1016/j.compbiomed.2023.107420",
+      "url": "https://doi.org/10.1016/j.compbiomed.2023.107420",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "dstgcnt2023"
+    },
+    {
+      "id": "M07",
+      "title": "A Contrastive Learning Network for Performance Metric and Assessment of Physical Rehabilitation Exercises.",
+      "doi": "10.1109/TNSRE.2023.3317411",
+      "url": "https://doi.org/10.1109/TNSRE.2023.3317411",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "contrastive2023"
+    },
+    {
+      "id": "M08",
+      "title": "LightPRA: A Lightweight Temporal Convolutional Network for Automatic Physical Rehabilitation Exercise Assessment.",
+      "doi": "10.1016/j.compbiomed.2024.108382",
+      "url": "https://doi.org/10.1016/j.compbiomed.2024.108382",
+      "evidence_level": "摘要及仓库说明核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "lightpra"
+    },
+    {
+      "id": "M09",
+      "title": "EGCN++: A New Fusion Strategy for Ensemble Learning in Skeleton-Based Rehabilitation Exercise Assessment.",
+      "doi": "10.1109/TPAMI.2024.3378753",
+      "url": "https://doi.org/10.1109/TPAMI.2024.3378753",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "egcnpp2024"
+    },
+    {
+      "id": "M10",
+      "title": "An Expert-Knowledge-Based Graph Convolutional Network for Skeleton- Based Physical Rehabilitation Exercises Assessment.",
+      "doi": "10.1109/TNSRE.2024.3400790",
+      "url": "https://doi.org/10.1109/TNSRE.2024.3400790",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "expertgcn2024"
+    },
+    {
+      "id": "M11",
+      "title": "Rehabilitation exercise quality assessment through supervised contrastive learning with hard and soft negatives.",
+      "doi": "10.1007/s11517-024-03177-x",
+      "url": "https://doi.org/10.1007/s11517-024-03177-x",
+      "evidence_level": "全文及作者仓库README重点核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "contrastive_karlov_paper"
+    },
+    {
+      "id": "M12",
+      "title": "Hierarchical Contrastive Representation for Accurate Evaluation of Rehabilitation Exercises via Multi-view Skeletal Representations.",
+      "doi": "10.1109/TNSRE.2024.3523906",
+      "url": "https://doi.org/10.1109/TNSRE.2024.3523906",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "hiercontrastive2024"
+    },
+    {
+      "id": "M13",
+      "title": "Optimized assessment of physical rehabilitation exercises using spatiotemporal, sequential graph-convolutional networks.",
+      "doi": "10.1016/j.compbiomed.2024.109578",
+      "url": "https://doi.org/10.1016/j.compbiomed.2024.109578",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "optimized2025"
+    },
+    {
+      "id": "M14",
+      "title": "Frame topology fusion-based hierarchical graph convolution for automatic assessment of physical rehabilitation exercises.",
+      "doi": "10.1038/s41598-025-12020-8",
+      "url": "https://doi.org/10.1038/s41598-025-12020-8",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "ftfhgcn2025"
+    },
+    {
+      "id": "M15",
+      "title": "Skeleton-Based Transformer for Classification of Errors and Better Feedback in Low Back Pain Physical Rehabilitation Exercises.",
+      "doi": "10.1109/ICORR66766.2025.11063192",
+      "url": "https://doi.org/10.1109/ICORR66766.2025.11063192",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_keraal_focused.json",
+      "source_stem": "keraaltransformer"
+    },
+    {
+      "id": "B01",
+      "title": "A Standardized Benchmark for Skeleton-Based Rehabilitation Assessment Using Deep Learning",
+      "doi": "10.1109/FG67764.2026.11556986",
+      "url": "https://doi.org/10.1109/FG67764.2026.11556986",
+      "evidence_level": "详细预印本及官方README重点核对",
+      "metadata_source": "doi_10.1109_FG67764.2026.11556986.json",
+      "source_stem": "deeprehabpile_paper"
+    },
+    {
+      "id": "B02",
+      "title": "Skeleton-based rehabilitation movement quality classification: a leakage-controlled benchmark on IntelliRehabDS.",
+      "doi": "10.3389/fmed.2026.1878438",
+      "url": "https://doi.org/10.3389/fmed.2026.1878438",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "epmc_keraal_focused.json",
+      "source_stem": "irdsleakage2026"
+    },
+    {
+      "id": "B03",
+      "title": "How improper dataset split hinders model generalizability: a systematic comparison in Human activity recognition and exercise evaluation tasks.",
+      "doi": "10.1016/j.ijmedinf.2026.106464",
+      "url": "https://doi.org/10.1016/j.ijmedinf.2026.106464",
+      "evidence_level": "摘要核对",
+      "metadata_source": "epmc_datasets.json",
+      "source_stem": "impropersplit2026"
+    },
+    {
+      "id": "C01",
+      "title": "Using deep learning to detect upper limb compensation in individuals post-stroke using consumer-grade webcams-A feasibility study.",
+      "doi": "10.3389/fmed.2025.1645369",
+      "url": "https://doi.org/10.3389/fmed.2025.1645369",
+      "evidence_level": "全文重点核对",
+      "metadata_source": "epmc_compensation_focused.json",
+      "source_stem": "compensationwebcam2025"
+    }
+  ],
+  "resource_urls": [
+    "https://bsu3dvlab.github.io/FineRehab/",
+    "https://zenodo.org/records/13305826",
+    "https://github.com/nguyensmai/KeraalDataset",
+    "https://github.com/MSD-IRIMAS/DeepRehabPile",
+    "https://github.com/shamarkus/ReCon",
+    "https://github.com/bruceyo/EGCN",
+    "https://doi.org/10.7910/DVN/XSI0QN"
+  ]
+}
