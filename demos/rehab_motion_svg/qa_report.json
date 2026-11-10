@@ -1,0 +1,118 @@
+{
+  "status": "passed",
+  "labelled_examples_checked": [
+    {
+      "source": "schematic",
+      "exercise": "7",
+      "error": "ERR_TORSO_FORWARD"
+    },
+    {
+      "source": "schematic",
+      "exercise": "7",
+      "error": "ERR_BENT_ARM"
+    },
+    {
+      "source": "schematic",
+      "exercise": "7",
+      "error": "ERR_ELEVATED_SHOULDER"
+    },
+    {
+      "source": "schematic",
+      "exercise": "7",
+      "error": "ERR_TORSO_ROTATION"
+    },
+    {
+      "source": "schematic",
+      "exercise": "7",
+      "error": "ERR_ARM_TO_SIDE"
+    },
+    {
+      "source": "schematic",
+      "exercise": "1",
+      "error": "ERR_LOW_ABDUCTION"
+    },
+    {
+      "source": "schematic",
+      "exercise": "1",
+      "error": "ERR_BENT_ARM"
+    },
+    {
+      "source": "schematic",
+      "exercise": "1",
+      "error": "ERR_ELEVATED_SHOULDER"
+    },
+    {
+      "source": "schematic",
+      "exercise": "1",
+      "error": "ERR_ARM_FORWARD"
+    },
+    {
+      "source": "schematic",
+      "exercise": "1",
+      "error": "ERR_HEAD_TO_SIDE"
+    },
+    {
+      "source": "recorded",
+      "exercise": "7",
+      "error": "ERR_TORSO_FORWARD"
+    },
+    {
+      "source": "recorded",
+      "exercise": "7",
+      "error": "ERR_BENT_ARM"
+    },
+    {
+      "source": "recorded",
+      "exercise": "7",
+      "error": "ERR_ELEVATED_SHOULDER"
+    },
+    {
+      "source": "recorded",
+      "exercise": "7",
+      "error": "ERR_TORSO_ROTATION"
+    },
+    {
+      "source": "recorded",
+      "exercise": "7",
+      "error": "ERR_ARM_TO_SIDE"
+    },
+    {
+      "source": "recorded",
+      "exercise": "1",
+      "error": "ERR_LOW_ABDUCTION"
+    },
+    {
+      "source": "recorded",
+      "exercise": "1",
+      "error": "ERR_BENT_ARM"
+    },
+    {
+      "source": "recorded",
+      "exercise": "1",
+      "error": "ERR_ELEVATED_SHOULDER"
+    },
+    {
+      "source": "recorded",
+      "exercise": "1",
+      "error": "ERR_ARM_FORWARD"
+    },
+    {
+      "source": "recorded",
+      "exercise": "1",
+      "error": "ERR_HEAD_TO_SIDE"
+    }
+  ],
+  "checks": [
+    "offline file URL",
+    "automatic playback",
+    "pause",
+    "seek",
+    "both sources, both exercises, all ten errors",
+    "three views",
+    "reference toggle",
+    "speed control",
+    "390px mobile without horizontal overflow",
+    "no browser script errors"
+  ],
+  "errors": []
+}

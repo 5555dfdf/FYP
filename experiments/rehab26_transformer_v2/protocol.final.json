@@ -1,0 +1,324 @@
+{
+  "version": "rehab26_transformer_v2_20261109",
+  "frozen_at_utc": "2026-11-09T09:41:11.251574+00:00",
+  "training": {
+    "max_epochs": 80,
+    "batch_size": 32,
+    "patience": 12,
+    "min_delta": 0.0001
+  },
+  "candidates": {
+    "tr_ref": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "tr_xyz": {
+      "family": "transformer",
+      "features": "xyz",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "tr_sqrt": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "sqrt",
+      "lr": 0.0003
+    },
+    "tr_raw": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "raw",
+      "lr": 0.0003
+    },
+    "tr_relu": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "relu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "tr_postnorm": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": false,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "tr_noz": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": false,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "tr_nodrop": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "tr_nodecay": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.0,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "tr_visibility": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "tr_lr1e3": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    },
+    "tr_small": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003,
+      "width": 32,
+      "layers": 1
+    },
+    "tcn_xyz": {
+      "family": "tcn",
+      "features": "xyz",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "tcn_angles": {
+      "family": "tcn",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "angle_lr": {
+      "family": "lr",
+      "features": "angles"
+    },
+    "angle_rf": {
+      "family": "rf",
+      "features": "angles"
+    },
+    "iter_ex1_Honza_training": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    },
+    "iter_ex1_Honza_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    },
+    "iter_ex7_Honza_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Mima_structure": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": false,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Mima_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": false,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Petra_training": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    },
+    "iter_ex7_Petra_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    },
+    "iter_ex7_Terka_structure": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": false,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Terka_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": false,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Vasil_structure": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "relu",
+      "pre_norm": false,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Vasil_training": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    },
+    "iter_ex7_Vasil_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "relu",
+      "pre_norm": false,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    }
+  },
+  "exercises": [
+    1,
+    7
+  ],
+  "seeds": [
+    20261109,
+    20261110,
+    20261111
+  ],
+  "selection": "per-exercise/per-outer-person rank candidates by mean four-inner-validation macro-AP; tie mean validation F1, then lexicographic name; no outer predictions read until selections frozen",
+  "screen": "all candidates, first seed, all 20 ordered test/validation splits per exercise",
+  "confirm": "for each outer fold: its selected Transformer, selected TCN, and both angle baselines; 3 seeds for neural/RF, deterministic LR once; selected configurations fixed before extra seeds",
+  "secondary": "F0.5 validation thresholds reported as precision-oriented operating point, not selected using tests",
+  "test_ensemble": "four inner models within each seed; mean(p-threshold)>=0; mean probabilities for AP; no seed ensembling in main metrics",
+  "scope": "exploratory; all five volunteers appeared in earlier inspected tests; simulated errors; known action and repetition boundaries",
+  "tuning": "prespecified one-factor and lr/capacity candidates; optional second-round combinations require separate timestamped validation-only amendment"
+}

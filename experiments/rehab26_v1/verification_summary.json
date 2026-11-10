@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "saved_models_reloaded": 50,
+  "cached_feature_predictions_checked": 150,
+  "raw_clip_inference_checked": 50,
+  "max_reload_score_difference": 1.7881393432617188e-07,
+  "aggregate_confusion_count_checks": 10,
+  "subject_view_isolation_checked": true,
+  "translation_scale_invariance_checked": true,
+  "torso_tilt_preservation_checked": true,
+  "run_identity": {
+    "protocol_sha256": "f379f0ea8cc0ceca26b6f3419e5dd0e6c6d12e7b6b5d943fddd9061fab196f50",
+    "samples_sha256": "c6cc614f8f44334bfab0f8cb40eb6c7fe92330c9b2e3bfb083cafbeab581c350",
+    "pipeline_sha256": "a5270d1fcb831067d9038d23243da486bae1b418a77f4e39f589914d6c65e356",
+    "train_sha256": "79722cfa86686997a5bc3af2e99e700b64bd45f237d8b1370ae1c77abce553dc"
+  }
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "name": "rehab26_pdf",
+    "url": "https://arxiv.org/pdf/2609.35726v2",
+    "retrieved_at": "2026-11-09T11:58:23.800685+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/pdf/2609.35726v2",
+    "content_type": "application/pdf",
+    "bytes": 18993885,
+    "sha256": "7d1e173e7bdc89713a86a55701e1640e9973d80389cd9421672827314bc76222",
+    "file": "rehab26_pdf.pdf"
+  },
+  {
+    "name": "personalized_openalex",
+    "url": "https://api.openalex.org/works?search=Personalized%20similarity%20models%20for%20evaluating%20rehabilitation%20exercises%20from%20monocular%20videos&per-page=3",
+    "retrieved_at": "2026-11-09T11:58:23.801222+00:00",
+    "status": 200,
+    "final_url": "https://api.openalex.org/works?search=Personalized%20similarity%20models%20for%20evaluating%20rehabilitation%20exercises%20from%20monocular%20videos&per-page=3",
+    "content_type": "application/json",
+    "bytes": 57472,
+    "sha256": "2c856b1a571e731a66da9b286817e3198afe5e6588ceb85f9419ef6a234e79a4",
+    "file": "personalized_openalex.txt"
+  },
+  {
+    "name": "personalized_crossref",
+    "url": "https://api.crossref.org/works?query.title=Personalized%20similarity%20models%20for%20evaluating%20rehabilitation%20exercises%20from%20monocular%20videos&rows=2",
+    "retrieved_at": "2026-11-09T11:58:23.801637+00:00",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works?query.title=Personalized%20similarity%20models%20for%20evaluating%20rehabilitation%20exercises%20from%20monocular%20videos&rows=2",
+    "content_type": "application/json",
+    "bytes": 21305,
+    "sha256": "dfe5b5d9184fbf81e001a8801388aba2090e776d8e36928db82123c0df7f1e82",
+    "file": "personalized_crossref.txt"
+  },
+  {
+    "name": "new_pose_html",
+    "url": "https://arxiv.org/html/2611.02929",
+    "retrieved_at": "2026-11-09T11:58:23.801937+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2611.02929",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 305445,
+    "sha256": "0bd697e53af057c033a685cd63a69eb6f247ec2979927a0b90fe0a03e4033b43",
+    "file": "new_pose_html.txt"
+  },
+  {
+    "name": "author_publications",
+    "url": "https://www.fi.muni.cz/~xsedmid/publications.html",
+    "retrieved_at": "2026-11-09T11:58:23.802433+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "github_candidate_readme",
+    "url": "https://api.github.com/repos/jakeryderv/rehab26/readme",
+    "retrieved_at": "2026-11-09T11:58:23.803381+00:00",
+    "error": "HTTP Error 403: rate limit exceeded"
+  },
+  {
+    "name": "rehab24_elsevier",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306437925000959",
+    "retrieved_at": "2026-11-09T11:58:23.805216+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "mobile_acm",
+    "url": "https://dl.acm.org/doi/10.1145/3805622.3810429",
+    "retrieved_at": "2026-11-09T11:58:23.904399+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

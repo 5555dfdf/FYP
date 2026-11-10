@@ -1,0 +1,76 @@
+{
+  "completed_at_utc": "2026-11-09T11:44:44.790159+00:00",
+  "fit_count": 928,
+  "scripts_sha256": {
+    "experiments\\rehab26_transformer_v2\\analyze.py": "3207846c243858db11d4d0ecd697cb9012843cb59dae6f95037550c5b852dbf2",
+    "experiments\\rehab26_transformer_v2\\core.py": "15657f2ff3987508ff26fc19c0498f63dd0daf75d95fce373e1fe5d5fb98cd3e",
+    "experiments\\rehab26_transformer_v2\\finalize.py": "24c937019a50bbec8695d165434294c74d59eac4d343f0793684c8cca4461d11",
+    "experiments\\rehab26_transformer_v2\\infer.py": "7b112a2e0afea7248b2445807ee31a5f13c54eb5f5478adf653b2e8b633bdc70",
+    "experiments\\rehab26_transformer_v2\\iterate.py": "c63d2d22f00e1407691b0cce4d2aab6787e4b339d7e330d1d1c95cb8121a665e",
+    "experiments\\rehab26_transformer_v2\\parallel_run.py": "7900353949a644b98a6c0ca7b423e0bc7626e3d03f31504cecd8f295e4dff00b",
+    "experiments\\rehab26_transformer_v2\\release.py": "3a8e2f4d7b9f95f8563eed39a570cf060fe315491dd8dc3b0aa429fa0437d156",
+    "experiments\\rehab26_transformer_v2\\status.py": "06f4cb933eb918147d1511c732f32680abfce0d5d04aadfe3249700747641d6f",
+    "experiments\\rehab26_transformer_v2\\suite.py": "3b4f0b0a900a4a16379469fa0eb4185e3b707c2d09b85875fad9e3b88311aaaa",
+    "experiments\\rehab26_transformer_v2\\train.py": "fb5d8633a8331a603bedf65355f2efd4061c96eb15ad1cd3c8491af4f09712cf",
+    "experiments\\rehab26_transformer_v2\\verify.py": "f270c08081e9408075d0e96f4c1a6fec907df3b671a8b91bfc88502e0205ac01",
+    "experiments\\rehab26_transformer_v2\\verify_bundles.py": "1399d481adec2e9553b801018f64b35884d4ca72a585a85729b3988118385c64"
+  },
+  "verification": {
+    "status": "passed",
+    "splits_checked": 40,
+    "artifacts_reloaded": 928,
+    "max_reload_difference": 9.5367431640625e-07,
+    "raw_validation_clips_regenerated": 3,
+    "checks": [
+      "source/data hashes",
+      "labels match manifest",
+      "subject/view/repetition isolation",
+      "held-out outliers cannot change training scaler",
+      "raw visibility preserved",
+      "FP/FN and F1 vs sklearn",
+      "threshold search optimum",
+      "finite extreme-logit BCE",
+      "all-zero-label gradient",
+      "independent encoder initialization",
+      "eval deterministic dropout",
+      "raw-to-cache feature agreement",
+      "saved validation scores reproduced"
+    ]
+  },
+  "benchmarks": [
+    {
+      "exercise": 1,
+      "candidate": "iter_ex1_Honza_combined",
+      "parameters": 77061,
+      "batch": 1,
+      "shape": [
+        1,
+        96,
+        88
+      ],
+      "network_only_gpu_latency_median_ms": 1.153350000095088,
+      "network_only_gpu_latency_p95_ms": 1.826034999612602,
+      "timing_scope": "one model forward only; excludes pose extraction, preprocessing, transfer, and ensemble repetitions",
+      "warmup": 20,
+      "repeats": 100
+    },
+    {
+      "exercise": 7,
+      "candidate": "iter_ex7_Honza_combined",
+      "parameters": 77061,
+      "batch": 1,
+      "shape": [
+        1,
+        96,
+        88
+      ],
+      "network_only_gpu_latency_median_ms": 1.1677000002237037,
+      "network_only_gpu_latency_p95_ms": 1.460754999607161,
+      "timing_scope": "one model forward only; excludes pose extraction, preprocessing, transfer, and ensemble repetitions",
+      "warmup": 20,
+      "repeats": 100
+    }
+  ],
+  "status": "complete",
+  "deployment": "full-data research refits, no independent full-data score"
+}

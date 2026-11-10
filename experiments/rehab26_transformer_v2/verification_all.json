@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "splits_checked": 40,
+  "artifacts_reloaded": 928,
+  "max_reload_difference": 9.5367431640625e-07,
+  "raw_validation_clips_regenerated": 3,
+  "checks": [
+    "source/data hashes",
+    "labels match manifest",
+    "subject/view/repetition isolation",
+    "held-out outliers cannot change training scaler",
+    "raw visibility preserved",
+    "FP/FN and F1 vs sklearn",
+    "threshold search optimum",
+    "finite extreme-logit BCE",
+    "all-zero-label gradient",
+    "independent encoder initialization",
+    "eval deterministic dropout",
+    "raw-to-cache feature agreement",
+    "saved validation scores reproduced"
+  ]
+}

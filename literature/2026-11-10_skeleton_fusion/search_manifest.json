@@ -1,0 +1,233 @@
+[
+  {
+    "name": "search_mediapipe_triangulation",
+    "url": "https://api.github.com/search/repositories?q=mediapipe%20triangulation&sort=stars&per_page=8",
+    "at_utc": "2026-11-10T02:08:30.041638+00:00",
+    "status": 200,
+    "file": "search_mediapipe_triangulation.json",
+    "sha256": "8a127ab364d63cc993983b6b68a5beb3eab4a8c2ae63962e3076fa7badbc8f5e",
+    "bytes": 46732,
+    "items": [
+      {
+        "full_name": "neural-control-and-computation-lab/athena",
+        "description": "ATHENA (Automatically Tracking Hands Expertly with No Annotations) is a Python-based toolbox designed to process multi-camera video recordings, extract 2D and 3D body and hand landmarks using MediaPipe, and perform triangulation and refinement of these landmarks.",
+        "html_url": "https://github.com/neural-control-and-computation-lab/athena",
+        "default_branch": "main",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "Yuri-Vlasqz/3D_Human_Pose_MediaPipe",
+        "description": "Human pose triangulation using MediaPipe Pose backend",
+        "html_url": "https://github.com/Yuri-Vlasqz/3D_Human_Pose_MediaPipe",
+        "default_branch": "main",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "alcehmystic/mono-pose-3d",
+        "description": "Real-time 3D human pose estimation from an OAK-D Lite RGB-D stream using MediaPipe and stereo depth triangulation.",
+        "html_url": "https://github.com/alcehmystic/mono-pose-3d",
+        "default_branch": "main",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "DoniyorMakhmudov/DeepfakeCode",
+        "description": "Face Swap Using Delaunay Triangulation and MediaPipe",
+        "html_url": "https://github.com/DoniyorMakhmudov/DeepfakeCode",
+        "default_branch": "main",
+        "license": null
+      },
+      {
+        "full_name": "Ramdam17/ScaaleCameraCalib",
+        "description": "Multi-camera 3D skeleton tracking: ChArUco calibration → MediaPipe pose detection → DLT triangulation → gaze overlay",
+        "html_url": "https://github.com/Ramdam17/ScaaleCameraCalib",
+        "default_branch": "main",
+        "license": null
+      },
+      {
+        "full_name": "NavehBrenner/stereohand",
+        "description": "Two webcams to metric 3D hand landmarks: ChArUco stereo calibration + MediaPipe Tasks + linear-DLT triangulation.",
+        "html_url": "https://github.com/NavehBrenner/stereohand",
+        "default_branch": "master",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        }
+      },
+      {
+        "full_name": "ranagursoy/Stereo-3D-Skeleton-Tracker",
+        "description": "3D human pose estimation using dual RGB cameras, MediaPipe, and DLT-based triangulation with GUI visualization.",
+        "html_url": "https://github.com/ranagursoy/Stereo-3D-Skeleton-Tracker",
+        "default_branch": "main",
+        "license": null
+      },
+      {
+        "full_name": "Migueltoh2309/Multiview_Demo_Capture",
+        "description": "Markerless multi-camera capture of human demonstrations (3 RGB cameras, ChArUco calibration, MediaPipe + triangulation) for learning from demonstration on a Unitree H1-2 humanoid.",
+        "html_url": "https://github.com/Migueltoh2309/Multiview_Demo_Capture",
+        "default_branch": "main",
+        "license": null
+      }
+    ]
+  },
+  {
+    "name": "search_skeleton_fusion",
+    "url": "https://api.github.com/search/repositories?q=multi%20view%20skeleton%20fusion&sort=stars&per_page=8",
+    "at_utc": "2026-11-10T02:08:30.042147+00:00",
+    "status": 200,
+    "file": "search_skeleton_fusion.json",
+    "sha256": "bfc4a369f19acee096b4a8282e6fbf3ba459bcfdc7d87c6b1a342d4f92e04899",
+    "bytes": 5878,
+    "items": [
+      {
+        "full_name": "Fdevmsy/Multiview_3D_Skeleton_Fusion",
+        "description": "Multi-view 3D skeletions fusion by heatmap-weighted average",
+        "html_url": "https://github.com/Fdevmsy/Multiview_3D_Skeleton_Fusion",
+        "default_branch": "master",
+        "license": null
+      }
+    ]
+  },
+  {
+    "name": "search_visibility_fusion",
+    "url": "https://api.github.com/search/repositories?q=mediapipe%20multi%20camera%20fusion&sort=stars&per_page=8",
+    "at_utc": "2026-11-10T02:08:30.042502+00:00",
+    "status": 200,
+    "file": "search_visibility_fusion.json",
+    "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+    "bytes": 55,
+    "items": []
+  },
+  {
+    "name": "pose2sim_tree",
+    "url": "https://api.github.com/repos/perfanalytics/pose2sim/git/trees/main?recursive=1",
+    "at_utc": "2026-11-10T02:08:30.042785+00:00",
+    "status": 200,
+    "file": "pose2sim_tree.json",
+    "sha256": "30916e60d9f9f1ec369f10d33d669de1be862ba0f7db8862d4e71befa3843c5f",
+    "bytes": 112951,
+    "paths": [
+      "Content/P2S_calibration.png",
+      "Content/P2S_triangulation.png",
+      "Pose2Sim/Demo_Batch/calibration",
+      "Pose2Sim/Demo_Batch/calibration/Calib.qca.txt",
+      "Pose2Sim/Demo_MultiPerson/calibration",
+      "Pose2Sim/Demo_MultiPerson/calibration/Calib.qca.txt",
+      "Pose2Sim/Demo_SinglePerson/calibration",
+      "Pose2Sim/Demo_SinglePerson/calibration/Calib.qca.txt",
+      "Pose2Sim/Demo_SinglePerson/calibration/extrinsics",
+      "Pose2Sim/Demo_SinglePerson/calibration/extrinsics/cam01_ext.png",
+      "Pose2Sim/Demo_SinglePerson/calibration/extrinsics/cam02_ext.png",
+      "Pose2Sim/Demo_SinglePerson/calibration/extrinsics/cam03_ext.png",
+      "Pose2Sim/Demo_SinglePerson/calibration/extrinsics/cam04_ext.png",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam01_img",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam01_img/.gitkeep",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam01_img/cam01_01_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam01_img/cam01_02_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam01_img/cam01_03_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam01_img/cam01_04_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam01_img/cam01_05_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam01_img/cam01_06_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam01_img/cam01_07_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam02_img",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam02_img/.gitkeep",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam02_img/cam02_01_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam02_img/cam02_02_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam02_img/cam02_03_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam02_img/cam02_04_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam02_img/cam02_05_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam02_img/cam02_06_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam02_img/cam02_07_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam03_img",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam03_img/.gitkeep",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam03_img/cam03_01_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam03_img/cam03_02_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam03_img/cam03_03_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam03_img/cam03_04_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam03_img/cam03_05_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam03_img/cam03_06_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam03_img/cam03_07_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam04_img",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam04_img/.gitkeep",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam04_img/cam04_01_int_charuco.jpg",
+      "Pose2Sim/Demo_SinglePerson/calibration/intrinsics/int_cam04_img/cam04_02_int_charuco.jpg"
+    ]
+  },
+  {
+    "name": "freemocap_tree",
+    "url": "https://api.github.com/repos/freemocap/freemocap/git/trees/main?recursive=1",
+    "at_utc": "2026-11-10T02:08:30.043131+00:00",
+    "status": 200,
+    "file": "freemocap_tree.json",
+    "sha256": "d49317f4a26dd31fa1b8008eee39d23b563279a4210080440dea07e388070192",
+    "bytes": 257972,
+    "paths": [
+      "freemocap-docs/docs/architecture/backend-calibration.mdx",
+      "freemocap-ui/src/assets/icons/calibrate_icon.svg",
+      "freemocap-ui/src/assets/icons/calibrated_icon.svg",
+      "freemocap-ui/src/assets/icons/calibrating-icon.svg",
+      "freemocap-ui/src/assets/icons/cancelcalibrate_icon.svg",
+      "freemocap-ui/src/assets/icons/triangulate_active_icon.svg",
+      "freemocap-ui/src/assets/icons/triangulate_icon.svg",
+      "freemocap-ui/src/components/common/CalibrationTomlPicker.tsx",
+      "freemocap-ui/src/components/mocap-setup/mocap-3dreconstruction-settings.tsx",
+      "freemocap-ui/src/components/mocap-setup/mocap-triangulation-settings.tsx",
+      "freemocap-ui/src/components/pipeline-progress/calibration-progress",
+      "freemocap-ui/src/components/pipeline-progress/calibration-progress/calibration-module.tsx",
+      "freemocap-ui/src/components/pipeline-progress/calibration-progress/calibration-settings.tsx",
+      "freemocap-ui/src/components/pipeline-progress/realtime/realtimepipeline-3dreconstruction-settings.tsx",
+      "freemocap-ui/src/components/viewport3d/hooks/useCalibrationTomlLoader.ts",
+      "freemocap-ui/src/hooks/useCalibration.ts",
+      "freemocap-ui/src/store/slices/calibration",
+      "freemocap-ui/src/store/slices/calibration/calibration-slice.ts",
+      "freemocap-ui/src/store/slices/calibration/calibration-thunks.ts",
+      "freemocap-ui/src/store/slices/calibration/calibration-types.ts",
+      "freemocap-ui/src/store/slices/calibration/index.ts",
+      "freemocap-ui/src/styles/calibration-module.css",
+      "freemocap-ui/src/styles/calibration.css",
+      "freemocap/api/http/calibration",
+      "freemocap/api/http/calibration/__init__.py",
+      "freemocap/api/http/calibration/calibration_router.py",
+      "freemocap/core/tasks/calibration",
+      "freemocap/core/tasks/calibration/__init__.py",
+      "freemocap/core/tasks/calibration/anipose_calibration",
+      "freemocap/core/tasks/calibration/anipose_calibration/__init__.py",
+      "freemocap/core/tasks/calibration/anipose_calibration/helpers",
+      "freemocap/core/tasks/calibration/anipose_calibration/helpers/__init__.py",
+      "freemocap/core/tasks/calibration/anipose_calibration/helpers/anipose_calibration_helpers.py",
+      "freemocap/core/tasks/calibration/anipose_calibration/helpers/bundle_adjust.py",
+      "freemocap/core/tasks/calibration/anipose_calibration/helpers/camera_model_solver_ops.py",
+      "freemocap/core/tasks/calibration/anipose_calibration/helpers/freemocap_anipose.py",
+      "freemocap/core/tasks/calibration/anipose_calibration/run_anipose_calibration.py",
+      "freemocap/core/tasks/calibration/calibration_task_config.py",
+      "freemocap/core/tasks/calibration/charuco_board",
+      "freemocap/core/tasks/calibration/charuco_board/__init__.py",
+      "freemocap/core/tasks/calibration/charuco_board/charuco_board_ops.py",
+      "freemocap/core/tasks/calibration/charuco_board/charuco_corners.py",
+      "freemocap/core/tasks/calibration/charuco_board/charuco_observation_aggregator.py",
+      "freemocap/core/tasks/calibration/posthoc_calibration_task.py",
+      "freemocap/core/tasks/calibration/pyceres_calibration"
+    ]
+  }
+]

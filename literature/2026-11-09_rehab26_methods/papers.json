@@ -1,0 +1,89 @@
+{
+  "review_date": "2026-11-09",
+  "target_dataset": "REHAB26-ViewAngles",
+  "dataset_version_doi": "10.5281/zenodo.23018128",
+  "papers": [
+    {
+      "id": "P1",
+      "title": "Impact of Patient Orientation in Single- and Multi-View Camera Environments for AI-based Rehabilitation Monitoring",
+      "authors": ["Miriama Jánošová", "Andreas Lang", "Petra Budikova", "Jan Sedmidubsky"],
+      "year": 2026,
+      "doi": "10.48550/arXiv.2609.35726",
+      "reviewed_version": "arXiv:2609.35726v2, 2026-09-30",
+      "url": "https://arxiv.org/html/2609.35726",
+      "dataset_relationship": "exact_same_dataset_original_paper",
+      "evidence": "official_full_text_html_and_pdf_with_rendered_tables",
+      "method": "personalized_correct_references_DTW_feature_tolerance_and_separability",
+      "comparable_to_our_loso_multilabel_f1": false,
+      "reason": "Same-person correct calibration and ground-truth error-conditioned feature selection; separability is not F1.",
+      "evidence_locations": {
+        "clinical_features": "Table 1, PDF p7",
+        "DTW_and_reference_model": "Section 4.1, PDF p10-11",
+        "pose_representation": "Section 4.3, PDF p13",
+        "error_annotation_feature_selection": "Section 5.1, PDF p14-15",
+        "separability_values": "Table 3, PDF p17",
+        "multiview_conclusions": "Section 5.3, PDF p18"
+      }
+    },
+    {
+      "id": "P2",
+      "title": "Personalized Similarity Models for Evaluating Rehabilitation Exercises from Monocular Videos",
+      "authors": ["Miriama Jánošová", "Petra Budikova", "Jan Sedmidubsky"],
+      "venue": "SISAP 2024, LNCS 15268, pp73-87",
+      "first_online_date": "2024-10-25",
+      "publisher_citation_year": 2025,
+      "doi": "10.1007/978-3-031-75823-2_7",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-75823-2_7",
+      "dataset_relationship": "predecessor_REHAB24-6_not_REHAB26",
+      "evidence": "official_publisher_abstract_and_metadata_plus_P1_method_reference",
+      "method_claims_supported": ["MediaPipe 2D and 3D", "patient-specific spatiotemporal features", "automatic patient-specific feature weighting", "small calibration data"],
+      "limitations": "Full text unavailable; weighting formulas, split protocol and numerical comparison not independently verified."
+    },
+    {
+      "id": "P3",
+      "title": "Pose estimation analysis and fine-tuning on the REHAB24-6 rehabilitation dataset",
+      "authors": ["Andrej Černek", "Jan Sedmidubsky", "Petra Budikova"],
+      "year": 2025,
+      "venue": "Information Systems 134, 102579",
+      "doi": "10.1016/j.is.2025.102579",
+      "url": "https://doi.org/10.1016/j.is.2025.102579",
+      "dataset_relationship": "predecessor_REHAB24-6_not_REHAB26",
+      "evidence": "user_provided_publisher_full_text_pdf_and_rendered_results_pages_9_10",
+      "local_pdf": "sources/rehab24_pose_finetuning_2025.pdf",
+      "full_text_review": "rehab24_pose_finetuning_fulltext_zh.md",
+      "method_claims_supported": ["HRNet fine-tuning with projected 2D ground truth", "MHFormer fine-tuning with mocap 3D ground truth", "fixed two-subject holdout and separate camera/exercise holdouts", "12-joint common evaluation subset", "8D cosine-angle features with DTW and within-person binary 1-NN", "cross-camera degradation after 2D fine-tuning"],
+      "comparable_to_our_loso_multilabel_f1": false,
+      "evidence_locations": {
+        "data_and_exercises": "Section 3, PDF p3-4",
+        "correctness_protocol": "Section 4.1.2, PDF p6",
+        "skeleton_format_and_alignment": "Section 4.2, PDF p6-7",
+        "fine_tuning_splits": "Section 5.1, PDF p8",
+        "2D_fine_tuning": "Tables 7-8 and Section 6.5, PDF p9",
+        "3D_fine_tuning": "Table 9 and Section 6.6, PDF p9-10",
+        "binary_classification": "Tables 10-11 and Section 6.7, PDF p10"
+      },
+      "limitations": "Predecessor dataset without shoulder extension. Main text does not fully disclose loss/optimizer, learning rate, schedule, epochs, batch size or validation recipe; no full reproducibility code verified. Binary within-person accuracy is not cross-person five-error F1."
+    },
+    {
+      "id": "P4",
+      "title": "Real-Time Monitoring and Analysis of Rehabilitation Exercises from a Smartphone Camera Video Stream",
+      "year": 2026,
+      "venue": "ICMR 2026, pp2842-2846",
+      "doi": "10.1145/3805622.3810429",
+      "url": "https://doi.org/10.1145/3805622.3810429",
+      "dataset_relationship": "same_group_system_lineage_exact_REHAB26_usage_unconfirmed",
+      "evidence": "openalex_indexed_abstract_and_metadata_plus_P1_reference",
+      "method_claims_supported": ["therapist-guided sessions", "pose estimation and repetition segmentation", "personalized reference template", "home feedback"],
+      "limitations": "ACM full text inaccessible; no same-dataset classification benchmark verified; duplicate P1 bibliography entries counted once."
+    }
+  ],
+  "excluded_candidate": {
+    "title": "Comprehensive Evaluation of Monocular and Multi-view 3D Human Pose Estimation Models for Fitness Exercise Analysis",
+    "arxiv": "2611.02929",
+    "reason": "Official HTML full text states all experiments use Fit3D, not REHAB26."
+  },
+  "independent_followup_same_dataset": {
+    "status": "not_verified_in_completed_search",
+    "not_an_exhaustive_absence_claim": true
+  }
+}

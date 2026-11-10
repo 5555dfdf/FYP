@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-11-09T09:43:51.292405+00:00",
+  "executable": "D:\\conda\\envs\\fyp\\python.exe",
+  "python": "3.13.16 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:20:25) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.1",
+  "cuda_runtime": "12.8",
+  "cudnn": 91900,
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "gpu_bytes": 6438780928,
+  "conda_env": "fyp",
+  "deterministic": true,
+  "tf32": false,
+  "amp": false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "standalone_svg_count": 14,
+  "checks": [
+    "all SVG XML parsed",
+    "native SMIL animations present",
+    "no scripts in standalone SVGs",
+    "animated coordinates change at browser SVG times 1s and 2.5s"
+  ],
+  "browser_verified": [
+    "shoulder_extension_comparison.svg",
+    "shoulder_abduction_comparison.svg"
+  ],
+  "gif_previews": 2
+}

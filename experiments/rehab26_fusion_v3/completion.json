@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "at_utc": "2026-11-10T03:07:17.343690+00:00",
+  "formal_fits": 984,
+  "main_fits": 904,
+  "control_fits": 80,
+  "screen_fits": 640,
+  "combination_fits": 24,
+  "extra_seed_fits": 240,
+  "main_outer_prediction_sets": 110,
+  "control_outer_prediction_sets": 20,
+  "checkpoint_reload_max_difference": 4.440892098500626e-16,
+  "raw_ensemble_replay_max_difference": 1.1920928955078125e-07,
+  "source_identity_sha256": "8d14c9237a8d05620cd93143e24bc53fef674fc918d78607656d8e6707715083",
+  "artifacts_sha256": {
+    "results_summary.json": "04c3fecb3c6fa1f6252bfc650bb522f8f1c75594da96ce303c3f67aa8d2bbfdd",
+    "RESULTS_zh.md": "93b0dbd0884c567fcde25c741963d1241db03fd70df40a355f605811751f3593",
+    "FINDINGS_zh.md": "a82c81a3c2a347a8fa369e45602edf937fc3b4f82297d5a6b42a4ddb48371ad7",
+    "model_verification.json": "bbd094fca45c39d7abb8f932d0bfd94bdb73b30713a93810e0b381a6269178e6",
+    "fusion_verification.json": "7ea361567909f971f2d4b32039947c1e9dfecddd4c990136e59aebf2e3a7c96f",
+    "test_release_gate.json": "bfe177193bfa5f015e1dab6b7fd3b124f51407beb8bc4211c2f08d0bd6c79596"
+  }
+}

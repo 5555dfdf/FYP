@@ -1,0 +1,1276 @@
+{
+  "frozen_at_utc": "2026-11-09T11:05:10.212054+00:00",
+  "selection": {
+    "1": {
+      "Honza": {
+        "transformer": "iter_ex1_Honza_combined",
+        "tcn": "tcn_angles",
+        "ranking": [
+          {
+            "name": "iter_ex1_Honza_combined",
+            "family": "transformer",
+            "validation_macro_ap": 0.5476901438280555,
+            "validation_macro_f1": 0.5506164987347609,
+            "validation_false_alert_rate": 0.32359971899445583
+          },
+          {
+            "name": "tcn_angles",
+            "family": "tcn",
+            "validation_macro_ap": 0.5444291717004823,
+            "validation_macro_f1": 0.5394691562980425,
+            "validation_false_alert_rate": 0.4190400243031822
+          },
+          {
+            "name": "tr_visibility",
+            "family": "transformer",
+            "validation_macro_ap": 0.5367868816203957,
+            "validation_macro_f1": 0.5380733770103302,
+            "validation_false_alert_rate": 0.26155587833219407
+          },
+          {
+            "name": "tr_lr1e3",
+            "family": "transformer",
+            "validation_macro_ap": 0.5315976336644938,
+            "validation_macro_f1": 0.5198748542806471,
+            "validation_false_alert_rate": 0.3595475431001746
+          },
+          {
+            "name": "tr_nodrop",
+            "family": "transformer",
+            "validation_macro_ap": 0.523084899722955,
+            "validation_macro_f1": 0.5201428227122884,
+            "validation_false_alert_rate": 0.3254670767828663
+          },
+          {
+            "name": "angle_rf",
+            "family": "rf",
+            "validation_macro_ap": 0.5193505498871263,
+            "validation_macro_f1": 0.5131921354456094,
+            "validation_false_alert_rate": 0.4503118591934382
+          },
+          {
+            "name": "iter_ex1_Honza_training",
+            "family": "transformer",
+            "validation_macro_ap": 0.5154696628296123,
+            "validation_macro_f1": 0.5024279423336441,
+            "validation_false_alert_rate": 0.24770258980785298
+          },
+          {
+            "name": "tr_ref",
+            "family": "transformer",
+            "validation_macro_ap": 0.5078832535936861,
+            "validation_macro_f1": 0.5170725181000848,
+            "validation_false_alert_rate": 0.44184134578871426
+          },
+          {
+            "name": "tr_nodecay",
+            "family": "transformer",
+            "validation_macro_ap": 0.507178288288022,
+            "validation_macro_f1": 0.5170019342214902,
+            "validation_false_alert_rate": 0.431527208171945
+          },
+          {
+            "name": "tr_postnorm",
+            "family": "transformer",
+            "validation_macro_ap": 0.5058906338011832,
+            "validation_macro_f1": 0.5085532862867126,
+            "validation_false_alert_rate": 0.41687742082478924
+          },
+          {
+            "name": "tr_relu",
+            "family": "transformer",
+            "validation_macro_ap": 0.5027690041913687,
+            "validation_macro_f1": 0.5158119655552937,
+            "validation_false_alert_rate": 0.3721329839750892
+          },
+          {
+            "name": "tr_sqrt",
+            "family": "transformer",
+            "validation_macro_ap": 0.5010515651233161,
+            "validation_macro_f1": 0.49953506063765274,
+            "validation_false_alert_rate": 0.4400076896787423
+          },
+          {
+            "name": "tr_raw",
+            "family": "transformer",
+            "validation_macro_ap": 0.48250012811027226,
+            "validation_macro_f1": 0.48335545643469485,
+            "validation_false_alert_rate": 0.4249093377382851
+          },
+          {
+            "name": "tr_xyz",
+            "family": "transformer",
+            "validation_macro_ap": 0.47493641739227077,
+            "validation_macro_f1": 0.4877293011461644,
+            "validation_false_alert_rate": 0.5671451355661882
+          },
+          {
+            "name": "tr_small",
+            "family": "transformer",
+            "validation_macro_ap": 0.4678032491629406,
+            "validation_macro_f1": 0.4858211833413933,
+            "validation_false_alert_rate": 0.40851086048454466
+          },
+          {
+            "name": "angle_lr",
+            "family": "lr",
+            "validation_macro_ap": 0.4562758414924374,
+            "validation_macro_f1": 0.47551414476706494,
+            "validation_false_alert_rate": 0.5024516784385206
+          },
+          {
+            "name": "tcn_xyz",
+            "family": "tcn",
+            "validation_macro_ap": 0.42242090404792015,
+            "validation_macro_f1": 0.4562025408025128,
+            "validation_false_alert_rate": 0.5586921850079745
+          },
+          {
+            "name": "tr_noz",
+            "family": "transformer",
+            "validation_macro_ap": 0.39876463586983607,
+            "validation_macro_f1": 0.41442928993123307,
+            "validation_false_alert_rate": 0.6629058441558442
+          }
+        ]
+      },
+      "Mima": {
+        "transformer": "tr_nodrop",
+        "tcn": "tcn_angles",
+        "ranking": [
+          {
+            "name": "tr_nodrop",
+            "family": "transformer",
+            "validation_macro_ap": 0.6022962063778982,
+            "validation_macro_f1": 0.6005252236545283,
+            "validation_false_alert_rate": 0.24149388623072834
+          },
+          {
+            "name": "tr_sqrt",
+            "family": "transformer",
+            "validation_macro_ap": 0.5905090858879417,
+            "validation_macro_f1": 0.5847460206461597,
+            "validation_false_alert_rate": 0.2295055821371611
+          },
+          {
+            "name": "tr_ref",
+            "family": "transformer",
+            "validation_macro_ap": 0.5894784091368798,
+            "validation_macro_f1": 0.5842369673941619,
+            "validation_false_alert_rate": 0.19441786283891546
+          },
+          {
+            "name": "tr_nodecay",
+            "family": "transformer",
+            "validation_macro_ap": 0.5892549199235481,
+            "validation_macro_f1": 0.5830236582253153,
+            "validation_false_alert_rate": 0.2019404572036151
+          },
+          {
+            "name": "tr_lr1e3",
+            "family": "transformer",
+            "validation_macro_ap": 0.5879443980719705,
+            "validation_macro_f1": 0.5946088185083427,
+            "validation_false_alert_rate": 0.2242690058479532
+          },
+          {
+            "name": "tr_postnorm",
+            "family": "transformer",
+            "validation_macro_ap": 0.5868087838678262,
+            "validation_macro_f1": 0.5790997165409533,
+            "validation_false_alert_rate": 0.19024455077086655
+          },
+          {
+            "name": "tr_relu",
+            "family": "transformer",
+            "validation_macro_ap": 0.5812340350822475,
+            "validation_macro_f1": 0.5752303373222524,
+            "validation_false_alert_rate": 0.254093567251462
+          },
+          {
+            "name": "tr_raw",
+            "family": "transformer",
+            "validation_macro_ap": 0.5736025312624526,
+            "validation_macro_f1": 0.5669965589059704,
+            "validation_false_alert_rate": 0.3718234981392876
+          },
+          {
+            "name": "angle_rf",
+            "family": "rf",
+            "validation_macro_ap": 0.5691219793949709,
+            "validation_macro_f1": 0.5535545183942061,
+            "validation_false_alert_rate": 0.5518872939925572
+          },
+          {
+            "name": "tr_visibility",
+            "family": "transformer",
+            "validation_macro_ap": 0.558697169601372,
+            "validation_macro_f1": 0.5532311496955695,
+            "validation_false_alert_rate": 0.275465178096757
+          },
+          {
+            "name": "tcn_angles",
+            "family": "tcn",
+            "validation_macro_ap": 0.5575333118761333,
+            "validation_macro_f1": 0.5542395602181567,
+            "validation_false_alert_rate": 0.31719829877724615
+          },
+          {
+            "name": "tr_small",
+            "family": "transformer",
+            "validation_macro_ap": 0.5519315331892847,
+            "validation_macro_f1": 0.5485808795053376,
+            "validation_false_alert_rate": 0.3281499202551834
+          },
+          {
+            "name": "angle_lr",
+            "family": "lr",
+            "validation_macro_ap": 0.5355574101874494,
+            "validation_macro_f1": 0.5452567655320004,
+            "validation_false_alert_rate": 0.406087187666135
+          },
+          {
+            "name": "tr_xyz",
+            "family": "transformer",
+            "validation_macro_ap": 0.5261586226097652,
+            "validation_macro_f1": 0.509654813552012,
+            "validation_false_alert_rate": 0.337772461456672
+          },
+          {
+            "name": "tr_noz",
+            "family": "transformer",
+            "validation_macro_ap": 0.4918329795097562,
+            "validation_macro_f1": 0.5041364742747798,
+            "validation_false_alert_rate": 0.47838915470494414
+          },
+          {
+            "name": "tcn_xyz",
+            "family": "tcn",
+            "validation_macro_ap": 0.4880889043903776,
+            "validation_macro_f1": 0.49551199071003804,
+            "validation_false_alert_rate": 0.27721956406166937
+          }
+        ]
+      },
+      "Petra": {
+        "transformer": "tr_visibility",
+        "tcn": "tcn_angles",
+        "ranking": [
+          {
+            "name": "tr_visibility",
+            "family": "transformer",
+            "validation_macro_ap": 0.5442052177131171,
+            "validation_macro_f1": 0.5480144541161137,
+            "validation_false_alert_rate": 0.2782016594516594
+          },
+          {
+            "name": "tr_lr1e3",
+            "family": "transformer",
+            "validation_macro_ap": 0.5429935820606849,
+            "validation_macro_f1": 0.5273479855826876,
+            "validation_false_alert_rate": 0.35882746639325586
+          },
+          {
+            "name": "tr_nodecay",
+            "family": "transformer",
+            "validation_macro_ap": 0.54252682703984,
+            "validation_macro_f1": 0.5500759493708132,
+            "validation_false_alert_rate": 0.34801539834434575
+          },
+          {
+            "name": "angle_lr",
+            "family": "lr",
+            "validation_macro_ap": 0.5419998546020734,
+            "validation_macro_f1": 0.5508612712569713,
+            "validation_false_alert_rate": 0.39572178552441706
+          },
+          {
+            "name": "tr_ref",
+            "family": "transformer",
+            "validation_macro_ap": 0.5411023052422334,
+            "validation_macro_f1": 0.5480933219582587,
+            "validation_false_alert_rate": 0.33780758714969245
+          },
+          {
+            "name": "tr_raw",
+            "family": "transformer",
+            "validation_macro_ap": 0.5408727893706764,
+            "validation_macro_f1": 0.5367926446736616,
+            "validation_false_alert_rate": 0.46471386800334163
+          },
+          {
+            "name": "angle_rf",
+            "family": "rf",
+            "validation_macro_ap": 0.5398628959783471,
+            "validation_macro_f1": 0.54174394573513,
+            "validation_false_alert_rate": 0.4963132262474368
+          },
+          {
+            "name": "tr_nodrop",
+            "family": "transformer",
+            "validation_macro_ap": 0.536825451057004,
+            "validation_macro_f1": 0.5413403415076531,
+            "validation_false_alert_rate": 0.2689118629908104
+          },
+          {
+            "name": "tr_sqrt",
+            "family": "transformer",
+            "validation_macro_ap": 0.5336617709083964,
+            "validation_macro_f1": 0.542258692777902,
+            "validation_false_alert_rate": 0.3793736234525708
+          },
+          {
+            "name": "tcn_angles",
+            "family": "tcn",
+            "validation_macro_ap": 0.5315223203623888,
+            "validation_macro_f1": 0.5323207231800455,
+            "validation_false_alert_rate": 0.4355049555707451
+          },
+          {
+            "name": "tr_relu",
+            "family": "transformer",
+            "validation_macro_ap": 0.5271854214857226,
+            "validation_macro_f1": 0.523107778158501,
+            "validation_false_alert_rate": 0.43416258449153183
+          },
+          {
+            "name": "tr_postnorm",
+            "family": "transformer",
+            "validation_macro_ap": 0.5269889842146784,
+            "validation_macro_f1": 0.538657362035911,
+            "validation_false_alert_rate": 0.3752216716032506
+          },
+          {
+            "name": "tr_small",
+            "family": "transformer",
+            "validation_macro_ap": 0.49506601579120046,
+            "validation_macro_f1": 0.5081707282613802,
+            "validation_false_alert_rate": 0.49971851978430926
+          },
+          {
+            "name": "tr_xyz",
+            "family": "transformer",
+            "validation_macro_ap": 0.4602521574866772,
+            "validation_macro_f1": 0.46310719932644606,
+            "validation_false_alert_rate": 0.4226185729475203
+          },
+          {
+            "name": "tcn_xyz",
+            "family": "tcn",
+            "validation_macro_ap": 0.4194699947325841,
+            "validation_macro_f1": 0.4474005387634082,
+            "validation_false_alert_rate": 0.7808099794941901
+          },
+          {
+            "name": "tr_noz",
+            "family": "transformer",
+            "validation_macro_ap": 0.38437025093150995,
+            "validation_macro_f1": 0.4193266555019542,
+            "validation_false_alert_rate": 0.5736471861471861
+          }
+        ]
+      },
+      "Terka": {
+        "transformer": "tr_nodrop",
+        "tcn": "tcn_angles",
+        "ranking": [
+          {
+            "name": "tr_nodrop",
+            "family": "transformer",
+            "validation_macro_ap": 0.5530681103071279,
+            "validation_macro_f1": 0.5486898890478588,
+            "validation_false_alert_rate": 0.33445355813776867
+          },
+          {
+            "name": "tr_visibility",
+            "family": "transformer",
+            "validation_macro_ap": 0.5352842868721208,
+            "validation_macro_f1": 0.5383382887138672,
+            "validation_false_alert_rate": 0.2921456102377155
+          },
+          {
+            "name": "angle_rf",
+            "family": "rf",
+            "validation_macro_ap": 0.5270883820280806,
+            "validation_macro_f1": 0.5310895095283485,
+            "validation_false_alert_rate": 0.586013803448014
+          },
+          {
+            "name": "tr_raw",
+            "family": "transformer",
+            "validation_macro_ap": 0.525889027862346,
+            "validation_macro_f1": 0.5192598265064217,
+            "validation_false_alert_rate": 0.4940314802156907
+          },
+          {
+            "name": "tr_xyz",
+            "family": "transformer",
+            "validation_macro_ap": 0.5244040070609299,
+            "validation_macro_f1": 0.5344244286325649,
+            "validation_false_alert_rate": 0.380307302346776
+          },
+          {
+            "name": "tr_ref",
+            "family": "transformer",
+            "validation_macro_ap": 0.5223368285608979,
+            "validation_macro_f1": 0.5321591128098158,
+            "validation_false_alert_rate": 0.500369769119769
+          },
+          {
+            "name": "tr_nodecay",
+            "family": "transformer",
+            "validation_macro_ap": 0.5222632181577809,
+            "validation_macro_f1": 0.5358062362139803,
+            "validation_false_alert_rate": 0.45821134275081643
+          },
+          {
+            "name": "tr_postnorm",
+            "family": "transformer",
+            "validation_macro_ap": 0.5185405690991455,
+            "validation_macro_f1": 0.5303480589291978,
+            "validation_false_alert_rate": 0.4771868117262854
+          },
+          {
+            "name": "tr_relu",
+            "family": "transformer",
+            "validation_macro_ap": 0.5173217644964965,
+            "validation_macro_f1": 0.533371343278238,
+            "validation_false_alert_rate": 0.4310838649654439
+          },
+          {
+            "name": "tcn_angles",
+            "family": "tcn",
+            "validation_macro_ap": 0.5165022696020571,
+            "validation_macro_f1": 0.5326592009198504,
+            "validation_false_alert_rate": 0.25175201260727575
+          },
+          {
+            "name": "tr_lr1e3",
+            "family": "transformer",
+            "validation_macro_ap": 0.5149504474738278,
+            "validation_macro_f1": 0.5272792027629738,
+            "validation_false_alert_rate": 0.44146493126756287
+          },
+          {
+            "name": "tr_sqrt",
+            "family": "transformer",
+            "validation_macro_ap": 0.5121338592842768,
+            "validation_macro_f1": 0.522958130540432,
+            "validation_false_alert_rate": 0.40439783170046323
+          },
+          {
+            "name": "angle_lr",
+            "family": "lr",
+            "validation_macro_ap": 0.5072825610479428,
+            "validation_macro_f1": 0.5136997809359622,
+            "validation_false_alert_rate": 0.45513214855320117
+          },
+          {
+            "name": "tr_small",
+            "family": "transformer",
+            "validation_macro_ap": 0.4791284235222585,
+            "validation_macro_f1": 0.4950495689225478,
+            "validation_false_alert_rate": 0.4698360484544695
+          },
+          {
+            "name": "tr_noz",
+            "family": "transformer",
+            "validation_macro_ap": 0.47028002519915774,
+            "validation_macro_f1": 0.4846155107060897,
+            "validation_false_alert_rate": 0.6313254727728412
+          },
+          {
+            "name": "tcn_xyz",
+            "family": "tcn",
+            "validation_macro_ap": 0.45143838398090746,
+            "validation_macro_f1": 0.477509640474036,
+            "validation_false_alert_rate": 0.6263518645097592
+          }
+        ]
+      },
+      "Vasil": {
+        "transformer": "tr_nodrop",
+        "tcn": "tcn_angles",
+        "ranking": [
+          {
+            "name": "tr_nodrop",
+            "family": "transformer",
+            "validation_macro_ap": 0.6337475822833901,
+            "validation_macro_f1": 0.6053188662839467,
+            "validation_false_alert_rate": 0.28741883116883116
+          },
+          {
+            "name": "tr_lr1e3",
+            "family": "transformer",
+            "validation_macro_ap": 0.6299073108880978,
+            "validation_macro_f1": 0.6208941205346588,
+            "validation_false_alert_rate": 0.3158820346320346
+          },
+          {
+            "name": "tr_visibility",
+            "family": "transformer",
+            "validation_macro_ap": 0.6216202407567557,
+            "validation_macro_f1": 0.6296335620924902,
+            "validation_false_alert_rate": 0.38135822510822515
+          },
+          {
+            "name": "tr_ref",
+            "family": "transformer",
+            "validation_macro_ap": 0.6213578936964448,
+            "validation_macro_f1": 0.6136386738532591,
+            "validation_false_alert_rate": 0.3638528138528138
+          },
+          {
+            "name": "tr_nodecay",
+            "family": "transformer",
+            "validation_macro_ap": 0.6210762834924863,
+            "validation_macro_f1": 0.6157137750955894,
+            "validation_false_alert_rate": 0.37142857142857144
+          },
+          {
+            "name": "angle_rf",
+            "family": "rf",
+            "validation_macro_ap": 0.6171909396369135,
+            "validation_macro_f1": 0.607587943380757,
+            "validation_false_alert_rate": 0.5129870129870129
+          },
+          {
+            "name": "tr_sqrt",
+            "family": "transformer",
+            "validation_macro_ap": 0.6158604586720169,
+            "validation_macro_f1": 0.6102757352896974,
+            "validation_false_alert_rate": 0.3667478354978355
+          },
+          {
+            "name": "tr_postnorm",
+            "family": "transformer",
+            "validation_macro_ap": 0.6126589436930574,
+            "validation_macro_f1": 0.607390955983741,
+            "validation_false_alert_rate": 0.3579545454545454
+          },
+          {
+            "name": "tcn_angles",
+            "family": "tcn",
+            "validation_macro_ap": 0.6038023737242738,
+            "validation_macro_f1": 0.5941528925334154,
+            "validation_false_alert_rate": 0.44713203463203466
+          },
+          {
+            "name": "tr_relu",
+            "family": "transformer",
+            "validation_macro_ap": 0.6019549194846548,
+            "validation_macro_f1": 0.6079614161605438,
+            "validation_false_alert_rate": 0.410741341991342
+          },
+          {
+            "name": "tr_raw",
+            "family": "transformer",
+            "validation_macro_ap": 0.5929440920391127,
+            "validation_macro_f1": 0.5851878504167198,
+            "validation_false_alert_rate": 0.4590909090909091
+          },
+          {
+            "name": "tr_small",
+            "family": "transformer",
+            "validation_macro_ap": 0.5797867342655778,
+            "validation_macro_f1": 0.5667327798760882,
+            "validation_false_alert_rate": 0.4112554112554112
+          },
+          {
+            "name": "tr_xyz",
+            "family": "transformer",
+            "validation_macro_ap": 0.5772164656474789,
+            "validation_macro_f1": 0.572708145036451,
+            "validation_false_alert_rate": 0.4067099567099567
+          },
+          {
+            "name": "angle_lr",
+            "family": "lr",
+            "validation_macro_ap": 0.5449100249210014,
+            "validation_macro_f1": 0.5496110447103697,
+            "validation_false_alert_rate": 0.3458603896103896
+          },
+          {
+            "name": "tr_noz",
+            "family": "transformer",
+            "validation_macro_ap": 0.5433740766401337,
+            "validation_macro_f1": 0.5499189459929088,
+            "validation_false_alert_rate": 0.2277867965367965
+          },
+          {
+            "name": "tcn_xyz",
+            "family": "tcn",
+            "validation_macro_ap": 0.5143464152253101,
+            "validation_macro_f1": 0.5074440636014527,
+            "validation_false_alert_rate": 0.3818722943722944
+          }
+        ]
+      }
+    },
+    "7": {
+      "Honza": {
+        "transformer": "iter_ex7_Honza_combined",
+        "tcn": "tcn_angles",
+        "ranking": [
+          {
+            "name": "iter_ex7_Honza_combined",
+            "family": "transformer",
+            "validation_macro_ap": 0.7196964535026518,
+            "validation_macro_f1": 0.6797621422171087,
+            "validation_false_alert_rate": 0.14505582137161083
+          },
+          {
+            "name": "tr_nodrop",
+            "family": "transformer",
+            "validation_macro_ap": 0.692040274203439,
+            "validation_macro_f1": 0.6426803103570464,
+            "validation_false_alert_rate": 0.14558745348219032
+          },
+          {
+            "name": "tr_visibility",
+            "family": "transformer",
+            "validation_macro_ap": 0.6870586885961119,
+            "validation_macro_f1": 0.6558935875364976,
+            "validation_false_alert_rate": 0.14332801701222753
+          },
+          {
+            "name": "tr_ref",
+            "family": "transformer",
+            "validation_macro_ap": 0.6694630110965257,
+            "validation_macro_f1": 0.6637779514108064,
+            "validation_false_alert_rate": 0.08801169590643275
+          },
+          {
+            "name": "tr_nodecay",
+            "family": "transformer",
+            "validation_macro_ap": 0.6692645277192892,
+            "validation_macro_f1": 0.6634769757088501,
+            "validation_false_alert_rate": 0.0880648591174907
+          },
+          {
+            "name": "tr_postnorm",
+            "family": "transformer",
+            "validation_macro_ap": 0.6684633124235461,
+            "validation_macro_f1": 0.6534042940652891,
+            "validation_false_alert_rate": 0.10358851674641148
+          },
+          {
+            "name": "tr_lr1e3",
+            "family": "transformer",
+            "validation_macro_ap": 0.6684535182777932,
+            "validation_macro_f1": 0.6461129007519519,
+            "validation_false_alert_rate": 0.11695906432748537
+          },
+          {
+            "name": "tr_relu",
+            "family": "transformer",
+            "validation_macro_ap": 0.662567563421768,
+            "validation_macro_f1": 0.6471299989129352,
+            "validation_false_alert_rate": 0.2066454013822435
+          },
+          {
+            "name": "tr_sqrt",
+            "family": "transformer",
+            "validation_macro_ap": 0.6604708774548866,
+            "validation_macro_f1": 0.6463916834549969,
+            "validation_false_alert_rate": 0.18237639553429025
+          },
+          {
+            "name": "tr_xyz",
+            "family": "transformer",
+            "validation_macro_ap": 0.6484765368981035,
+            "validation_macro_f1": 0.6546564186116205,
+            "validation_false_alert_rate": 0.1955077086656034
+          },
+          {
+            "name": "tr_raw",
+            "family": "transformer",
+            "validation_macro_ap": 0.6456911306473425,
+            "validation_macro_f1": 0.6362401808891834,
+            "validation_false_alert_rate": 0.2563264221158958
+          },
+          {
+            "name": "tcn_angles",
+            "family": "tcn",
+            "validation_macro_ap": 0.6302889528168127,
+            "validation_macro_f1": 0.6211158467921495,
+            "validation_false_alert_rate": 0.20677830940988834
+          },
+          {
+            "name": "angle_rf",
+            "family": "rf",
+            "validation_macro_ap": 0.5996969093536577,
+            "validation_macro_f1": 0.5784985623226828,
+            "validation_false_alert_rate": 0.2939925571504519
+          },
+          {
+            "name": "tcn_xyz",
+            "family": "tcn",
+            "validation_macro_ap": 0.5981320510716884,
+            "validation_macro_f1": 0.5903697258784618,
+            "validation_false_alert_rate": 0.2032695374800638
+          },
+          {
+            "name": "tr_noz",
+            "family": "transformer",
+            "validation_macro_ap": 0.5919421803800032,
+            "validation_macro_f1": 0.5999278094619809,
+            "validation_false_alert_rate": 0.20709728867623606
+          },
+          {
+            "name": "tr_small",
+            "family": "transformer",
+            "validation_macro_ap": 0.5702985274479748,
+            "validation_macro_f1": 0.5824861471759737,
+            "validation_false_alert_rate": 0.24332801701222756
+          },
+          {
+            "name": "angle_lr",
+            "family": "lr",
+            "validation_macro_ap": 0.4786372912635441,
+            "validation_macro_f1": 0.49977817885749687,
+            "validation_false_alert_rate": 0.42012227538543323
+          }
+        ]
+      },
+      "Mima": {
+        "transformer": "tr_nodrop",
+        "tcn": "tcn_angles",
+        "ranking": [
+          {
+            "name": "tr_nodrop",
+            "family": "transformer",
+            "validation_macro_ap": 0.7071276453634951,
+            "validation_macro_f1": 0.6851608426860847,
+            "validation_false_alert_rate": 0.13016015417331206
+          },
+          {
+            "name": "iter_ex7_Mima_combined",
+            "family": "transformer",
+            "validation_macro_ap": 0.7037272933805401,
+            "validation_macro_f1": 0.6738773388933778,
+            "validation_false_alert_rate": 0.10350355054302422
+          },
+          {
+            "name": "tr_postnorm",
+            "family": "transformer",
+            "validation_macro_ap": 0.6989333064755661,
+            "validation_macro_f1": 0.6731301626362061,
+            "validation_false_alert_rate": 0.14808137768664084
+          },
+          {
+            "name": "tr_visibility",
+            "family": "transformer",
+            "validation_macro_ap": 0.6988193790711112,
+            "validation_macro_f1": 0.6679602620120522,
+            "validation_false_alert_rate": 0.138217228677755
+          },
+          {
+            "name": "tr_lr1e3",
+            "family": "transformer",
+            "validation_macro_ap": 0.6847055060902187,
+            "validation_macro_f1": 0.6580231203855471,
+            "validation_false_alert_rate": 0.2522803220171641
+          },
+          {
+            "name": "tr_ref",
+            "family": "transformer",
+            "validation_macro_ap": 0.6805943636150467,
+            "validation_macro_f1": 0.6624271862165496,
+            "validation_false_alert_rate": 0.13002961950330372
+          },
+          {
+            "name": "tr_sqrt",
+            "family": "transformer",
+            "validation_macro_ap": 0.6799995899929658,
+            "validation_macro_f1": 0.6604867323277437,
+            "validation_false_alert_rate": 0.18170378598010176
+          },
+          {
+            "name": "tr_nodecay",
+            "family": "transformer",
+            "validation_macro_ap": 0.6799896218115852,
+            "validation_macro_f1": 0.663153618958216,
+            "validation_false_alert_rate": 0.13008278271436166
+          },
+          {
+            "name": "tr_relu",
+            "family": "transformer",
+            "validation_macro_ap": 0.6747659361421591,
+            "validation_macro_f1": 0.6664907318356762,
+            "validation_false_alert_rate": 0.17745310245310245
+          },
+          {
+            "name": "iter_ex7_Mima_structure",
+            "family": "transformer",
+            "validation_macro_ap": 0.6613670869457249,
+            "validation_macro_f1": 0.6345459485121892,
+            "validation_false_alert_rate": 0.23024179767600822
+          },
+          {
+            "name": "tr_xyz",
+            "family": "transformer",
+            "validation_macro_ap": 0.655629234692026,
+            "validation_macro_f1": 0.6511735860209866,
+            "validation_false_alert_rate": 0.30676739196476044
+          },
+          {
+            "name": "tr_raw",
+            "family": "transformer",
+            "validation_macro_ap": 0.6404080801097871,
+            "validation_macro_f1": 0.6216395263396219,
+            "validation_false_alert_rate": 0.30812305384673805
+          },
+          {
+            "name": "tcn_angles",
+            "family": "tcn",
+            "validation_macro_ap": 0.6365613373744575,
+            "validation_macro_f1": 0.6260309353421563,
+            "validation_false_alert_rate": 0.3253745158350421
+          },
+          {
+            "name": "tr_noz",
+            "family": "transformer",
+            "validation_macro_ap": 0.6175563424593413,
+            "validation_macro_f1": 0.6116332678544361,
+            "validation_false_alert_rate": 0.22341127439811648
+          },
+          {
+            "name": "tcn_xyz",
+            "family": "tcn",
+            "validation_macro_ap": 0.6129399963728875,
+            "validation_macro_f1": 0.6110199445753177,
+            "validation_false_alert_rate": 0.27168299536720586
+          },
+          {
+            "name": "tr_small",
+            "family": "transformer",
+            "validation_macro_ap": 0.5800539863859717,
+            "validation_macro_f1": 0.5648872199878092,
+            "validation_false_alert_rate": 0.31569643806485914
+          },
+          {
+            "name": "angle_rf",
+            "family": "rf",
+            "validation_macro_ap": 0.576632943853099,
+            "validation_macro_f1": 0.5728601800709481,
+            "validation_false_alert_rate": 0.3559333940912888
+          },
+          {
+            "name": "angle_lr",
+            "family": "lr",
+            "validation_macro_ap": 0.4862570708786459,
+            "validation_macro_f1": 0.49466893040835513,
+            "validation_false_alert_rate": 0.3696542492595124
+          }
+        ]
+      },
+      "Petra": {
+        "transformer": "iter_ex7_Petra_training",
+        "tcn": "tcn_xyz",
+        "ranking": [
+          {
+            "name": "iter_ex7_Petra_training",
+            "family": "transformer",
+            "validation_macro_ap": 0.6991221834487131,
+            "validation_macro_f1": 0.6692605845538574,
+            "validation_false_alert_rate": 0.10425210754158122
+          },
+          {
+            "name": "iter_ex7_Petra_combined",
+            "family": "transformer",
+            "validation_macro_ap": 0.6974683616949731,
+            "validation_macro_f1": 0.6608211013318943,
+            "validation_false_alert_rate": 0.12846083010556694
+          },
+          {
+            "name": "tr_nodrop",
+            "family": "transformer",
+            "validation_macro_ap": 0.6904478752368306,
+            "validation_macro_f1": 0.6645247650135561,
+            "validation_false_alert_rate": 0.1377449305080884
+          },
+          {
+            "name": "tr_lr1e3",
+            "family": "transformer",
+            "validation_macro_ap": 0.6868423620634664,
+            "validation_macro_f1": 0.6567595863506754,
+            "validation_false_alert_rate": 0.22386126300599984
+          },
+          {
+            "name": "tr_xyz",
+            "family": "transformer",
+            "validation_macro_ap": 0.6752230272115212,
+            "validation_macro_f1": 0.6604284338254731,
+            "validation_false_alert_rate": 0.1884797220323536
+          },
+          {
+            "name": "tr_visibility",
+            "family": "transformer",
+            "validation_macro_ap": 0.6750649754061564,
+            "validation_macro_f1": 0.6537273096680041,
+            "validation_false_alert_rate": 0.13159366218576746
+          },
+          {
+            "name": "tr_postnorm",
+            "family": "transformer",
+            "validation_macro_ap": 0.6730233821480771,
+            "validation_macro_f1": 0.6520111202857533,
+            "validation_false_alert_rate": 0.20500825928457506
+          },
+          {
+            "name": "tr_relu",
+            "family": "transformer",
+            "validation_macro_ap": 0.6692361516186927,
+            "validation_macro_f1": 0.6511460383049403,
+            "validation_false_alert_rate": 0.22958010556694763
+          },
+          {
+            "name": "tr_sqrt",
+            "family": "transformer",
+            "validation_macro_ap": 0.6628594040642075,
+            "validation_macro_f1": 0.6618807653964436,
+            "validation_false_alert_rate": 0.3045089048378522
+          },
+          {
+            "name": "tr_nodecay",
+            "family": "transformer",
+            "validation_macro_ap": 0.6608947498563259,
+            "validation_macro_f1": 0.6526304609602221,
+            "validation_false_alert_rate": 0.26128816359079515
+          },
+          {
+            "name": "tr_ref",
+            "family": "transformer",
+            "validation_macro_ap": 0.6598988948412384,
+            "validation_macro_f1": 0.6520160234975456,
+            "validation_false_alert_rate": 0.26123500037973724
+          },
+          {
+            "name": "tr_raw",
+            "family": "transformer",
+            "validation_macro_ap": 0.6545506520540249,
+            "validation_macro_f1": 0.644004413205534,
+            "validation_false_alert_rate": 0.3423060492139439
+          },
+          {
+            "name": "tcn_xyz",
+            "family": "tcn",
+            "validation_macro_ap": 0.6196962590376469,
+            "validation_macro_f1": 0.6219343024969262,
+            "validation_false_alert_rate": 0.22231810587073744
+          },
+          {
+            "name": "tcn_angles",
+            "family": "tcn",
+            "validation_macro_ap": 0.6059450611307922,
+            "validation_macro_f1": 0.6023292119194186,
+            "validation_false_alert_rate": 0.3076308194729247
+          },
+          {
+            "name": "angle_rf",
+            "family": "rf",
+            "validation_macro_ap": 0.6050762985304926,
+            "validation_macro_f1": 0.5863598816441777,
+            "validation_false_alert_rate": 0.27462595883648516
+          },
+          {
+            "name": "tr_noz",
+            "family": "transformer",
+            "validation_macro_ap": 0.6048414841986816,
+            "validation_macro_f1": 0.5965878793963477,
+            "validation_false_alert_rate": 0.2308545986177565
+          },
+          {
+            "name": "tr_small",
+            "family": "transformer",
+            "validation_macro_ap": 0.5845075699897279,
+            "validation_macro_f1": 0.5832633287833715,
+            "validation_false_alert_rate": 0.2997925685425685
+          },
+          {
+            "name": "angle_lr",
+            "family": "lr",
+            "validation_macro_ap": 0.5299033944591839,
+            "validation_macro_f1": 0.5211248200326075,
+            "validation_false_alert_rate": 0.3757248234221918
+          }
+        ]
+      },
+      "Terka": {
+        "transformer": "iter_ex7_Terka_combined",
+        "tcn": "tcn_angles",
+        "ranking": [
+          {
+            "name": "iter_ex7_Terka_combined",
+            "family": "transformer",
+            "validation_macro_ap": 0.6902024138054468,
+            "validation_macro_f1": 0.653111830796238,
+            "validation_false_alert_rate": 0.08489452798663324
+          },
+          {
+            "name": "tr_visibility",
+            "family": "transformer",
+            "validation_macro_ap": 0.6814920534314755,
+            "validation_macro_f1": 0.6591928752809755,
+            "validation_false_alert_rate": 0.21655986557302348
+          },
+          {
+            "name": "iter_ex7_Terka_structure",
+            "family": "transformer",
+            "validation_macro_ap": 0.6681004438730488,
+            "validation_macro_f1": 0.6550852114558805,
+            "validation_false_alert_rate": 0.18212814232551072
+          },
+          {
+            "name": "tr_nodrop",
+            "family": "transformer",
+            "validation_macro_ap": 0.6675618992198287,
+            "validation_macro_f1": 0.6541985671000466,
+            "validation_false_alert_rate": 0.10613560416191994
+          },
+          {
+            "name": "tr_postnorm",
+            "family": "transformer",
+            "validation_macro_ap": 0.6656003049848673,
+            "validation_macro_f1": 0.6304004234493539,
+            "validation_false_alert_rate": 0.18276942355889725
+          },
+          {
+            "name": "tr_relu",
+            "family": "transformer",
+            "validation_macro_ap": 0.653897711966976,
+            "validation_macro_f1": 0.6356850922097323,
+            "validation_false_alert_rate": 0.23000256322624743
+          },
+          {
+            "name": "tr_lr1e3",
+            "family": "transformer",
+            "validation_macro_ap": 0.6518298791999142,
+            "validation_macro_f1": 0.6340069198862115,
+            "validation_false_alert_rate": 0.2430023923444976
+          },
+          {
+            "name": "tr_ref",
+            "family": "transformer",
+            "validation_macro_ap": 0.6471224359384169,
+            "validation_macro_f1": 0.645341512537764,
+            "validation_false_alert_rate": 0.16578282828282828
+          },
+          {
+            "name": "tr_nodecay",
+            "family": "transformer",
+            "validation_macro_ap": 0.6468783851687079,
+            "validation_macro_f1": 0.6446153134612176,
+            "validation_false_alert_rate": 0.1643208399787347
+          },
+          {
+            "name": "tr_xyz",
+            "family": "transformer",
+            "validation_macro_ap": 0.6432370187969148,
+            "validation_macro_f1": 0.6476303340092233,
+            "validation_false_alert_rate": 0.2163699969621022
+          },
+          {
+            "name": "tr_sqrt",
+            "family": "transformer",
+            "validation_macro_ap": 0.6417141923334074,
+            "validation_macro_f1": 0.6321145617581188,
+            "validation_false_alert_rate": 0.1826854066985646
+          },
+          {
+            "name": "tr_raw",
+            "family": "transformer",
+            "validation_macro_ap": 0.6225852932167657,
+            "validation_macro_f1": 0.6082929972152539,
+            "validation_false_alert_rate": 0.3459989936963621
+          },
+          {
+            "name": "angle_rf",
+            "family": "rf",
+            "validation_macro_ap": 0.6087574445313754,
+            "validation_macro_f1": 0.5856612880307015,
+            "validation_false_alert_rate": 0.4130055251765778
+          },
+          {
+            "name": "tcn_angles",
+            "family": "tcn",
+            "validation_macro_ap": 0.6078544465390943,
+            "validation_macro_f1": 0.6008252084973887,
+            "validation_false_alert_rate": 0.26484725070251386
+          },
+          {
+            "name": "tr_noz",
+            "family": "transformer",
+            "validation_macro_ap": 0.5948640304136803,
+            "validation_macro_f1": 0.6000460364313462,
+            "validation_false_alert_rate": 0.1976475279106858
+          },
+          {
+            "name": "tr_small",
+            "family": "transformer",
+            "validation_macro_ap": 0.5782258110707761,
+            "validation_macro_f1": 0.5914955737192219,
+            "validation_false_alert_rate": 0.3449191159717475
+          },
+          {
+            "name": "tcn_xyz",
+            "family": "tcn",
+            "validation_macro_ap": 0.5677813352130545,
+            "validation_macro_f1": 0.5664907908725761,
+            "validation_false_alert_rate": 0.25211608566871724
+          },
+          {
+            "name": "angle_lr",
+            "family": "lr",
+            "validation_macro_ap": 0.440104332228616,
+            "validation_macro_f1": 0.4640824206218732,
+            "validation_false_alert_rate": 0.48442602718918504
+          }
+        ]
+      },
+      "Vasil": {
+        "transformer": "iter_ex7_Vasil_combined",
+        "tcn": "tcn_angles",
+        "ranking": [
+          {
+            "name": "iter_ex7_Vasil_combined",
+            "family": "transformer",
+            "validation_macro_ap": 0.771529417836086,
+            "validation_macro_f1": 0.7308795444564851,
+            "validation_false_alert_rate": 0.09794372294372294
+          },
+          {
+            "name": "tr_lr1e3",
+            "family": "transformer",
+            "validation_macro_ap": 0.741335785021716,
+            "validation_macro_f1": 0.7102213722947615,
+            "validation_false_alert_rate": 0.13579545454545455
+          },
+          {
+            "name": "iter_ex7_Vasil_training",
+            "family": "transformer",
+            "validation_macro_ap": 0.7399364448268395,
+            "validation_macro_f1": 0.7172621290600438,
+            "validation_false_alert_rate": 0.15846861471861473
+          },
+          {
+            "name": "iter_ex7_Vasil_structure",
+            "family": "transformer",
+            "validation_macro_ap": 0.7303035059991851,
+            "validation_macro_f1": 0.7050514068062834,
+            "validation_false_alert_rate": 0.20846861471861472
+          },
+          {
+            "name": "tr_visibility",
+            "family": "transformer",
+            "validation_macro_ap": 0.7261785386938493,
+            "validation_macro_f1": 0.702611801494287,
+            "validation_false_alert_rate": 0.13428030303030303
+          },
+          {
+            "name": "tr_nodrop",
+            "family": "transformer",
+            "validation_macro_ap": 0.723946625504147,
+            "validation_macro_f1": 0.6984819592800237,
+            "validation_false_alert_rate": 0.13249458874458875
+          },
+          {
+            "name": "tr_postnorm",
+            "family": "transformer",
+            "validation_macro_ap": 0.7238017875218969,
+            "validation_macro_f1": 0.7020438541835845,
+            "validation_false_alert_rate": 0.1765151515151515
+          },
+          {
+            "name": "tr_relu",
+            "family": "transformer",
+            "validation_macro_ap": 0.7148809348396077,
+            "validation_macro_f1": 0.692545104084069,
+            "validation_false_alert_rate": 0.175
+          },
+          {
+            "name": "tr_nodecay",
+            "family": "transformer",
+            "validation_macro_ap": 0.6920069772075179,
+            "validation_macro_f1": 0.6851191197517854,
+            "validation_false_alert_rate": 0.21512445887445888
+          },
+          {
+            "name": "tr_ref",
+            "family": "transformer",
+            "validation_macro_ap": 0.6913711680255902,
+            "validation_macro_f1": 0.6836466364444521,
+            "validation_false_alert_rate": 0.20606060606060606
+          },
+          {
+            "name": "tr_sqrt",
+            "family": "transformer",
+            "validation_macro_ap": 0.6843158939328835,
+            "validation_macro_f1": 0.6774562464098862,
+            "validation_false_alert_rate": 0.20192099567099567
+          },
+          {
+            "name": "tr_xyz",
+            "family": "transformer",
+            "validation_macro_ap": 0.6842275062485597,
+            "validation_macro_f1": 0.6597154062809344,
+            "validation_false_alert_rate": 0.17481060606060608
+          },
+          {
+            "name": "tcn_angles",
+            "family": "tcn",
+            "validation_macro_ap": 0.6701932665066466,
+            "validation_macro_f1": 0.6431956843670503,
+            "validation_false_alert_rate": 0.2533279220779221
+          },
+          {
+            "name": "tr_raw",
+            "family": "transformer",
+            "validation_macro_ap": 0.6639621630326494,
+            "validation_macro_f1": 0.6549293291536531,
+            "validation_false_alert_rate": 0.2519480519480519
+          },
+          {
+            "name": "angle_rf",
+            "family": "rf",
+            "validation_macro_ap": 0.6638371586122981,
+            "validation_macro_f1": 0.6311329989032715,
+            "validation_false_alert_rate": 0.1507034632034632
+          },
+          {
+            "name": "tcn_xyz",
+            "family": "tcn",
+            "validation_macro_ap": 0.6429409110548249,
+            "validation_macro_f1": 0.6314085715346034,
+            "validation_false_alert_rate": 0.19853896103896104
+          },
+          {
+            "name": "tr_noz",
+            "family": "transformer",
+            "validation_macro_ap": 0.6410914507813624,
+            "validation_macro_f1": 0.6471840927275289,
+            "validation_false_alert_rate": 0.22142857142857142
+          },
+          {
+            "name": "tr_small",
+            "family": "transformer",
+            "validation_macro_ap": 0.6154119519604122,
+            "validation_macro_f1": 0.6046174756028235,
+            "validation_false_alert_rate": 0.2490530303030303
+          },
+          {
+            "name": "angle_lr",
+            "family": "lr",
+            "validation_macro_ap": 0.5647283091231944,
+            "validation_macro_f1": 0.5584943672452279,
+            "validation_false_alert_rate": 0.27421536796536794
+          }
+        ]
+      }
+    }
+  },
+  "rule": "per-exercise/per-outer-person rank candidates by mean four-inner-validation macro-AP; tie mean validation F1, then lexicographic name; no outer predictions read until selections frozen",
+  "test_predictions_available_at_selection": false,
+  "amendment_sha256": "e306c631de8b81c6e410341d753273a470a1131e0aa8a69317e72d9edc8c55a0"
+}

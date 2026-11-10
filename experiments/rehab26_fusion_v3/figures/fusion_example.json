@@ -1,0 +1,26 @@
+{
+  "sample_id": "ex1_Petra_o40_r004",
+  "fused_observation_index": 266,
+  "selection_rule": "median aligned_spread_mean among all 1111 repetitions; no classifier outcome used",
+  "diagnostic": {
+    "sample_id": "ex1_Petra_o40_r004",
+    "fallback_joint_frames": 0,
+    "fused_scale": 0.9858106374740601,
+    "view_alignment": [
+      {
+        "yaw_radians": 2.624856472015381,
+        "torso_scale": 0.47915875911712646
+      },
+      {
+        "yaw_radians": -3.0598208904266357,
+        "torso_scale": 0.4700653553009033
+      },
+      {
+        "yaw_radians": -2.4272027015686035,
+        "torso_scale": 0.48933637142181396
+      }
+    ],
+    "aligned_spread_mean": 0.13096889853477478,
+    "aligned_spread_q95": 0.284385085105896
+  }
+}

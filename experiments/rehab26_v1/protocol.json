@@ -1,0 +1,52 @@
+{
+  "protocol_version": "rehab26_v1_cpu_20261109",
+  "purpose": "Exploratory subject-disjoint, single-view, repetition-level multilabel error recognition; no clinical validation",
+  "exercises": [1, 7],
+  "subjects_sorted": ["Honza", "Mima", "Petra", "Terka", "Vasil"],
+  "fold_rule": "test=subjects[i], validation=subjects[(i+1)%5], train=other three; all views and exercises of each person stay together",
+  "labels": "Five exercise-specific errors, union of primary and additional labels. Correct repetitions have all-zero targets.",
+  "input": "Single-camera MediaPipe 3d world landmarks; no RGB, orientation metadata or participant identity supplied to the model",
+  "preprocessing": {
+    "sequence_length": 96,
+    "interval": "0-based inclusive first:last+1",
+    "translation": "subtract hip midpoint at every frame",
+    "scale": "divide by per-repetition median shoulder-midpoint to hip-midpoint Euclidean distance",
+    "rotation": "none; preserve torso tilt/rotation",
+    "resampling": "linear xyz interpolation to 96 frames; visibility uses minimum of adjacent source frames",
+    "missing": "reject nonfinite or full-zero frames rather than silently impute in this first audited dataset",
+    "selected_joints": [0, 7, 8, 11, 12, 13, 14, 15, 16, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
+    "standardization": "per-feature mean/std fitted on current training subjects only"
+  },
+  "models": ["angle_logistic", "angle_random_forest", "tcn_xyz", "tcn_xyz_angles", "tcn_xyz_angles_visibility"],
+  "angle_statistics": ["mean", "std", "min", "max", "q10", "q90", "mean_absolute_frame_difference"],
+  "logistic": {"C": 1.0, "class_weight": "balanced", "solver": "liblinear", "max_iter": 1000},
+  "random_forest": {"n_estimators": 160, "max_depth": 8, "min_samples_leaf": 3, "class_weight": "balanced", "n_jobs": 3},
+  "tcn": {
+    "width": 24, "kernel_size": 5, "dilations": [1, 2, 4], "convolutions_per_block": 2,
+    "normalization": "GroupNorm(4)", "dropout": 0.1, "pooling": "concatenate global mean and max",
+    "batch_size": 64, "max_epochs": 24, "early_stopping_patience": 6,
+    "checkpoint_selection": "minimum validation weighted BCE loss",
+    "optimizer": "AdamW", "learning_rate": 0.001, "weight_decay": 0.001,
+    "loss": "BCEWithLogitsLoss, negative/positive class weights computed only from training data"
+  },
+  "seed": 20261109,
+  "torch_threads": 4,
+  "device": "cpu",
+  "threshold_selection": "per-error F1 on validation person only, grid 0.15 to 0.85 step 0.05; ties closest to 0.5",
+  "primary_metrics": ["macro F1 over five error labels", "per-error precision/recall/F1", "per-test-person results", "exact label-set accuracy", "false-alert rate on correct repetitions", "missed-alert rate on incorrect repetitions"],
+  "counting": "Primary predictions are single-view observations; report physical repetition and subject counts separately. No independent-sample CI over camera observations.",
+  "reliability": {
+    "score": "minimum over labels of threshold-normalized absolute score distance; heuristic, not calibrated probability",
+    "margin_grid": [0.0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45],
+    "selection": "highest validation coverage with coverage>=0.5 and exact-label-set accuracy>=0.8; if none qualifies, mark unsupported and report unfiltered predictions",
+    "report": "Always report unconditional metrics, retained coverage, retained metrics, and policy qualification; no test-based threshold adjustment"
+  },
+  "stress_test": {
+    "name": "synthetic_right_arm_noise",
+    "joints": [14, 16], "frames": [32, 64],
+    "xyz_gaussian_std_torso_units": 0.15, "visibility": 0.1,
+    "seed": "SHA256(observation_id + protocol seed), deterministic",
+    "scope": "Evaluation only, same trained models and validation thresholds; diagnostic synthetic noise, not evidence of real occlusion robustness"
+  },
+  "limitations": ["five volunteers", "simulated errors", "one seed in this first suite", "known repetition boundaries", "estimated 3d pose rather than motion capture", "no automatic action selection or repetition detection"]
+}

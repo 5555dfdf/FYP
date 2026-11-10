@@ -1,0 +1,173 @@
+{
+  "frozen_at_utc": "2026-11-09T11:00:42.265378+00:00",
+  "script_sha256": "c63d2d22f00e1407691b0cce4d2aab6787e4b339d7e330d1d1c95cb8121a665e",
+  "rule": "per outer fold, merge one-factor changes beating reference validation AP by >=0.015, separated into structure/training/full; remove duplicates; all selection within this outer fold",
+  "candidates": {
+    "iter_ex1_Honza_training": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    },
+    "iter_ex1_Honza_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    },
+    "iter_ex7_Honza_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Mima_structure": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": false,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Mima_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": false,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Petra_training": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    },
+    "iter_ex7_Petra_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    },
+    "iter_ex7_Terka_structure": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": false,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Terka_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "gelu",
+      "pre_norm": false,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Vasil_structure": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "relu",
+      "pre_norm": false,
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.0003
+    },
+    "iter_ex7_Vasil_training": {
+      "family": "transformer",
+      "features": "angles",
+      "activation": "gelu",
+      "pre_norm": true,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    },
+    "iter_ex7_Vasil_combined": {
+      "family": "transformer",
+      "features": "visibility",
+      "activation": "relu",
+      "pre_norm": false,
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "standardize": true,
+      "loss": "none",
+      "lr": 0.001
+    }
+  },
+  "allowed": {
+    "1": {
+      "Honza": [
+        "iter_ex1_Honza_training",
+        "iter_ex1_Honza_combined"
+      ],
+      "Mima": [],
+      "Petra": [],
+      "Terka": [],
+      "Vasil": []
+    },
+    "7": {
+      "Honza": [
+        "iter_ex7_Honza_combined"
+      ],
+      "Mima": [
+        "iter_ex7_Mima_structure",
+        "iter_ex7_Mima_combined"
+      ],
+      "Petra": [
+        "iter_ex7_Petra_training",
+        "iter_ex7_Petra_combined"
+      ],
+      "Terka": [
+        "iter_ex7_Terka_structure",
+        "iter_ex7_Terka_combined"
+      ],
+      "Vasil": [
+        "iter_ex7_Vasil_structure",
+        "iter_ex7_Vasil_training",
+        "iter_ex7_Vasil_combined"
+      ]
+    }
+  }
+}

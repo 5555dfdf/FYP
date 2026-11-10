@@ -1,0 +1,9 @@
+# Exact core versions used in the first CPU run; Python 3.13.2 on Windows.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.2.4
+scipy==1.15.2
+scikit-learn==1.9.1
+torch==2.15.0+cpu
+joblib==1.4.2
+threadpoolctl==3.6.0
+matplotlib==3.11.0

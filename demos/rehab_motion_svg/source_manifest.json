@@ -1,0 +1,332 @@
+{
+  "selection": "one participant with greatest median visibility; within each single-label class, closest to median 12D geometry trajectory; no classifier outputs",
+  "visibility_by_person": {
+    "Honza": 0.9890549778938293,
+    "Mima": 0.9762578010559082,
+    "Petra": 0.9801648855209351,
+    "Terka": 0.9841814041137695,
+    "Vasil": 0.9910002946853638
+  },
+  "clips": [
+    {
+      "sample_id": "ex7_Vasil_o50_r003",
+      "person": "Vasil",
+      "exercise_id": 7,
+      "error_labels": [],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -50
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam2_3d.npy",
+          "view_angle_degrees": -5
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 40
+        }
+      ],
+      "first_frame": 6632,
+      "last_frame": 6690
+    },
+    {
+      "sample_id": "ex7_Vasil_o45_r004",
+      "person": "Vasil",
+      "exercise_id": 7,
+      "error_labels": [
+        "ERR_TORSO_FORWARD"
+      ],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -45
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam2_3d.npy",
+          "view_angle_degrees": 0
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 45
+        }
+      ],
+      "first_frame": 5815,
+      "last_frame": 5878
+    },
+    {
+      "sample_id": "ex7_Vasil_o45_r007",
+      "person": "Vasil",
+      "exercise_id": 7,
+      "error_labels": [
+        "ERR_BENT_ARM"
+      ],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -45
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam2_3d.npy",
+          "view_angle_degrees": 0
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 45
+        }
+      ],
+      "first_frame": 6081,
+      "last_frame": 6138
+    },
+    {
+      "sample_id": "ex7_Vasil_o45_r005",
+      "person": "Vasil",
+      "exercise_id": 7,
+      "error_labels": [
+        "ERR_ELEVATED_SHOULDER"
+      ],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -45
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam2_3d.npy",
+          "view_angle_degrees": 0
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 45
+        }
+      ],
+      "first_frame": 5898,
+      "last_frame": 5967
+    },
+    {
+      "sample_id": "ex7_Vasil_o70_r006",
+      "person": "Vasil",
+      "exercise_id": 7,
+      "error_labels": [
+        "ERR_TORSO_ROTATION"
+      ],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -70
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam2_3d.npy",
+          "view_angle_degrees": -25
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 20
+        }
+      ],
+      "first_frame": 8889,
+      "last_frame": 8965
+    },
+    {
+      "sample_id": "ex7_Vasil_o45_r008",
+      "person": "Vasil",
+      "exercise_id": 7,
+      "error_labels": [
+        "ERR_ARM_TO_SIDE"
+      ],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -45
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam2_3d.npy",
+          "view_angle_degrees": 0
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex7/ex7_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 45
+        }
+      ],
+      "first_frame": 6153,
+      "last_frame": 6218
+    },
+    {
+      "sample_id": "ex1_Vasil_o45_r002",
+      "person": "Vasil",
+      "exercise_id": 1,
+      "error_labels": [],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -45
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam2_3d.npy",
+          "view_angle_degrees": 0
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 45
+        }
+      ],
+      "first_frame": 6584,
+      "last_frame": 6648
+    },
+    {
+      "sample_id": "ex1_Vasil_o40_r007",
+      "person": "Vasil",
+      "exercise_id": 1,
+      "error_labels": [
+        "ERR_LOW_ABDUCTION"
+      ],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -40
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam2_3d.npy",
+          "view_angle_degrees": 5
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 50
+        }
+      ],
+      "first_frame": 6106,
+      "last_frame": 6174
+    },
+    {
+      "sample_id": "ex1_Vasil_o45_r008",
+      "person": "Vasil",
+      "exercise_id": 1,
+      "error_labels": [
+        "ERR_BENT_ARM"
+      ],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -45
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam2_3d.npy",
+          "view_angle_degrees": 0
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 45
+        }
+      ],
+      "first_frame": 7099,
+      "last_frame": 7168
+    },
+    {
+      "sample_id": "ex1_Vasil_o45_r005",
+      "person": "Vasil",
+      "exercise_id": 1,
+      "error_labels": [
+        "ERR_ELEVATED_SHOULDER"
+      ],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -45
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam2_3d.npy",
+          "view_angle_degrees": 0
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 45
+        }
+      ],
+      "first_frame": 6830,
+      "last_frame": 6900
+    },
+    {
+      "sample_id": "ex1_Vasil_o45_r004",
+      "person": "Vasil",
+      "exercise_id": 1,
+      "error_labels": [
+        "ERR_ARM_FORWARD"
+      ],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -45
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam2_3d.npy",
+          "view_angle_degrees": 0
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 45
+        }
+      ],
+      "first_frame": 6731,
+      "last_frame": 6799
+    },
+    {
+      "sample_id": "ex1_Vasil_o60_r006",
+      "person": "Vasil",
+      "exercise_id": 1,
+      "error_labels": [
+        "ERR_HEAD_TO_SIDE"
+      ],
+      "source_views": [
+        {
+          "camera": 1,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam1_3d.npy",
+          "view_angle_degrees": -60
+        },
+        {
+          "camera": 2,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam2_3d.npy",
+          "view_angle_degrees": -15
+        },
+        {
+          "camera": 3,
+          "skeleton_file": "mediapipe/ex1/ex1_Vasil_cam3_3d.npy",
+          "view_angle_degrees": 30
+        }
+      ],
+      "first_frame": 8700,
+      "last_frame": 8774
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "exercise": 1,
+    "candidate": "iter_ex1_Honza_combined",
+    "parameters": 77061,
+    "batch": 1,
+    "shape": [
+      1,
+      96,
+      88
+    ],
+    "network_only_gpu_latency_median_ms": 1.153350000095088,
+    "network_only_gpu_latency_p95_ms": 1.826034999612602,
+    "timing_scope": "one model forward only; excludes pose extraction, preprocessing, transfer, and ensemble repetitions",
+    "warmup": 20,
+    "repeats": 100
+  },
+  {
+    "exercise": 7,
+    "candidate": "iter_ex7_Honza_combined",
+    "parameters": 77061,
+    "batch": 1,
+    "shape": [
+      1,
+      96,
+      88
+    ],
+    "network_only_gpu_latency_median_ms": 1.1677000002237037,
+    "network_only_gpu_latency_p95_ms": 1.460754999607161,
+    "timing_scope": "one model forward only; excludes pose extraction, preprocessing, transfer, and ensemble repetitions",
+    "warmup": 20,
+    "repeats": 100
+  }
+]

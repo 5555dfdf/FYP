@@ -1,0 +1,92 @@
+[
+  {
+    "repo": "Fdevmsy/Multiview_3D_Skeleton_Fusion",
+    "commit": "c64cfa533127f2d677ba7ed645894b40d427db6b",
+    "path": "README.md",
+    "url": "https://api.github.com/repos/Fdevmsy/Multiview_3D_Skeleton_Fusion/git/blobs/2de14363185823ebeb9ee3744a7d274993becc16",
+    "at_utc": "2026-11-10T02:09:14.325726+00:00",
+    "file": "weighted__README.md.txt",
+    "bytes": 1098,
+    "sha256": "503e05f5663de28b3a81be26a8e86f80d73b53e52e3f93905e80fca87015ed18"
+  },
+  {
+    "repo": "Fdevmsy/Multiview_3D_Skeleton_Fusion",
+    "commit": "c64cfa533127f2d677ba7ed645894b40d427db6b",
+    "path": "mmview-merge.py",
+    "url": "https://api.github.com/repos/Fdevmsy/Multiview_3D_Skeleton_Fusion/git/blobs/e26359522856e9f2570ed6230c4ae72c2b85c206",
+    "at_utc": "2026-11-10T02:09:14.326517+00:00",
+    "file": "weighted__mmview-merge.py.txt",
+    "bytes": 6202,
+    "sha256": "5168b2c090d9362bcdd436d850a2c9493d79de0c8d9b5230b9ca10bfe06e4d4e"
+  },
+  {
+    "repo": "Yuri-Vlasqz/3D_Human_Pose_MediaPipe",
+    "commit": "d491ff9a6a2fa238e7b00dc58dbddbc4ff21e08b",
+    "path": "README.md",
+    "url": "https://api.github.com/repos/Yuri-Vlasqz/3D_Human_Pose_MediaPipe/git/blobs/49e582191552e5a6989544cdb4b253b3226c5d2e",
+    "at_utc": "2026-11-10T02:09:14.327134+00:00",
+    "file": "mediapipe__README.md.txt",
+    "bytes": 6894,
+    "sha256": "3b82838a183dca837b60bb16c4ff9e83e80b170248633405e7baaa4d69a56e73"
+  },
+  {
+    "repo": "Yuri-Vlasqz/3D_Human_Pose_MediaPipe",
+    "commit": "d491ff9a6a2fa238e7b00dc58dbddbc4ff21e08b",
+    "path": "modules/pose_triangulation.py",
+    "url": "https://api.github.com/repos/Yuri-Vlasqz/3D_Human_Pose_MediaPipe/git/blobs/8696baecc0364523904836473df7880e43f9023c",
+    "at_utc": "2026-11-10T02:09:14.328249+00:00",
+    "file": "mediapipe__modules__pose_triangulation.py.txt",
+    "bytes": 3459,
+    "sha256": "c4829539a261a6abe24c753a57f4e6250f3e01203dd6e5a9c1e129427f694a17"
+  },
+  {
+    "repo": "Yuri-Vlasqz/3D_Human_Pose_MediaPipe",
+    "commit": "d491ff9a6a2fa238e7b00dc58dbddbc4ff21e08b",
+    "path": "models/cameras_parameters.py",
+    "url": "https://api.github.com/repos/Yuri-Vlasqz/3D_Human_Pose_MediaPipe/git/blobs/0b0f8cd9e40aa46cd260fb40f9a6a83f96458882",
+    "at_utc": "2026-11-10T02:09:14.328739+00:00",
+    "file": "mediapipe__models__cameras_parameters.py.txt",
+    "bytes": 1891,
+    "sha256": "b432dc744b7f693246c51fcc645092452660be68fe068584ea8f280a6161aff9"
+  },
+  {
+    "repo": "perfanalytics/pose2sim",
+    "commit": "c6db0ca3c620a7543c5f7960c95309dad87d4e6c",
+    "path": "Pose2Sim/common.py",
+    "url": "https://api.github.com/repos/perfanalytics/pose2sim/git/blobs/fecdb8b594ab7d23ae25dcaac0ce83399ce2dabc",
+    "at_utc": "2026-11-10T02:09:14.895164+00:00",
+    "file": "pose2sim__Pose2Sim__common.py.txt",
+    "bytes": 75116,
+    "sha256": "bb3150304ded66c762106943298ab2f217d9a89c918d89b9e06123110538806d"
+  },
+  {
+    "repo": "perfanalytics/pose2sim",
+    "commit": "c6db0ca3c620a7543c5f7960c95309dad87d4e6c",
+    "path": "Pose2Sim/triangulation.py",
+    "url": "https://api.github.com/repos/perfanalytics/pose2sim/git/blobs/fd88c3245ca1d3cea9b7d24d04a85013ca27454a",
+    "at_utc": "2026-11-10T02:09:14.909476+00:00",
+    "file": "pose2sim__Pose2Sim__triangulation.py.txt",
+    "bytes": 55403,
+    "sha256": "0e9e35bd5156b9db1016f2934f2fda7732ac5b87cd815456bbd25118434772a2"
+  },
+  {
+    "repo": "perfanalytics/pose2sim",
+    "commit": "c6db0ca3c620a7543c5f7960c95309dad87d4e6c",
+    "path": "LICENSE",
+    "url": "https://api.github.com/repos/perfanalytics/pose2sim/git/blobs/880f9157031c202345fc32a284247e584fe711e2",
+    "at_utc": "2026-11-10T02:09:14.915524+00:00",
+    "file": "pose2sim__LICENSE.txt",
+    "bytes": 1521,
+    "sha256": "7f8a9ede713463b96d261a39c3ec404748c8e4f528c795e5f8cb18898ed944cf"
+  },
+  {
+    "repo": "freemocap/freemocap",
+    "commit": "8055477c927ee73886ef8f2eed4d39b745ef69c6",
+    "path": "freemocap/core/tasks/triangulation/helpers/triangulate_simple.py",
+    "url": "https://api.github.com/repos/freemocap/freemocap/git/blobs/4d69e1663eb81f67843f6f361e0fee01caf702d5",
+    "at_utc": "2026-11-10T02:09:14.917136+00:00",
+    "file": "freemocap__freemocap__core__tasks__triangulation__helpers__triangulate_simple.py.txt",
+    "bytes": 2161,
+    "sha256": "bba10a34b3608451aa5776c5ee4a0eeff2206d4cfae6db26950af912715e7207"
+  }
+]

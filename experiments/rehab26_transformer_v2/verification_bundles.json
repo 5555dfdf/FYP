@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "evaluated_bundle_raw_clips": 30,
+  "max_score_difference": 5.960464477539063e-08,
+  "deployment_checks": [
+    {
+      "exercise": 1,
+      "members": 3,
+      "raw_inference": "passed",
+      "scope": "training-data smoke check, not independent score"
+    },
+    {
+      "exercise": 7,
+      "members": 3,
+      "raw_inference": "passed",
+      "scope": "training-data smoke check, not independent score"
+    }
+  ],
+  "scope": "raw preprocessing + saved weights + all ensemble members + thresholds"
+}

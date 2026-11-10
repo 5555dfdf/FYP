@@ -1,0 +1,653 @@
+{
+  "review_date": "2026-11-09",
+  "manifest_created_at": "2026-11-09T12:08:25.732272+00:00",
+  "timestamp_note": "Actual retrieval timestamps retained for rounds 3-5. Earlier files were retrieved on the review date; no exact retrieval time is claimed.",
+  "scope": "Exact REHAB26 dataset usage, original method and predecessor method lineage. No new model training.",
+  "source_files": [
+    {
+      "path": "sources/arxiv_abstract.txt",
+      "bytes": 42762,
+      "sha256": "cfa66195b9185b010b4a4ab3efa0a78221221f1201097eb1f6a50b071f3c45b3",
+      "url": "https://arxiv.org/abs/2609.35726"
+    },
+    {
+      "path": "sources/arxiv_abstract_clean.txt",
+      "bytes": 6199,
+      "sha256": "9f5b0a1d95fed2cfc1db31ff4984694d3993f113ddd6bfd0227d556ee9a03452",
+      "kind": "derived_html_text"
+    },
+    {
+      "path": "sources/arxiv_html.txt",
+      "bytes": 363399,
+      "sha256": "0e93181b9323934b091eb1356e0f660982289c119e3234e69b512e355193acd3",
+      "url": "https://arxiv.org/html/2609.35726"
+    },
+    {
+      "path": "sources/arxiv_html_clean.txt",
+      "bytes": 87595,
+      "sha256": "484dc7811593f4b2326d85c5a8e41d95e9e7355b7e8b2524845b84e55c493264",
+      "kind": "derived_html_text"
+    },
+    {
+      "path": "sources/bing_exact.txt",
+      "bytes": 128978,
+      "sha256": "4df743a5a9e950a14846fc6d0c1c6db868bb016eef7ab0f59cbf20da7569aa27",
+      "kind": "search_or_intermediate_response_not_primary_evidence"
+    },
+    {
+      "path": "sources/bing_exact_clean.txt",
+      "bytes": 2175,
+      "sha256": "c64f99100752893c060b296b4ab196d1488214465b2fb1af73d8459e2ac07630",
+      "kind": "derived_html_text"
+    },
+    {
+      "path": "sources/crossref_exact.txt",
+      "bytes": 35126,
+      "sha256": "958fb0b8c0f21ae7873221dbc6662907b5594a7115e43a189c480e89d9f1f5f6",
+      "kind": "search_or_intermediate_response_not_primary_evidence"
+    },
+    {
+      "path": "sources/features-07.png",
+      "bytes": 313754,
+      "sha256": "b0d3a191ef11f93fac065b9c151437a46016f980587babba325017b6af624bfd",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/fine_tuning_crossref.txt",
+      "bytes": 15141,
+      "sha256": "5bfc1cfc465e6b4fb4291b09b72760c3aa539a843eef2e83f2214205820be108",
+      "url": "https://api.crossref.org/works/10.1016/j.is.2025.102579"
+    },
+    {
+      "path": "sources/fine_tuning_elsevier_api.txt",
+      "bytes": 1830,
+      "sha256": "2eb00a339350610d053a2d32ac00058e3b6888593794de92164c884f68521b3f",
+      "url": "https://api.elsevier.com/content/article/PII:S0306437925000638?httpAccept=text/xml"
+    },
+    {
+      "path": "sources/github_exact.txt",
+      "bytes": 9861,
+      "sha256": "22544c2d7ca4e0ee9d2b31238ad653f36f6db40b43257c0ae4350ce6e8638483",
+      "url": "https://api.github.com/search/repositories?q=REHAB26"
+    },
+    {
+      "path": "sources/github_older.json",
+      "bytes": 45011,
+      "sha256": "ccaa48e1947fd89329f331be44952cd2c47606e91c4ea3413cae6457ffecbcc3",
+      "url": "https://api.github.com/search/repositories?q=REHAB24"
+    },
+    {
+      "path": "sources/mobile_openalex_record.txt",
+      "bytes": 14253,
+      "sha256": "e58484a8db21107825ae02ed1aebc52d53c935d2ef7a3f94d710a69e8265ee6d",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1145/3805622.3810429"
+    },
+    {
+      "path": "sources/new_pose_clean.txt",
+      "bytes": 86890,
+      "sha256": "2b06993e8140bed6752c62496dcd2c0c0495c806091687c253d627ae8abc4be5",
+      "kind": "derived_html_text"
+    },
+    {
+      "path": "sources/new_pose_html.txt",
+      "bytes": 305445,
+      "sha256": "0bd697e53af057c033a685cd63a69eb6f247ec2979927a0b90fe0a03e4033b43",
+      "url": "https://arxiv.org/html/2611.02929"
+    },
+    {
+      "path": "sources/openalex_cites_dataset.json",
+      "bytes": 18151,
+      "sha256": "0548eb1c07f427822654ee35a39f42e0e7ed4bf999500b4e3171d2d6f2eee2b7",
+      "url": "https://api.openalex.org/works?filter=cites:W7215103942&per-page=50"
+    },
+    {
+      "path": "sources/openalex_cites_paper.json",
+      "bytes": 968,
+      "sha256": "f7dee08e51bbe6e86c5bb6fec8bea3c4e4e4cd5b401436b45a4c90e8db002e9f",
+      "url": "https://api.openalex.org/works?filter=cites:W7214708068&per-page=50"
+    },
+    {
+      "path": "sources/openalex_exact.txt",
+      "bytes": 41304,
+      "sha256": "886918f3d1ddb19fceea8b305c2d9e91c940255d76e26ed432e1c555f19aa3e5",
+      "url": "https://api.openalex.org/works?search=REHAB26-ViewAngles&per-page=10"
+    },
+    {
+      "path": "sources/openalex_janosova.json",
+      "bytes": 33653,
+      "sha256": "ed6f0234dc4ebf4696918bbf40ed88dd4dbbb3dd75d02e3b32eca65c6fd5ab1e",
+      "url": "https://api.openalex.org/works?search=Real-time%20monitoring%20and%20analysis%20of%20rehabilitation%20exercises&per-page=5"
+    },
+    {
+      "path": "sources/openalex_rehab26_broad.txt",
+      "bytes": 93327,
+      "sha256": "1a8b841091c712b1f2ebf9a3f7d0bd84f5fa629b68da74b9171728c87a9c59d5",
+      "url": "https://api.openalex.org/works?search=REHAB26&per-page=25"
+    },
+    {
+      "path": "sources/openalex_related.json",
+      "bytes": 84449,
+      "sha256": "12b9b434456729bd02abe5d73a6ee591f7dc51805b60d0ddd410a53f45c4b341",
+      "url": "https://api.openalex.org/works?search=Pose%20estimation%20analysis%20and%20fine-tuning&per-page=5"
+    },
+    {
+      "path": "sources/personalized_crossref.txt",
+      "bytes": 21305,
+      "sha256": "dfe5b5d9184fbf81e001a8801388aba2090e776d8e36928db82123c0df7f1e82",
+      "url": "https://api.crossref.org/works?query.title=Personalized%20similarity%20models%20for%20evaluating%20rehabilitation%20exercises%20from%20monocular%20videos&rows=2"
+    },
+    {
+      "path": "sources/personalized_muni.txt",
+      "bytes": 110899,
+      "sha256": "f9f07f583234a32e99f80d47275f0e6687f9e14efefe676bffc613b6787ad399",
+      "url": "https://www.muni.cz/en/research/publications?search=Personalized%20Similarity%20Models"
+    },
+    {
+      "path": "sources/personalized_muni_clean.txt",
+      "bytes": 19009,
+      "sha256": "e49a0f4489917df65c6d0ce506b6e5a81d17b978ed1eeb394a7778d42ad9a96d",
+      "kind": "derived_html_text"
+    },
+    {
+      "path": "sources/personalized_openalex.txt",
+      "bytes": 57472,
+      "sha256": "2c856b1a571e731a66da9b286817e3198afe5e6588ceb85f9419ef6a234e79a4",
+      "url": "https://api.openalex.org/works?search=Personalized%20similarity%20models%20for%20evaluating%20rehabilitation%20exercises%20from%20monocular%20videos&per-page=3"
+    },
+    {
+      "path": "sources/personalized_springer.txt",
+      "bytes": 311669,
+      "sha256": "a19d4b6a0e2cbe71b992ce14a9766eb06dca0fc8b3d9650be427ef9b1a85c60d",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-75823-2_7"
+    },
+    {
+      "path": "sources/personalized_springer_clean.txt",
+      "bytes": 13224,
+      "sha256": "8861d0275a7f2ae14986555912250e623e664e41d9e097d934b7465dcc9e3149",
+      "kind": "derived_html_text"
+    },
+    {
+      "path": "sources/rehab26_page_01.txt",
+      "bytes": 3119,
+      "sha256": "96dd483358b21dfa40c44dff916d266a02c656e7539e56706936289964a3f7f9",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_02.txt",
+      "bytes": 3601,
+      "sha256": "8379a0687d238a3fa7a34b11435b4174931ce8dc4ae00959f720aa53139bf8db",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_03.txt",
+      "bytes": 3898,
+      "sha256": "33cbb44a1b79b6b805ef06a65aab9c2aadcea5ab3de4aceeb1e2eeb609e14d27",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_04.txt",
+      "bytes": 4366,
+      "sha256": "d655a77c12157a6b6f88159844275eaea8cf2c1fe904927e105d19560d49dfd4",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_05.txt",
+      "bytes": 4660,
+      "sha256": "49e599eb5848b85df2c47e28176650392b042cc1ea2e7d15b667fe7c59575bff",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_06.txt",
+      "bytes": 3696,
+      "sha256": "87070f293de9cea9b8ef1244f8b2319acf4b2510555522b71d30e6b4d3955b86",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_07.txt",
+      "bytes": 2604,
+      "sha256": "275db31f7b8e121e5692ce215bc9cb33ee2284b22725103468bc26053626d4fd",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_08.txt",
+      "bytes": 4143,
+      "sha256": "560358baffe78d306bb56cfffe3b82ea98fe68b05b94630d3de6adbbf319938e",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_09.txt",
+      "bytes": 799,
+      "sha256": "bc5c11cae87ad7a491ca3b9c05f75bdc1d51a38f3a8ee8edd36863a1646ccfe7",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_10.txt",
+      "bytes": 4188,
+      "sha256": "dd528df34f6b3b8a4c0fc880bbe011c026c640ffe2a4bd4edd350e2089d9afef",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_11.txt",
+      "bytes": 2959,
+      "sha256": "63b0851e7c06e26b7a1ce183e455e01e0b03fb908212b041f1140187c1e9ddd2",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_12.txt",
+      "bytes": 2727,
+      "sha256": "9ec5199dbd0bc677892968bb1de6730e236b9acff06fc78726cba8316e0bcb72",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_13.txt",
+      "bytes": 4236,
+      "sha256": "6543ee032ac0567c4af35cf9201fda5f9086d887f1f8eca7bdbdfd29e1a727e9",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_14.txt",
+      "bytes": 3610,
+      "sha256": "1207dbaccade2f0b973ab5353dd54e6f3c162d4a9bb4dfdd822d09fd4b2bf9c9",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_15.txt",
+      "bytes": 4615,
+      "sha256": "a5542ff1e4ebb239c59b2863548b9a3406f93ce85482aa06945c8b603872c08e",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_16.txt",
+      "bytes": 3565,
+      "sha256": "8e07db607f1c557f7cd8e4da4f6929ee0522858265fded44977498b5205d1ae7",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_17.txt",
+      "bytes": 4152,
+      "sha256": "00ba6d48799e7b4738eaef9cc04f9936bb1b4c521f3fddd24830115975770a5b",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_18.txt",
+      "bytes": 4289,
+      "sha256": "616023f8de9b3ffc4d85b09f168f448b8c72e1b531e896c5e41bbf36aa8551b1",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_19.txt",
+      "bytes": 2358,
+      "sha256": "e7b698f0d8f32ede38dab08315080372e2159d968c5a31665ca30499475a123f",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_20.txt",
+      "bytes": 3428,
+      "sha256": "e04152a111eab81512d85ba3de7ced9a3fffb0201df70218adc59137a9495e47",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_21.txt",
+      "bytes": 3276,
+      "sha256": "c956249ac5048f53a09b6f8c63159432b76308865435fd63ba14576412411b3f",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_22.txt",
+      "bytes": 3424,
+      "sha256": "e9f24ac249382817448f74ef93565330e493468612d756f2ce35050cb7e33a68",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_23.txt",
+      "bytes": 3580,
+      "sha256": "88eaac9dbd3f99134da1bc6cf1320520398d3e4dbbaa200ebf2df89b509e96ff",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_24.txt",
+      "bytes": 3444,
+      "sha256": "e598b5170e147692234e1a0e5ff4fc0d9041582fce68367c5ff57bf0594c5360",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_page_25.txt",
+      "bytes": 1108,
+      "sha256": "6ed8d78b8ab43a3eab0892b5227e3153bd3337af534468256f12725d341e53f3",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/rehab26_pdf.pdf",
+      "bytes": 18993885,
+      "sha256": "7d1e173e7bdc89713a86a55701e1640e9973d80389cd9421672827314bc76222",
+      "url": "https://arxiv.org/pdf/2609.35726v2"
+    },
+    {
+      "path": "sources/table3-17.png",
+      "bytes": 507617,
+      "sha256": "33594a60ac5d34cc1c7fe2bda202e38d2321933d35016bfc45f4dbcbc9bda313",
+      "derived_from": "sources/rehab26_pdf.pdf"
+    },
+    {
+      "path": "sources/zenodo_live.txt",
+      "bytes": 10658,
+      "sha256": "3cd86753f9b01e17fc6e5fdc8a5a7b4a4adce560fd046b0a10799080c519292b",
+      "url": "https://zenodo.org/api/records/23018128"
+    },
+    {
+      "path": "sources/pose-results-09.png",
+      "bytes": 522589,
+      "sha256": "b7d8fcd808c9f4073807fa4f4716f3518688fd634919c6e50ffac35ab8f03777",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose-results-10.png",
+      "bytes": 566219,
+      "sha256": "fee8b5850bb246deb1d97acdde77db5070ae08c3b35523bd1744e39550d431e5",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_full.txt",
+      "bytes": 106011,
+      "sha256": "5acefaf232079ce4585c16a4199e0ab7290f8173531f31269ea4c4d4467476ca",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_01.txt",
+      "bytes": 6914,
+      "sha256": "5b9bcef04d502b4f30138b42d734f4ab9a63d6b0351493c16fcf26e1216de289",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_02.txt",
+      "bytes": 9669,
+      "sha256": "4d7731374324b725d447461e3e8867f0be9b6c5dc30920f0ce38016615201d09",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_03.txt",
+      "bytes": 10592,
+      "sha256": "91164488834bbb9b4950d56c5c1b7e5d049de2cfd05925f48adff334e20c9bc1",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_04.txt",
+      "bytes": 7445,
+      "sha256": "7ed4534aa928f0b5ae522a8432a360c2718b78f8d4f6eae34e3e70028f5fb90a",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_05.txt",
+      "bytes": 2711,
+      "sha256": "a2b71d9d2f6afca2901370133e1f26029e39f33895c2767c9af59ea45f6cddc4",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_06.txt",
+      "bytes": 10427,
+      "sha256": "d55c4af821d725a5c6559bce1249047edd4544e3297db77605c7b35c0c19c394",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_07.txt",
+      "bytes": 7153,
+      "sha256": "b9834092358fca1b63ebe4762f589bc97cdef9f5f0ac8a90add3a1b7d662491b",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_08.txt",
+      "bytes": 10558,
+      "sha256": "733e7e6249b9bf475e00c987d1d4370036dffe85355c68fd163792b01e9459a9",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_09.txt",
+      "bytes": 10455,
+      "sha256": "d3c12b8360724dcc771bee06d36850fd04a128797ed243d1d17c11ea5bf7751a",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_10.txt",
+      "bytes": 11022,
+      "sha256": "0e41cb996492343d598a4e38cb0c40ab6f6dd958e73e56b85a46629151125f52",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_11.txt",
+      "bytes": 13791,
+      "sha256": "7388cda529ad0509c94248e428dd9815ce411ce4efa494cfedbe6802c74f8217",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/pose_finetuning_page_12.txt",
+      "bytes": 4937,
+      "sha256": "5e1ebd15c00717a0e8642a49621c700c1487e286a3f9939c885ae82f5608fafc",
+      "derived_from": "sources/rehab24_pose_finetuning_2025.pdf"
+    },
+    {
+      "path": "sources/rehab24_pose_finetuning_2025.pdf",
+      "bytes": 3228800,
+      "sha256": "5972d7c7e00a8906e25308f50ebe440e46a2c8c0ebe2c978277ac2ce0cd18977",
+      "url": "https://doi.org/10.1016/j.is.2025.102579",
+      "acquisition": "user_provided_publisher_pdf_local_import"
+    }
+  ],
+  "recorded_network_requests": [
+    {
+      "name": "rehab26_pdf",
+      "url": "https://arxiv.org/pdf/2609.35726v2",
+      "retrieved_at": "2026-11-09T11:58:23.800685+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2609.35726v2",
+      "content_type": "application/pdf",
+      "bytes": 18993885,
+      "sha256": "7d1e173e7bdc89713a86a55701e1640e9973d80389cd9421672827314bc76222",
+      "file": "rehab26_pdf.pdf"
+    },
+    {
+      "name": "personalized_openalex",
+      "url": "https://api.openalex.org/works?search=Personalized%20similarity%20models%20for%20evaluating%20rehabilitation%20exercises%20from%20monocular%20videos&per-page=3",
+      "retrieved_at": "2026-11-09T11:58:23.801222+00:00",
+      "status": 200,
+      "final_url": "https://api.openalex.org/works?search=Personalized%20similarity%20models%20for%20evaluating%20rehabilitation%20exercises%20from%20monocular%20videos&per-page=3",
+      "content_type": "application/json",
+      "bytes": 57472,
+      "sha256": "2c856b1a571e731a66da9b286817e3198afe5e6588ceb85f9419ef6a234e79a4",
+      "file": "personalized_openalex.txt"
+    },
+    {
+      "name": "personalized_crossref",
+      "url": "https://api.crossref.org/works?query.title=Personalized%20similarity%20models%20for%20evaluating%20rehabilitation%20exercises%20from%20monocular%20videos&rows=2",
+      "retrieved_at": "2026-11-09T11:58:23.801637+00:00",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works?query.title=Personalized%20similarity%20models%20for%20evaluating%20rehabilitation%20exercises%20from%20monocular%20videos&rows=2",
+      "content_type": "application/json",
+      "bytes": 21305,
+      "sha256": "dfe5b5d9184fbf81e001a8801388aba2090e776d8e36928db82123c0df7f1e82",
+      "file": "personalized_crossref.txt"
+    },
+    {
+      "name": "new_pose_html",
+      "url": "https://arxiv.org/html/2611.02929",
+      "retrieved_at": "2026-11-09T11:58:23.801937+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2611.02929",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 305445,
+      "sha256": "0bd697e53af057c033a685cd63a69eb6f247ec2979927a0b90fe0a03e4033b43",
+      "file": "new_pose_html.txt"
+    },
+    {
+      "name": "author_publications",
+      "url": "https://www.fi.muni.cz/~xsedmid/publications.html",
+      "retrieved_at": "2026-11-09T11:58:23.802433+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "github_candidate_readme",
+      "url": "https://api.github.com/repos/jakeryderv/rehab26/readme",
+      "retrieved_at": "2026-11-09T11:58:23.803381+00:00",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "name": "rehab24_elsevier",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306437925000959",
+      "retrieved_at": "2026-11-09T11:58:23.805216+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "mobile_acm",
+      "url": "https://dl.acm.org/doi/10.1145/3805622.3810429",
+      "retrieved_at": "2026-11-09T11:58:23.904399+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "personalized_springer",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-75823-2_7",
+      "retrieved_at": "2026-11-09T11:59:24.717988+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/chapter/10.1007/978-3-031-75823-2_7?error=cookies_not_supported&code=99673b47-47f6-4cb4-a838-5e60efb671c5",
+      "bytes": 311669,
+      "sha256": "a19d4b6a0e2cbe71b992ce14a9766eb06dca0fc8b3d9650be427ef9b1a85c60d",
+      "file": "personalized_springer.txt"
+    },
+    {
+      "name": "author_home",
+      "url": "https://www.fi.muni.cz/~xsedmid/",
+      "retrieved_at": "2026-11-09T11:59:24.718554+00:00",
+      "error": "<urlopen error [Errno 11002] getaddrinfo failed>"
+    },
+    {
+      "name": "personalized_muni",
+      "url": "https://www.muni.cz/en/research/publications?search=Personalized%20Similarity%20Models",
+      "retrieved_at": "2026-11-09T11:59:24.718990+00:00",
+      "status": 200,
+      "final_url": "https://www.muni.cz/en/research/publications?search=Personalized%20Similarity%20Models",
+      "bytes": 110899,
+      "sha256": "f9f07f583234a32e99f80d47275f0e6687f9e14efefe676bffc613b6787ad399",
+      "file": "personalized_muni.txt"
+    },
+    {
+      "name": "fine_tuning_doi",
+      "url": "https://doi.org/10.1016/j.is.2025.102579",
+      "retrieved_at": "2026-11-09T11:59:24.719351+00:00",
+      "error": "The read operation timed out"
+    },
+    {
+      "name": "fine_tuning_crossref",
+      "url": "https://api.crossref.org/works/10.1016/j.is.2025.102579",
+      "retrieved_at": "2026-11-09T11:59:24.721560+00:00",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1016/j.is.2025.102579",
+      "bytes": 15141,
+      "sha256": "5bfc1cfc465e6b4fb4291b09b72760c3aa539a843eef2e83f2214205820be108",
+      "file": "fine_tuning_crossref.txt"
+    },
+    {
+      "name": "candidate_raw_main",
+      "url": "https://raw.githubusercontent.com/jakeryderv/rehab26/main/README.md",
+      "retrieved_at": "2026-11-09T11:59:24.793719+00:00",
+      "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+    },
+    {
+      "name": "candidate_raw_master",
+      "url": "https://raw.githubusercontent.com/jakeryderv/rehab26/master/README.md",
+      "retrieved_at": "2026-11-09T11:59:24.827209+00:00",
+      "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+    },
+    {
+      "name": "openalex_rehab26_broad",
+      "url": "https://api.openalex.org/works?search=REHAB26&per-page=25",
+      "retrieved_at": "2026-11-09T11:59:24.845204+00:00",
+      "status": 200,
+      "final_url": "https://api.openalex.org/works?search=REHAB26&per-page=25",
+      "bytes": 93327,
+      "sha256": "1a8b841091c712b1f2ebf9a3f7d0bd84f5fa629b68da74b9171728c87a9c59d5",
+      "file": "openalex_rehab26_broad.txt"
+    },
+    {
+      "name": "fine_tuning_sciencedirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0306437925000638",
+      "retrieved_at": "2026-11-09T12:01:56.050345+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "fine_tuning_elsevier_api",
+      "url": "https://api.elsevier.com/content/article/PII:S0306437925000638?httpAccept=text/xml",
+      "retrieved_at": "2026-11-09T12:01:56.050986+00:00",
+      "status": 200,
+      "final_url": "https://api.elsevier.com/content/article/PII:S0306437925000638?httpAccept=text/xml",
+      "file": "fine_tuning_elsevier_api.txt",
+      "bytes": 1830,
+      "sha256": "2eb00a339350610d053a2d32ac00058e3b6888593794de92164c884f68521b3f"
+    },
+    {
+      "name": "mobile_openalex_record",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1145/3805622.3810429",
+      "retrieved_at": "2026-11-09T12:01:56.051309+00:00",
+      "status": 200,
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1145/3805622.3810429",
+      "file": "mobile_openalex_record.txt",
+      "bytes": 14253,
+      "sha256": "e58484a8db21107825ae02ed1aebc52d53c935d2ef7a3f94d710a69e8265ee6d"
+    },
+    {
+      "name": "rehab24_springer",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-75823-2_2",
+      "retrieved_at": "2026-11-09T12:01:56.051480+00:00",
+      "error": "<urlopen error timed out>"
+    }
+  ],
+  "earlier_request_limitations": [
+    {
+      "service": "Semantic Scholar",
+      "outcome": "HTTP 429 on original-paper citation query"
+    },
+    {
+      "service": "Bing",
+      "outcome": "HTTP response retrieved but irrelevant search results; not used as evidence"
+    },
+    {
+      "service": "Google and DuckDuckGo",
+      "outcome": "Timeouts; no absence inference"
+    },
+    {
+      "service": "GitHub",
+      "outcome": "Name search returned candidates; paper-query and README retrieval failed or rate limited; no official code verified"
+    },
+    {
+      "service": "Crossref exact REHAB26 paper title query",
+      "outcome": "Returned irrelevant records; original paper verified via arXiv and official Zenodo instead"
+    },
+    {
+      "service": "arXiv unversioned PDF first attempt",
+      "outcome": "TLS timeout; subsequent versioned v2 PDF request succeeded"
+    }
+  ],
+  "search_findings": {
+    "openalex_exact_relevant_records": 2,
+    "openalex_broad_relevant_records": 2,
+    "openalex_broad_unrelated_records": 2,
+    "dataset_citing_records": 1,
+    "dataset_citing_record_is_original_paper": true,
+    "original_paper_citing_records": 0,
+    "independent_same_dataset_followup": "not_verified; not an exhaustive absence claim"
+  },
+  "local_user_provided_sources": [
+    {
+      "paper_id": "P3",
+      "imported_at": "2026-11-09T12:48:55.734923+00:00",
+      "source_path": "C:\\Users\\Minghao Lin\\Downloads\\1-s2.0-S0306437925000638-main.pdf",
+      "stored_path": "sources/rehab24_pose_finetuning_2025.pdf",
+      "bytes": 3228800,
+      "sha256": "5972d7c7e00a8906e25308f50ebe440e46a2c8c0ebe2c978277ac2ce0cd18977",
+      "pdf_pages": 12,
+      "rendered_review_pages": [
+        9,
+        10
+      ],
+      "evidence_update": "Full text now reviewed; earlier metadata-only acquisition failures retained as history."
+    }
+  ],
+  "manifest_updated_at": "2026-11-09T12:48:55.737542+00:00"
+}

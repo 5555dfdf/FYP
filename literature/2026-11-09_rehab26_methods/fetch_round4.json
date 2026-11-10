@@ -1,0 +1,66 @@
+[
+  {
+    "name": "personalized_springer",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-75823-2_7",
+    "retrieved_at": "2026-11-09T11:59:24.717988+00:00",
+    "status": 200,
+    "final_url": "https://link.springer.com/chapter/10.1007/978-3-031-75823-2_7?error=cookies_not_supported&code=99673b47-47f6-4cb4-a838-5e60efb671c5",
+    "bytes": 311669,
+    "sha256": "a19d4b6a0e2cbe71b992ce14a9766eb06dca0fc8b3d9650be427ef9b1a85c60d",
+    "file": "personalized_springer.txt"
+  },
+  {
+    "name": "author_home",
+    "url": "https://www.fi.muni.cz/~xsedmid/",
+    "retrieved_at": "2026-11-09T11:59:24.718554+00:00",
+    "error": "<urlopen error [Errno 11002] getaddrinfo failed>"
+  },
+  {
+    "name": "personalized_muni",
+    "url": "https://www.muni.cz/en/research/publications?search=Personalized%20Similarity%20Models",
+    "retrieved_at": "2026-11-09T11:59:24.718990+00:00",
+    "status": 200,
+    "final_url": "https://www.muni.cz/en/research/publications?search=Personalized%20Similarity%20Models",
+    "bytes": 110899,
+    "sha256": "f9f07f583234a32e99f80d47275f0e6687f9e14efefe676bffc613b6787ad399",
+    "file": "personalized_muni.txt"
+  },
+  {
+    "name": "fine_tuning_doi",
+    "url": "https://doi.org/10.1016/j.is.2025.102579",
+    "retrieved_at": "2026-11-09T11:59:24.719351+00:00",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "fine_tuning_crossref",
+    "url": "https://api.crossref.org/works/10.1016/j.is.2025.102579",
+    "retrieved_at": "2026-11-09T11:59:24.721560+00:00",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works/10.1016/j.is.2025.102579",
+    "bytes": 15141,
+    "sha256": "5bfc1cfc465e6b4fb4291b09b72760c3aa539a843eef2e83f2214205820be108",
+    "file": "fine_tuning_crossref.txt"
+  },
+  {
+    "name": "candidate_raw_main",
+    "url": "https://raw.githubusercontent.com/jakeryderv/rehab26/main/README.md",
+    "retrieved_at": "2026-11-09T11:59:24.793719+00:00",
+    "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+  },
+  {
+    "name": "candidate_raw_master",
+    "url": "https://raw.githubusercontent.com/jakeryderv/rehab26/master/README.md",
+    "retrieved_at": "2026-11-09T11:59:24.827209+00:00",
+    "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+  },
+  {
+    "name": "openalex_rehab26_broad",
+    "url": "https://api.openalex.org/works?search=REHAB26&per-page=25",
+    "retrieved_at": "2026-11-09T11:59:24.845204+00:00",
+    "status": 200,
+    "final_url": "https://api.openalex.org/works?search=REHAB26&per-page=25",
+    "bytes": 93327,
+    "sha256": "1a8b841091c712b1f2ebf9a3f7d0bd84f5fa629b68da74b9171728c87a9c59d5",
+    "file": "openalex_rehab26_broad.txt"
+  }
+]

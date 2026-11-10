@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "at_utc": "2026-11-10T03:03:51.539278+00:00",
+  "checkpoint_count": 984,
+  "checkpoint_reload_max_score_difference": 4.440892098500626e-16,
+  "training_only_scaler_max_difference": 0.0,
+  "checks": [
+    "unchanged code/data/protocol hashes",
+    "all checkpoint job hashes and artifacts",
+    "subject-isolated split membership",
+    "validation labels/ids and thresholds",
+    "all cached validation predictions reproduced",
+    "training-only scaler recomputation",
+    "10 raw-three-view to held-out four-model ensemble replays"
+  ],
+  "raw_replays": [
+    {
+      "sample_id": "ex1_Honza_o00_r001",
+      "feature_max_difference": 0.0,
+      "score_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "sample_id": "ex1_Mima_o00_r001",
+      "feature_max_difference": 0.0,
+      "score_max_difference": 5.960464477539063e-08
+    },
+    {
+      "sample_id": "ex1_Petra_o00_r001",
+      "feature_max_difference": 0.0,
+      "score_max_difference": 1.3969838619232178e-09
+    },
+    {
+      "sample_id": "ex1_Terka_o00_r001",
+      "feature_max_difference": 0.0,
+      "score_max_difference": 5.587935447692871e-09
+    },
+    {
+      "sample_id": "ex1_Vasil_o00_r001",
+      "feature_max_difference": 0.0,
+      "score_max_difference": 2.9802322387695312e-08
+    },
+    {
+      "sample_id": "ex7_Honza_o00_r001",
+      "feature_max_difference": 0.0,
+      "score_max_difference": 5.960464477539063e-08
+    },
+    {
+      "sample_id": "ex7_Mima_o00_r001",
+      "feature_max_difference": 0.0,
+      "score_max_difference": 7.450580596923828e-08
+    },
+    {
+      "sample_id": "ex7_Petra_o00_r001",
+      "feature_max_difference": 0.0,
+      "score_max_difference": 1.4901161193847656e-08
+    },
+    {
+      "sample_id": "ex7_Terka_o00_r001",
+      "feature_max_difference": 0.0,
+      "score_max_difference": 2.9802322387695312e-08
+    },
+    {
+      "sample_id": "ex7_Vasil_o00_r001",
+      "feature_max_difference": 0.0,
+      "score_max_difference": 5.960464477539063e-08
+    }
+  ]
+}

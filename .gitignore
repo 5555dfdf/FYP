@@ -18,6 +18,7 @@
 __pycache__/
 *.py[cod]
 .venv/
+.venv-rehab26/
 venv/
 .env
 .env.*
@@ -26,6 +27,7 @@ venv/
 
 # Future datasets, checkpoints and experiment caches.
 /data/
+/jointSequences-mediapipe.zip
 /datasets/
 /checkpoints/
 /runs/
@@ -40,3 +42,8 @@ venv/
 .vscode/
 .idea/
 Thumbs.db
+
+# Recorded-pose demo stays local; publish the schematic SVG/GIF player.
+/demos/rehab_motion_svg/motion_data.json
+/demos/rehab_motion_svg/index.html
+/demos/rehab_motion_svg/recorded_svg/
