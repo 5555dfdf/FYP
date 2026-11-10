@@ -1,26 +1,90 @@
-# 数据来源与复现说明
+# 环境、数据与实验复现
 
-整理日期：2026-11-08。
+更新：2026-11-10。当前训练主线为REHAB26肩外展ex1与肩后伸ex7。仓库提供代码、正式协议、汇总成绩和核验记录；原始数据、缓存、权重与完整预测保留本地。仅查看结果、打开公开动作示意，不需要下载训练数据。
 
-## 仓库包含什么
+## 1. 当前环境
 
-本仓库发布项目原创的研究记录、比较表、审计脚本、派生汇总和骨架可视化。原始数据、论文 PDF、第三方全文提取、网页缓存和下载日志保留在本地，通过 `.gitignore` 排除。
+以下命令均从仓库根目录执行。本机PowerShell先加载Conda hook：
 
-`sample_manifest.jsonl` 是每个原始动作文件的派生检查记录，包含公开数据中的伪匿名 ID、动作与标签，不包含原始坐标序列。它没有人为补充真实姓名，也不是训练/测试划分。
+```powershell
+& 'D:\conda\shell\condabin\conda-hook.ps1'
+conda activate fyp
+python -c "import sys, torch, sklearn, numpy, scipy; print(sys.executable); print(torch.__version__); print(torch.cuda.is_available())"
+```
 
-论文和数据使用各自的许可证或申请条件。引用时请引用原始来源，不把本仓库的派生汇总当作原始数据发布。尚未为整个仓库声明统一许可证，第三方材料的许可不由本仓库决定。
+其他机器使用自己的Conda安装路径。训练使用RTX4050 Laptop；原始v1是CPU实验。当前训练环境的包版本见[v2环境快照](../experiments/rehab26_transformer_v2/environment.json)、[Conda导出](../experiments/rehab26_transformer_v2/environment.yml)与[依赖锁定记录](../experiments/rehab26_transformer_v2/requirements-lock.txt)。新机器需按平台安装兼容的PyTorch/CUDA依赖，不直接照搬导出文件的本机prefix。
 
-## 1. 安装研究依赖
+`requirements-research.txt`用于文献和审计工具，不能替代训练依赖。演示生成使用NumPy/SciPy，架构绘图使用Pillow；浏览器核验另需Playwright和本机Chrome。
 
-从仓库根目录执行：
+## 2. 原始数据与v1缓存
 
-```bash
+从[REHAB26-ViewAngles官方记录](https://doi.org/10.5281/zenodo.23018128)取得骨架ZIP与四份配套文件，按[审计说明](REHAB26_AUDIT_zh.md)放置：
+
+```text
+jointSequences-mediapipe.zip
+data/REHAB26-ViewAngles/raw/
+  Segmentation.csv
+  Segmentation.txt
+  Error_types.csv
+  joint_names.txt
+```
+
+审计脚本校验并解压骨架ZIP，生成动作索引；之后v1预处理创建当前实验共同依赖的单视角缓存：
+
+```powershell
+python -X utf8 tools/audit_rehab26.py
+python -X utf8 experiments/rehab26_v1/prepare.py
+```
+
+输出位于`data/REHAB26-ViewAngles/audit/`和`processed_v1/`。已存在完整`processed_v1`时，`prepare.py`会拒绝覆盖；已有核验缓存可直接沿用。当前两种动作合计1111次物理动作、3333个相机观察。无需重跑v1的50次基线训练即可准备v3输入。
+
+## 3. 融合实验与完整比较的依赖
+
+在上述缓存就绪后，v3从原始三路骨架重新构建融合样本。以下是需要重训时的执行顺序，会写入本地缓存和运行目录：
+
+```powershell
+python -X utf8 experiments/rehab26_fusion_v3/prepare.py
+python -X utf8 experiments/rehab26_fusion_v3/verify_fusion.py
+python -X utf8 experiments/rehab26_fusion_v3/run.py smoke
+python -X utf8 experiments/rehab26_fusion_v3/run.py all --workers 2
+python -X utf8 experiments/rehab26_fusion_v3/verify_models.py
+```
+
+融合缓存位于`processed_fusion_v3/`，包含1111个动作、96帧、88维缓存；参考网络使用其中69维。正式运行目录为`runs/rehab26_fusion_v3/`。已有完整缓存会保留；运行身份绑定代码、协议和数据哈希，改变处理方式时应另建版本，不能混用旧权重。
+
+**完整比较表还依赖v2预测。** `analyze.py`读取`runs/rehab26_transformer_v2/`下的验证和测试预测，计算三视角概率融合与验证重选阈值；它不只读取v3结果。新机器若要重建整张比较表，应先依照[v2复现说明](../experiments/rehab26_transformer_v2/README.md)完成`parallel_run.py all`及`finalize.py`，再执行：
+
+```powershell
+python -X utf8 experiments/rehab26_fusion_v3/analyze.py
+python -X utf8 experiments/rehab26_fusion_v3/visualize_fusion.py
+python -X utf8 experiments/rehab26_fusion_v3/export_best_results.py
+```
+
+这些分析/导出脚本会重写派生报告或成绩证据，只有实际复现时才运行；阅读现有成绩不需要运行。现有冻结配置与结果见[v3实验说明](../experiments/rehab26_fusion_v3/README.md)和[最佳设定](../experiments/rehab26_fusion_v3/BEST_SETTINGS_zh.md)。当前v3模型继续导入v2共享实现和v1的`pipeline.py`，保留三个目录才能复现。
+
+各轮推理入口见[v1](../experiments/rehab26_v1/README.md)、[v2](../experiments/rehab26_transformer_v2/README.md)与[v3](../experiments/rehab26_fusion_v3/README.md)。推理需要本地权重；仓库没有可直接下载的权重文件。全数据研究bundle与按人测试成绩分别解释。
+
+## 4. 公开动作示意与架构图
+
+公开演示可直接下载`demos/rehab_motion_svg/demo.html`，用Chrome/Edge离线打开。基于已提交的示意数据重建HTML与14个SVG不需要原始REHAB26或模型权重：
+
+```powershell
+python demos/rehab_motion_svg/build.py --public-only
+python demos/rehab_motion_svg/check_player.py --public
+python tools/render_transformer_design.py
+```
+
+交互检查会生成临时截图（Git忽略）及公开QA报告；架构脚本生成两组PNG/SVG。GIF另由`render_previews.py`生成。真实骨架回放还需本地数据和融合依赖，生成步骤见[演示说明](../demos/rehab_motion_svg/README.md)。公开示意不运行分类器；真实坐标及包含它们的完整页面保持本地。
+
+## 5. 早期调研复现（历史材料）
+
+以下为IRDS及2026-11-06文献选型记录，保留用于追溯，不是当前REHAB26训练的前置步骤。文献工具依赖可按需安装：
+
+```powershell
 python -m pip install -r requirements-research.txt
 ```
 
-依赖文件列出兼容范围，尚不是锁定环境。文献工具和审计脚本尚未组成正式模型训练环境；不要据此推断某个深度学习模型已可运行。
-
-## 2. IRDS 审计
+### IRDS审计（2026-10-17）
 
 原论文：Miron et al., *IntelliRehabDS (IRDS)—A Dataset of Physical Rehabilitation Movements*, Data, 2021。[论文 DOI](https://doi.org/10.3390/data6050046)、[原始数据 DOI](https://doi.org/10.5281/zenodo.4610859)、[原始读取/探索代码](https://github.com/alina-miron/intellirehabds)。数据论文标注 CC BY 4.0，使用时保留原作者引用。
 
@@ -52,7 +116,7 @@ python IRDS/analysis/audit_irds.py
 
 结果边界和异常解释见 [IRDS 评估](../IRDS/analysis/IRDS_assessment_zh.md)。标称时间为帧数/30，不能未经时间字段核实就用于速度或平滑性结论；patient/control 分组是文件 ID 约定的工作性解释。
 
-## 3. 离线重建论文表
+### 离线重建论文表
 
 已提交 `paper_registry.json`，可以在不访问网络的情况下重新生成论文表：
 
@@ -62,7 +126,7 @@ python literature/2026-11-06/render_registry.py
 
 结构化登记保存书目、阅读状态和原创笔记；第三方全文/摘要内容保留在本地来源文件，不随登记上传。`metadata_source` 和 `source_stem` 指向本地证据名称，未承诺每个条目都已有全文。
 
-## 4. 文献检索与来源重新获取
+### 文献检索与来源重新获取
 
 以下脚本是 2026-11-06 调研时使用的辅助工具，查询带当时日期上限。按需执行，不必为了阅读仓库全部重跑：
 
@@ -86,7 +150,7 @@ python literature/2026-11-06/render_registry.py
 python tools/build_source_inventory.py
 ```
 
-## 5. 候选数据入口
+### 候选数据入口（截至2026-11-06）
 
 | 数据 | 原始入口 | 截至 2026-11-06 的状态 |
 |---|---|---|
@@ -99,9 +163,3 @@ python tools/build_source_inventory.py
 | Rehab-Pile | [官方实现](https://github.com/MSD-IRIMAS/DeepRehabPile) | 统一整理版；原始数据版本、过滤和派生标签需单独核实 |
 
 更完整的标签与样本限制见[数据集比较](../literature/2026-11-06/dataset_comparison_zh.md)。
-
-## 6. 将来训练结果的记录约定
-
-正式训练开始后，应记录原始版本、每个划分的人 ID、标签生成规则、训练/验证/测试预测、配置、随机种子、依赖版本和权重来源。按人划分应同时约束重复、视角、切片和预训练数据。模型成绩、文献报告和探索性几何指标分别标明来源。
-
-当前没有模型训练命令、权重下载或模型性能表；这些应在实际训练完成后加入。

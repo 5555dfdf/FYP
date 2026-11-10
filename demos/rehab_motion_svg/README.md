@@ -31,7 +31,7 @@
 | `preview_extension.gif` / `preview_abduction.gif` | 从SVG播放器渲染的动图预览 |
 | `motion_data.json`（本地生成） | 真实数据的显示坐标 |
 | `schematic_data.json` | 示意模式的显示坐标 |
-| `qa_report.json` / `svg_verification.json` | 浏览器交互和SVG播放核验 |
+| `qa_public.json` / `svg_verification.json` | 公开播放器交互和SVG播放核验 |
 
 独立SVG无脚本依赖，直接在Chrome/Edge中打开即可循环播放；有些文档软件只显示SVG的静态首帧，需用浏览器观看动画。
 
@@ -61,3 +61,5 @@ python demos/rehab_motion_svg/build.py
 python demos/rehab_motion_svg/check_player.py --public
 python demos/rehab_motion_svg/render_previews.py
 ```
+
+交互核验生成的PNG截图与本地完整播放器`qa_report.json`属于临时检查输出，已从版本管理移除并忽略；公开展示保留GIF和SVG。

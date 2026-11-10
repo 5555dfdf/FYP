@@ -2,7 +2,7 @@
 
 2026-11-09 启动。训练使用 `conda activate fyp`，原始数据与已核验 `processed_v1` 缓存沿用 v1。训练/验证/测试始终按人分组；外层 5 人留一测试，每个外层有 4 个内层验证者。两种动作分别训练、每动作五个多标签错误。
 
-本轮授权包含依赖安装、实现代码、实际训练及自主验证集调参。参考设计见 `docs/TRANSFORMER_EXPERIMENT_DESIGN_zh.md`；精确运行清单在本目录 `protocol.json` 中运行前冻结，记录 UTC 时间。原始设计草案保留，不把本轮结果反写成事先已知的最优配置。
+本目录保留v2单视角实验，也提供v3仍使用的共享模型与训练实现。精确运行清单在本目录 [protocol.json](protocol.json) 中运行前冻结，记录UTC时间；本轮选择与成绩保留阶段含义。当前整体架构见[架构说明](../../docs/TRANSFORMER_EXPERIMENT_DESIGN_zh.md)，该说明已更新到v3，不作为v2事前设计的证据。初始机器可读草稿已由正式协议替代。
 
 ```powershell
 & 'D:\conda\shell\condabin\conda-hook.ps1'

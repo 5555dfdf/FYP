@@ -47,3 +47,12 @@ Thumbs.db
 /demos/rehab_motion_svg/motion_data.json
 /demos/rehab_motion_svg/index.html
 /demos/rehab_motion_svg/recorded_svg/
+
+# Temporary demo QA screenshots and local-player report.
+/demos/rehab_motion_svg/preview_extension.png
+/demos/rehab_motion_svg/preview_abduction.png
+/demos/rehab_motion_svg/preview_mobile.png
+/demos/rehab_motion_svg/preview_contact.png
+/demos/rehab_motion_svg/shoulder_extension_comparison_preview.png
+/demos/rehab_motion_svg/shoulder_abduction_comparison_preview.png
+/demos/rehab_motion_svg/qa_report.json

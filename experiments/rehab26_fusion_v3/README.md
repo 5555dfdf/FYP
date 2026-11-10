@@ -1,8 +1,8 @@
 # REHAB26 三视图基础融合与 v2 实验重跑
 
-2026-11-10，环境 `conda activate fyp`，RTX4050。用户要求先检查 GitHub 现有融合实现，再用融合骨架重跑原模型对照。已检查的代码与适配判断见 `literature/2026-11-10_skeleton_fusion/REVIEW_zh.md`。
+2026-11-10，环境 `conda activate fyp`，RTX4050。本轮先检查GitHub现有融合实现，再用融合骨架重跑v2模型对照。已检查的代码与适配判断见 `literature/2026-11-10_skeleton_fusion/REVIEW_zh.md`。
 
-**已完成全部984次正式拟合、测试和模型核验。** 简要结论见[FINDINGS_zh.md](FINDINGS_zh.md)，全部指标见[RESULTS_zh.md](RESULTS_zh.md)。加权骨架融合较旧单视角汇总提高F1，但未超过旧三视角概率融合；等权肩后伸在首种子参考网络上更好，仍待多种子确认。
+**已完成全部984次正式拟合、测试和模型核验。** 简要结论见[FINDINGS_zh.md](FINDINGS_zh.md)，全部指标见[RESULTS_zh.md](RESULTS_zh.md)。冻结报告中的“昨日”指2026-11-09启动的v2单视角实验；报告和核验文件保持原始版本。加权骨架融合较旧单视角汇总提高F1，但未超过旧三视角概率融合；等权肩后伸在首种子参考网络上更好，仍待多种子确认。
 
 首页最佳结果的具体设定、数据/论文来源和指标定位见[BEST_SETTINGS_zh.md](BEST_SETTINGS_zh.md)；逐种子证据见[best_results.json](best_results.json)，由`export_best_results.py`直接从完整汇总提取。
 
@@ -37,19 +37,20 @@ flowchart LR
 复用 v2 的 `core.py`、`train.py` 和 `suite.py` 中模型、损失、优化器、学习率调度、标准化、早停、阈值及四内层集成函数。外层五人留一测试，内层四人轮流验证、三人训练；三视图先融合后始终按人分组。
 
 - 与 v2 相同的 16 候选，首种子 40 个动作/外层/内层组合，共 640 次筛查拟合。
-- 与 v2 相同的验证规则：单因素相对参考 AP 提高至少 0.015，才生成结构/训练/合并配置；组合数量由验证决定，不预设必须等于昨天的 48 次。
+- 与 v2 相同的验证规则：单因素相对参考 AP 提高至少 0.015，才生成结构/训练/合并配置；组合数量由验证决定，不预设必须等于v2的48次。
 - 每外层最终 Transformer、TCN、RF 补两个种子，共 240 次确认；LR 和参考 Transformer 首种子。
 - 两个固定输入对照：等权融合、yaw 对齐 cam2，各用参考 Transformer 在全部40划分训练，合计80次，首种子。
 - 完成选择、确认与全部对照训练后，才生成新的外层测试预测。训练数据是每次动作一个样本，因此每 epoch 的更新次数比原单视图方案少；保留原 epoch/早停预算，没有用复制样本凑回三倍数量。
 
-比较主表仍采用各种子汇总外层的 macro-F1/AP、误警、漏警、逐类和逐人结果。另把昨天保存的三个视角预测按物理动作平均，提供不重训的决策融合对照：同时报告沿用旧阈值，以及先在每个旧内层验证集平均三路概率、按v2网格/F1规则重选阈值再平均四个内层阈值两版。没有用测试集挑阈值；两版规则及主配对比较采用验证重选版的决定，在新测试释放前记录于`runs/rehab26_fusion_v3/historical_late_calibration_plan.json`。该对照使用三相机，不与单相机系统混称为相同输入预算。旧训练采用三倍观察，与融合重训的训练更新次数也不同，因此结果反映整体方案变化。
+比较主表仍采用各种子汇总外层的 macro-F1/AP、误警、漏警、逐类和逐人结果。另把v2保存的三个视角预测按物理动作平均，提供不重训的决策融合对照：同时报告沿用旧阈值，以及先在每个旧内层验证集平均三路概率、按v2网格/F1规则重选阈值再平均四个内层阈值两版。没有用测试集挑阈值；两版规则及主配对比较采用验证重选版的决定，在新测试释放前记录于`runs/rehab26_fusion_v3/historical_late_calibration_plan.json`。该对照使用三相机，不与单相机系统混称为相同输入预算。旧训练采用三倍观察，与融合重训的训练更新次数也不同，因此结果反映整体方案变化。
 
 ## 执行
+
+前置依赖：先按[统一复现说明](../../docs/REPRODUCIBILITY_zh.md)准备原始数据、审计索引和`processed_v1`缓存，再构建融合数据。完整比较分析还需要本地v2验证/测试预测；只有v3训练输出不足以重建历史概率融合表。下面的命令用于实际复现，会写入本地运行目录。
 
 ```powershell
 & 'D:\conda\shell\condabin\conda-hook.ps1'
 conda activate fyp
-python -X utf8 experiments/rehab26_fusion_v3/verify_fusion.py
 python -X utf8 experiments/rehab26_fusion_v3/prepare.py
 python -X utf8 experiments/rehab26_fusion_v3/verify_fusion.py
 python -X utf8 experiments/rehab26_fusion_v3/run.py smoke
@@ -63,7 +64,7 @@ python -X utf8 experiments/rehab26_fusion_v3/visualize_fusion.py
 
 运行目录 `runs/rehab26_fusion_v3/`，每次拟合保存权重、学习曲线、验证预测、阈值和人物划分；`progress.json` 与 `training.log` 记录实际进度。研究仍基于五名已参与探索的志愿者，当前是融合可行性比较。
 
-`analyze.py --historical-only` 可先计算昨日保存预测的概率平均，不读取本轮测试结果。完整分析输出 `RESULTS_zh.md`、`results_summary.json` 和 `figures/`；逐人、逐类、验证因素与输入对照都保留。`verify_models.py` 逐个重新加载本轮所有主实验和对照模型，重算训练集标准化及验证预测，另核验10次从三路原始骨架到外层四模型集成的推理。
+`analyze.py --historical-only` 可先计算v2保存预测的概率平均，不读取本轮测试结果。完整分析输出 `RESULTS_zh.md`、`results_summary.json` 和 `figures/`；逐人、逐类、验证因素与输入对照都保留。`verify_models.py` 逐个重新加载本轮所有主实验和对照模型，重算训练集标准化及验证预测，另核验10次从三路原始骨架到外层四模型集成的推理。
 
 原始片段推理复现示例（自动选用该受试者从未参与训练/验证的外层模型）：
 

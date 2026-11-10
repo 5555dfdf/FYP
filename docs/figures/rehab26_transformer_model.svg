@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1950" viewBox="0 0 1920 1950">
 <rect width="1920" height="1950" fill="#F4F7FB"/>
 <rect x="0" y="0" width="1920" height="188" rx="0" fill="#162B45" stroke="#162B45" stroke-width="2"/>
-<text x="64" y="45" fill="#9BC8FE" font-size="21" font-weight="700" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">FYP / REHAB26 / MODEL DESIGN 02</text>
-<text x="64" y="107" fill="#FFFFFF" font-size="45" font-weight="700" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">轻量时间 Transformer：结构与训练机制</text>
-<text x="64" y="153" fill="#DBE7F4" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">每帧一个 token · 参考输入 [B,96,69] · 两种动作分别训练 · 约 7.6 万参数</text>
+<text x="64" y="45" fill="#9BC8FE" font-size="21" font-weight="700" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">FYP / REHAB26 / REFERENCE MODEL 02</text>
+<text x="64" y="107" fill="#FFFFFF" font-size="45" font-weight="700" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">已实现参考 Transformer：结构与训练机制</text>
+<text x="64" y="153" fill="#DBE7F4" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">每帧一个 token · 融合后参考输入 [B,96,69] · 两种动作分别训练 · 75,845 参数</text>
 <rect x="64" y="230" width="1060" height="191" rx="18" fill="#FFFFFF" stroke="#C8D5E5" stroke-width="2"/>
 <rect x="82" y="254" width="6" height="34" rx="3" fill="#285ED4" stroke="#285ED4" stroke-width="2"/>
 <text x="102" y="283" fill="#285ED4" font-size="29" font-weight="700" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">输入与嵌入  [B,96,69] → [B,96,64]</text>
-<text x="92" y="327" fill="#51667D" font-size="25" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">19 关节 xyz（57）+ 角度 / 方向特征（12）；训练拟合通道标准化</text>
+<text x="92" y="327" fill="#51667D" font-size="25" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">对齐融合后 19 关节 xyz（57）+ 几何特征（12）；仅训练组拟合标准化</text>
 <text x="92" y="362" fill="#51667D" font-size="25" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">Linear(69,64)，不加激活 + 固定正弦位置编码 + Dropout(0.1)</text>
 <text x="92" y="397" fill="#51667D" font-size="25" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">位置编码保留先后次序；固定 96 帧无需 padding</text>
 <polyline points="594,421 594,472" fill="none" stroke="#285ED4" stroke-width="4"/>
@@ -51,7 +51,7 @@
 <text x="102" y="1275" fill="#285ED4" font-size="29" font-weight="700" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">池化与分类头</text>
 <text x="92" y="1319" fill="#51667D" font-size="25" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">Final LayerNorm(64) → 时间 mean 与 max 拼接 → [B,128]</text>
 <text x="92" y="1354" fill="#51667D" font-size="25" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">Linear(128,32) → GELU → Dropout(0.1) → Linear(32,5)</text>
-<text x="92" y="1389" fill="#51667D" font-size="25" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">输出原始 logits [B,5]；两层编码器须独立初始化</text>
+<text x="92" y="1389" fill="#51667D" font-size="25" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">输出原始 logits [B,5]；两层编码器独立初始化</text>
 <polyline points="550,1413 550,1460" fill="none" stroke="#285ED4" stroke-width="4"/>
 <polygon points="550,1460 557.0,1445.0 543.0,1445.0" fill="#285ED4"/>
 <rect x="64" y="1460" width="502" height="273" rx="18" fill="#FFFFFF" stroke="#C8D5E5" stroke-width="2"/>
@@ -79,10 +79,10 @@
 <text x="1214" y="360" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">② 通道 z-score：只用训练人拟合均值 / 方差</text>
 <text x="1214" y="394" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">③ LayerNorm：每帧 64 维隐藏特征内部归一化</text>
 <text x="1214" y="428" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">LayerNorm 不替代输入标准化</text>
-<text x="1214" y="462" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">首版不采用依赖批次统计的 BatchNorm</text>
+<text x="1214" y="462" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">参考网络不采用 BatchNorm</text>
 <rect x="1186" y="560" width="670" height="320" rx="18" fill="#FFFFFF" stroke="#C8D5E5" stroke-width="2"/>
 <rect x="1204" y="584" width="6" height="34" rx="3" fill="#AB6423" stroke="#AB6423" stroke-width="2"/>
-<text x="1224" y="613" fill="#AB6423" font-size="29" font-weight="700" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">损失权重：检验召回与误警的折中</text>
+<text x="1224" y="613" fill="#AB6423" font-size="29" font-weight="700" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">损失权重：已完成三种 BCE 对照</text>
 <text x="1214" y="656" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">L0 参考：普通 BCE，正类权重 w = 1</text>
 <text x="1214" y="690" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">L1 对照：w = clip(√(Nneg/Npos), 1, 3)</text>
 <text x="1214" y="724" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">L2 对照：w = Nneg/Npos（v1 策略）</text>
@@ -97,14 +97,14 @@
 <text x="1214" y="1084" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">bias 与 LayerNorm 参数不做权重衰减</text>
 <text x="1214" y="1118" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">5 epoch warmup + cosine；batch 32</text>
 <text x="1214" y="1152" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">最多 80 epoch；早停 patience 12</text>
-<text x="1214" y="1186" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">float32 参考；首轮不叠加过采样和增强</text>
+<text x="1214" y="1186" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">float32 参考；不叠加过采样和增强</text>
 <rect x="1186" y="1280" width="670" height="291" rx="18" fill="#FFFFFF" stroke="#C8D5E5" stroke-width="2"/>
 <rect x="1204" y="1304" width="6" height="34" rx="3" fill="#087E82" stroke="#087E82" stroke-width="2"/>
 <text x="1224" y="1333" fill="#087E82" font-size="29" font-weight="700" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">统一选权重与诊断</text>
 <text x="1214" y="1376" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">以验证 macro-AP 选 checkpoint</text>
 <text x="1214" y="1410" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">同时记录 train loss、val BCE / AP、lr、梯度</text>
-<text x="1214" y="1444" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">比较 GELU / ReLU；Pre-LN / Post-LN</text>
-<text x="1214" y="1478" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">分别关闭 z-score / dropout / weight decay</text>
+<text x="1214" y="1444" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">已比较 GELU / ReLU；Pre-LN / Post-LN</text>
+<text x="1214" y="1478" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">已分别关闭 z-score / dropout / weight decay</text>
 <text x="1214" y="1512" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">一次只变一个因素，检查欠拟合与过拟合</text>
 <rect x="1186" y="1611" width="670" height="188" rx="18" fill="#FFFFFF" stroke="#C8D5E5" stroke-width="2"/>
 <rect x="1204" y="1635" width="6" height="34" rx="3" fill="#285ED4" stroke="#285ED4" stroke-width="2"/>
@@ -113,6 +113,6 @@
 <text x="1214" y="1741" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">每帧关节通过输入投影共同编码</text>
 <text x="1214" y="1775" fill="#51667D" font-size="24" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">注意力权重不等同于错误定位真值</text>
 <rect x="64" y="1780" width="1060" height="79" rx="14" fill="#FFF4E8" stroke="#EAC89F" stroke-width="2"/>
-<text x="87" y="1826" fill="#AB6423" font-size="25" font-weight="700" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">参考方案：75,845 参数；输入 / 激活 / 损失均需用对照实测。</text>
-<text x="64" y="1925" fill="#51667D" font-size="21" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">B = batch size。该图为待验证设计，尚无 Transformer 成绩；实现须核验参数量、形状与无数据泄漏。</text>
+<text x="87" y="1826" fill="#AB6423" font-size="25" font-weight="700" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">参考方案：75,845 参数；等权肩后伸 F1 0.734，仍仅 1 个种子。</text>
+<text x="64" y="1925" fill="#51667D" font-size="21" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">B = batch size。v2 / v3 已训练并核验；图示为参考结构，各外层入选配置可能不同。</text>
 </svg>
